@@ -58,7 +58,7 @@ East China Normal University (ECNU)
 
 - Genomics, Transcriptomics, Proteomics, and Epigenomics
 
-- Linkage analysis, QTL mapping, and Polygenic risk score
+- Linkage analysis and QTL mapping
 
 - Sanger Sequencing, qPCR, CRISPR-Cas9, and Cell Culture 
 
