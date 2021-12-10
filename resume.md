@@ -80,7 +80,7 @@ East China Normal University (ECNU)
 
 1. Chenchen Zhu, Jingyan Wu, **Han Sun**, Francesca Briganti, Benjamin Meder, Wu Wei, and Lars M. Steinmetz. "Single-molecule, full-length transcript isoform sequencing reveals disease-associated RNA isoforms in cardiomyocytes." <u>Nature Communications</u> 12, no. 1 (2021): 1-9.
 
-1. Benedikt Rauscher, William F. Mueller, Sandra Clauder-Münster, Petra Jakob, M. Saiful Islam, **Han Sun**, et al. "Patient-derived gene and protein expression signatures of NGLY1 deficiency", <u>Journal of Biochemistry</u>, 2021.
+1. Benedikt Rauscher, William F Mueller, Sandra Clauder-Münster, Petra Jakob, M Saiful Islam, **Han Sun**, Sonja Ghidelli-Disse, Markus Boesche, Marcus Bantscheff, Hannah Pflaumer, Paul Collier, Bettina Haase, Songjie Chen, Rene Hoffman, Guangwen Wang, Vladimir Benes, Gerard Drewes, Michael Snyder, Lars M Steinmetz. "Patient-derived gene and protein expression signatures of NGLY1 deficiency", <u>Journal of Biochemistry</u>, 2021
 
 1. Semih Calamak, Menekse Ermis, **Han Sun**, Saiful Islam, Michael Sikora, Michelle Nguyen, Vasif Hasirci, Lars M. Steinmetz, and Utkan Demirci. "A Circulating Bioreactor Reprograms Cancer Cells Toward a More Mesenchymal Niche." <u>Advanced Biosystems</u> 4, no. 2 (2020): 1900139, **co-first author**.
 
