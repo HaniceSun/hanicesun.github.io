@@ -52,13 +52,15 @@ East China Normal University (ECNU)
 
 ## Scientific Skills
 
-- Python, R, C, Git, Markdown, Vim, and Linux
+- Python, R, C, Git, Markdown, and Linux
 
 - Statistical Modeling, Inference, and Machine Learning
 
-- Genomics, Transcriptomics, Proteomics, and Epigenomics
+- Genomics, Transcriptomics, Proteomics, and Epigenomics (bulk and single cell)
 
-- Linkage analysis and QTL mapping
+- Linkage analysis and polygenetic risk score
+
+- GWAS, QTL mapping, and their colocalization
 
 - Sanger Sequencing, qPCR, CRISPR-Cas9, and Cell Culture 
 
