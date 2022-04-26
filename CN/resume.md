@@ -1,56 +1,55 @@
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
-# Han Sun, PhD
+# 孙 涵, 博士
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 - <hansun@stanford.com>
-- [www.sunhanice.com](http://www.sunhanice.com)
-- 3165 Porter Drive, Palo Alto, CA 94304
+- 出生: 1985年10月 
+- 性别: 男
+- 籍贯: 江苏 盐城
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 
-## Experience
+## 工作经历
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 
-### <span>Research Scientist/Senior Computational Biologist</span> <span>2020 -- </span>
+### <span>高级 计算生物学者</span> <span>2020 -- </span>
 
-Department of Pediatrics, School of Medicine, Stanford University, **[Prof. Anna Gloyn](https://med.stanford.edu/genomics-of-diabetes.html)**
+儿科系, 医学院, 斯坦福大学, **[Prof. Anna Gloyn](https://med.stanford.edu/genomics-of-diabetes.html)**
 
-### <span>Postdoc</span> <span>2015 -- 2019</span>
+### <span>博士后</span> <span>2015 -- 2019</span>
 
-Department of Genetics, Schools of Medicine, Stanford University, **[Prof. Lars Steinmetz](https://web.stanford.edu/group/steinmetzlab/cgi-bin/wordpress/?page_id=59)**
+遗传系, 医学院, 斯坦福大学, **[Prof. Lars Steinmetz](https://web.stanford.edu/group/steinmetzlab/cgi-bin/wordpress/?page_id=59)**
 
-## Education
+## 学习经历
 
-### <span>PhD, Bioinformatics</span> <span>2009 -- 2014</span>
+### <span>博士, 生物信息学</span> <span>2009 -- 2014</span>
 
-Key Lab of Systems Biology, Shanghai Institutes for Biological Sciences (SIBS), 
+系统生物学重点实验室, 中科院上海生命科学院, 导师: 李亦学 谢鹭
 
-Chinese Academy of Sciences (CAS), **Prof. Yixue Li** and **Prof. Lu Xie**
+### <span>学士, 软件工程</span> <span>2004 -- 2008</span>
 
-### <span>Bachelor, Software Engineering</span> <span>2004 -- 2008</span>
+华东师范大学
 
-East China Normal University (ECNU)
+## 研究课题
 
-## Projects
+- 剪切介导的癌基因激活
 
-- Splicing-mediated oncogene activation in cancers
+- RBM20突变引起的扩张型心肌病
 
-- RNA-binding protein RBM20-deficient dilated cardiomyopathy
+- 糖尿病小鼠的遗传和发病机制
 
-- Mutation and mechanism underlying a new diabetic mouse model
+## 学术兴趣
 
-## Research Interests
+- 疾病遗传学 (癌症, 心脏病, 糖尿病等)
 
-- Disease Genetics (Cancer, Cardiomyopathy, and Diabetes)
+- 生物信息学和生物统计学
 
-- Bioinformatics and Biostatistics
+- 免疫学和进化论
 
-- Immunology and Evolution
-
-## Scientific Skills
+## 科研技能
 
 - Python, R, C, Git, Markdown, and Linux
 
@@ -64,17 +63,17 @@ East China Normal University (ECNU)
 
 - Sanger Sequencing, qPCR, CRISPR-Cas9, and Cell Culture 
 
-## Visiting Experience
+## 访学经历
 
 - European Molecular Biology Laboratory (EMBL), Heidelberg, Germany (2014.07 - 2014.10)
 
 - Institute of Immunology, University of Rostock, Rostock, Germany (2013.10 - 2013.12)
 
-## Patents
+## 专利
 
 - Methods of Treatment, Genetic Screening, and Disease Models for Heart Conditions Associated with RBM20 Deficiency. Francesca Briganti, Lars M. Steinmetz, Han Sun, and Wu Wei. WO 2020/092171.
 
-## Publications
+## 发表论文
 
 1. **Han Sun**, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. "CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.", [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf).
 
@@ -94,11 +93,11 @@ East China Normal University (ECNU)
 
 1. Lun Suo, Yu Xiao Zhou, Li Ling Jia, Hai Bo Wu, Jin Zheng, Qi Feng Lyu, Li Hua Sun, **Han Sun**, and Yan Ping Kuang. 2018. "Transcriptome Profiling of Human Oocytes Experiencing Recurrent Total Fertilization Failure." <u>Scientific Reports</u> 8 (1): 17890.
 
-1. **Han Sun**, Chen Chen, Baofeng Lian, Menghuan Zhang, Xiaojing Wang, Bing Zhang, Yixue Li, Pengyuan Yang, and Lu Xie. 2015. "Identification of HPV Integration and Gene Mutation in HeLa Cell Line by Integrated Analysis of RNA-Seq and MS/MS Data." <u>Journal of Proteome Research</u> 14 (4): 1678–86, **co-first author**.
+1. **Han Sun**, Chen Chen, Baofeng Lian, Menghuan Zhang, Xiaojing Wang, Bing Zhang, Yixue Li, Pengyuan Yang, and Lu Xie. 2015. "Identification of HPV Integration and Gene Mutation in HeLa Cell Line by Integrated Analysis of RNA-Seq and MS/MS Data." <u>Journal of Proteome Research</u> 14 (4): 1678–86.
 
-1. **Han Sun**, Chen Chen, Meng Shi, Dandan Wang, Mingwei Liu, Daixi Li, Pengyuan Yang, Yixue Li, and Lu Xie. 2014. "Integration of Mass Spectrometry and RNA-Seq Data to Confirm Human Ab Initio Predicted Genes and lncRNAs." <u>Proteomics</u> 14 (23-24): 2760–68, **co-first author**.
+1. **Han Sun**, Chen Chen, Meng Shi, Dandan Wang, Mingwei Liu, Daixi Li, Pengyuan Yang, Yixue Li, and Lu Xie. 2014. "Integration of Mass Spectrometry and RNA-Seq Data to Confirm Human Ab Initio Predicted Genes and lncRNAs." <u>Proteomics</u> 14 (23-24): 2760–68.
 
-1. **Han Sun**, Xiaobin Xing, Jing Li, Fengli Zhou, Yunqin Chen, Ying He, Wei Li, et al. 2013. "Identification of Gene Fusions from Human Lung Cancer Mass Spectrometry Data." <u>BMC Genomics</u> 14 Suppl 8 (December): S5, **first author**.
+1. **Han Sun**, Xiaobin Xing, Jing Li, Fengli Zhou, Yunqin Chen, Ying He, Wei Li, et al. 2013. "Identification of Gene Fusions from Human Lung Cancer Mass Spectrometry Data." <u>BMC Genomics</u> 14 Suppl 8 (December): S5.
 
 1. Zhen-Hao Liu, Bao-Feng Lian, Qiong-Zhu Dong, **Han Sun**, Jin-Wang Wei, Yuan-Yuan Sheng, Wei Li, et al. 2018. "Whole-Exome Mutational and Transcriptional Landscapes of Combined Hepatocellular Cholangiocarcinoma and Intrahepatic Cholangiocarcinoma Reveal Molecular Diversity." <u>Biochimica et Biophysica Acta</u> 1864 (6 Pt B): 2360–68.
 
