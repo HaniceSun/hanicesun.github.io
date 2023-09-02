@@ -48,21 +48,21 @@ East China Normal University (ECNU)
 
 - Bioinformatics and Biostatistics
 
-- Immunology and Evolution
+- Deep Learning in Life Sciences/Healthcare (Disease diagnosis, prevention, and treatment)
 
 ## Scientific Skills
 
-- Python, R, C, Git, Linux, scikit-learn, and Tensorflow
+- Python, R, C, Linux, Git, scikit-learn, and Tensorflow
 
-- BioStatistics and Machine Learning/Deep Learning
+- Bioinformatics and Biostatistics
+
+- Machine Learning and Deep Learning
 
 - Genomics, Transcriptomics, Proteomics, and Epigenomics (bulk and single cell)
 
 - Linkage analysis and QTL mapping
 
-- GWAS, polygenetic risk score, and Mendelian randomisation
-
-- Sanger Sequencing, qPCR, CRISPR-Cas9, and Cell Culture 
+- Genome-wide association study (GWAS) and genetic risk score (GRS)
 
 ## Visiting Experience
 

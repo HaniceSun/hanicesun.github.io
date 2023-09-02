@@ -47,21 +47,21 @@ hand -->
 
 - 生物信息学和生物统计学
 
-- 免疫学和进化论
+- 深度学习在生命科学中的应用
 
 ## 科研技能
 
-- Python, R, C, Git, Markdown, and Linux
+- Python, R, C, Linux, Git, scikit-learn, and Tensorflow
 
-- Statistical Modeling, Inference, and Machine Learning
+- Bioinformatics and Biostatistics
+
+- Machine Learning and Deep Learning
 
 - Genomics, Transcriptomics, Proteomics, and Epigenomics (bulk and single cell)
 
-- Linkage analysis and polygenetic risk score
+- Linkage analysis and QTL mapping
 
-- GWAS, QTL mapping, and their colocalization
-
-- Sanger Sequencing, qPCR, CRISPR-Cas9, and Cell Culture 
+- Genome-wide association study (GWAS) and genetic risk score (GRS)
 
 ## 访学经历
 
