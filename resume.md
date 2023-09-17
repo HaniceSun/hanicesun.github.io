@@ -40,19 +40,19 @@ East China Normal University (ECNU)
 
 - RNA-binding protein RBM20-deficient dilated cardiomyopathy
 
-- Mutation and mechanism underlying a new diabetic mouse model
+- Mutation and mechanisms underlying a new diabetic mouse model
 
 ## Research Interests
 
-- Disease Genetics (Cancer, Cardiomyopathy, and Diabetes)
+- Disease Genetics (Cancer, Cardiomyopathy, Diabetes, etc.)
 
-- Bioinformatics and Biostatistics
+- Multiomics
 
-- Deep Learning in Life Sciences/Healthcare (Disease diagnosis, prevention, and treatment)
+- AI 4 Life Science
 
 ## Scientific Skills
 
-- Python, R, C, Linux, Git, scikit-learn, and Tensorflow
+- Python, R, C, Linux, git, scikit-learn, and Tensorflow
 
 - Bioinformatics and Biostatistics
 
@@ -79,6 +79,12 @@ East China Normal University (ECNU)
 1. **Han Sun**, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. "CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.", [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf).
 
 1. Francesca Briganti, **Han Sun**, Wu Wei, Jingyan Wu, Chenchen Zhu, Martin Liss, Ioannis Karakikes et al. "iPSC Modeling of RBM20-Deficient DCM Identifies Upregulation of RBM20 as a Therapeutic Strategy." <u>Cell Reports</u> 32, no. 10 (2020): 108117, **co-first author**.
+
+1. Rottner, Antje K., Yingying Ye, Elena Navarro-Guerrero, Varsha Rajesh, Alina Pollner, **Han Sun**, Romina J. Bevacqua, Jing Yang et al. "A genome-wide CRISPR screen identifies CALCOCO2 as a regulator of beta cell function influencing type 2 diabetes risk." <u>Nature Genetics</u> 55, no. 1 (2023): 54-65.
+
+1. Mattis, Katia K., Nicole AJ Krentz, Christoph Metzendorf, Fernando Abaitua, Aliya F. Spigelman, **Han Sun**, Jennifer M. Ikle et al. "Loss of RREB1 in pancreatic beta cells reduces cellular insulin content and affects endocrine cell gene expression." <u>Diabetologia</u> 66, no. 4 (2023): 674-694.
+
+1. Alghamdi, Tamadher A., Nicole AJ Krentz, Nancy Smith, Aliya F. Spigelman, Varsha Rajesh, Alokkumar Jha, **Han Sun**, Mourad Ferdaoussi et al. "Zmiz1 is required for mature β-cell function and mass expansion upon high fat feeding." <u>Molecular Metabolism</u> 66 (2022): 101621.
 
 1. Chenchen Zhu, Jingyan Wu, **Han Sun**, Francesca Briganti, Benjamin Meder, Wu Wei, and Lars M. Steinmetz. "Single-molecule, full-length transcript isoform sequencing reveals disease-associated RNA isoforms in cardiomyocytes." <u>Nature Communications</u> 12, no. 1 (2021): 1-9.
 
