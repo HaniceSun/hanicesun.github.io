@@ -209,4 +209,4 @@ if __name__ == "__main__":
     if not args.no_pdf:
         write_pdf(html, prefix=prefix, chrome=args.chrome_path)
 
-subprocess.call('rm index.html; rm Resume_HanSun.pdf; ln resume.html index.html; ln resume.pdf Resume_HanSun.pdf', shell=True)
+subprocess.call('rm index.html; rm Resume_HanSun.pdf; ln resume.html index.html; ln resume.pdf Resume_HanSun.pdf; git add .; git commit -m hanice; git push origin master', shell=True)
