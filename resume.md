@@ -32,7 +32,7 @@ University of Chinese Academy of Sciences, **Prof. Yixue Li** and **Prof. Lu Xie
 
 ### <span>Bachelor, Software Engineering</span> <span>2004 -- 2008</span>
 
-East China Normal University (ECNU)
+East China Normal University
 
 ## Projects
 
@@ -40,7 +40,7 @@ East China Normal University (ECNU)
 
 - RNA-binding protein RBM20-deficient dilated cardiomyopathy
 
-- Mutation and mechanisms underlying a new diabetic mouse model
+- Mutation and mechanisms underlying neonatal diabetes
 
 ## Research Interests
 
