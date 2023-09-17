@@ -26,9 +26,9 @@ Department of Genetics, Schools of Medicine, Stanford University, **[Prof. Lars 
 
 ### <span>PhD, Bioinformatics</span> <span>2009 -- 2014</span>
 
-Key Lab of Systems Biology, Shanghai Institutes for Biological Sciences (SIBS), 
+Key Lab of Systems Biology, Shanghai Institutes for Biological Sciences, 
 
-Chinese Academy of Sciences (CAS), **Prof. Yixue Li** and **Prof. Lu Xie**
+University of Chinese Academy of Sciences, **Prof. Yixue Li** and **Prof. Lu Xie**
 
 ### <span>Bachelor, Software Engineering</span> <span>2004 -- 2008</span>
 
