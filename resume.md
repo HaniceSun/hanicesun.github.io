@@ -48,11 +48,11 @@ East China Normal University
 
 - Multiomics
 
-- AI 4 Life Science
+- AI 4 Life Sciences
 
 ## Scientific Skills
 
-- Python, R, C, Linux, git, scikit-learn, and Tensorflow
+- Python, R, C, Linux, git, scikit-learn, Tensorflow, and PyTorch
 
 - Bioinformatics and Biostatistics
 
