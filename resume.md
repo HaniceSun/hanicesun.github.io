@@ -80,6 +80,8 @@ East China Normal University
 
 1. Francesca Briganti, **Han Sun**, Wu Wei, Jingyan Wu, Chenchen Zhu, Martin Liss, Ioannis Karakikes et al. "iPSC Modeling of RBM20-Deficient DCM Identifies Upregulation of RBM20 as a Therapeutic Strategy." <u>Cell Reports</u> 32, no. 10 (2020): 108117, **co-first author**.
 
+1. Lau, Hwee Hui, Nicole AJ Krentz, Fernando Abaitua, Marta Perez-Alcantara, **Han Sun**, Jun-Wei Chan, Jila Ajeian, Soumita Ghosh et al. "PAX4 loss of function increases diabetes risk by altering human pancreatic endocrine cell development." <u>Nature Communications</u> 14, no. 1 (2023): 6119.
+
 1. Rottner, Antje K., Yingying Ye, Elena Navarro-Guerrero, Varsha Rajesh, Alina Pollner, **Han Sun**, Romina J. Bevacqua, Jing Yang et al. "A genome-wide CRISPR screen identifies CALCOCO2 as a regulator of beta cell function influencing type 2 diabetes risk." <u>Nature Genetics</u> 55, no. 1 (2023): 54-65.
 
 1. Mattis, Katia K., Nicole AJ Krentz, Christoph Metzendorf, Fernando Abaitua, Aliya F. Spigelman, **Han Sun**, Jennifer M. Ikle et al. "Loss of RREB1 in pancreatic beta cells reduces cellular insulin content and affects endocrine cell gene expression." <u>Diabetologia</u> 66, no. 4 (2023): 674-694.
