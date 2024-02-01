@@ -52,7 +52,9 @@ East China Normal University
 
 ## Scientific Skills
 
-- Python, R, C, Linux, git, scikit-learn, Tensorflow, and PyTorch
+- Python, R, C, git, Linux, and High Performance Computing (HPC)
+
+- statsmodels, scikit-learn, Tensorflow, and PyTorch
 
 - Bioinformatics and Biostatistics
 
