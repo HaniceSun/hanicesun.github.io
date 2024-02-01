@@ -146,7 +146,7 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
             check=True,
         )
         logging.info(f"Wrote {prefix}.pdf")
-        print([chrome, *options, f"--print-to-pdf={prefix}.pdf", "data:text/html;base64," + html64.decode("utf-8")])
+        print([chrome, *options, f"--print-to-pdf={prefix}.pdf"])
     except subprocess.CalledProcessError as exc:
         if exc.returncode == -6:
             logging.warning(
