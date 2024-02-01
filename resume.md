@@ -60,9 +60,7 @@ East China Normal University
 
 - Genomics, Transcriptomics, Proteomics, and Epigenomics (bulk and single cell)
 
-- Linkage analysis and QTL mapping
-
-- Genome-wide association study (GWAS) and genetic risk score (GRS)
+- Linkage analysis, QTL mapping, and GWAS
 
 ## Visiting Experience
 
