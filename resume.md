@@ -84,11 +84,11 @@ East China Normal University
 
 1. Cortez, Briana N., Hui Pan, Samuel Hinthorn, **Han Sun**, Nicola Neretti, Anna L. Gloyn, and Cristina Aguayo-Mazzucato. "Heterogeneity of increased biological age in type 2 diabetes correlates with differential tissue DNA methylation, biological variables, and pharmacological treatments." <u>GeroScience</u> (2023): 1-21.
 
-1. Torres, Jason M., **Han Sun**, Vibe Nylander, Damien J. Downes, Martijn van de Bunt, Mark I. McCarthy, Jim R. Hughes, and Anna L. Gloyn. "Inferring causal genes at type 2 diabetes GWAS loci through chromosome interactions in islet cells." <u>Wellcome Open Research</u> 8 (2023).
-
 1. Rottner, Antje K., Yingying Ye, Elena Navarro-Guerrero, Varsha Rajesh, Alina Pollner, **Han Sun**, Romina J. Bevacqua, Jing Yang et al. "A genome-wide CRISPR screen identifies CALCOCO2 as a regulator of beta cell function influencing type 2 diabetes risk." <u>Nature Genetics</u> 55, no. 1 (2023): 54-65.
 
 1. Mattis, Katia K., Nicole AJ Krentz, Christoph Metzendorf, Fernando Abaitua, Aliya F. Spigelman, **Han Sun**, Jennifer M. Ikle et al. "Loss of RREB1 in pancreatic beta cells reduces cellular insulin content and affects endocrine cell gene expression." <u>Diabetologia</u> 66, no. 4 (2023): 674-694.
+
+1. Torres, Jason M., **Han Sun**, Vibe Nylander, Damien J. Downes, Martijn van de Bunt, Mark I. McCarthy, Jim R. Hughes, and Anna L. Gloyn. "Inferring causal genes at type 2 diabetes GWAS loci through chromosome interactions in islet cells." <u>Wellcome Open Research</u> 8 (2023).
 
 1. Alghamdi, Tamadher A., Nicole AJ Krentz, Nancy Smith, Aliya F. Spigelman, Varsha Rajesh, Alokkumar Jha, **Han Sun**, Mourad Ferdaoussi et al. "Zmiz1 is required for mature β-cell function and mass expansion upon high fat feeding." <u>Molecular Metabolism</u> 66 (2022): 101621.
 
