@@ -100,11 +100,11 @@ East China Normal University
 
 1. Jay W Schneider, Saji Oommen, Muhammad Y Qureshi, Sean C Goetsch, Rhianna S Sundsbak, Wei Guo, Mingming Sun, **Han Sun**, Dennis A Webster, Alex W Coutts, Francesca Briganti, Wu Wei, Lars Steinmetz, Daniel F Carlson, and Timothy J. Nelson et al. "Dysregulated ribonucleoprotein granules promote cardiomyopathy in RBM20 gene-edited pigs", <u>Nature Medicine</u> (2020): 1-13.
 
-1. Arne H. Smits, Frederik Ziebell, Gerard Joberty Nico Zinn, William F. Mueller, Sandra Clauder-Munster, Paola Grandi, Petra Jakob, Anne-Marie Michon, **Hanice Sun**, Karen Tessmer, Tilmann Burckstummer, Marcus Bantscheff, Lars M. Steinmetz, Gerard Drewes, and Wolfgang Huber. "Biological plasticity rescues target activity in CRISPR knock outs.", <u>Nature Methods</u> 2019 Oct 28:1-7.
-
 1. William F. Mueller, Petra Jakob, **Han Sun**, Sandra Clauder-Münster, Sonja Ghidelli-Disse, Diana Ordonez, Markus Boesche, Marcus Bantscheff, Paul Collier, Bettina Haase, Vladimir Benes, Malte Paulsen, Peter Sehr, Joe Lewis, Gerard Drewes, Lars M. Steinmetz. "Loss of N-glycanase 1 Alters Transcriptional and Translational Regulation in K562 Cell Lines." <u>G3: Genes, Genomes, Genetics</u> (2020).
 
-1. Lun Suo, Yu Xiao Zhou, Li Ling Jia, Hai Bo Wu, Jin Zheng, Qi Feng Lyu, Li Hua Sun, **Han Sun**, and Yan Ping Kuang. 2018. "Transcriptome Profiling of Human Oocytes Experiencing Recurrent Total Fertilization Failure." <u>Scientific Reports</u> 8 (1): 17890.
+1. Arne H. Smits, Frederik Ziebell, Gerard Joberty Nico Zinn, William F. Mueller, Sandra Clauder-Munster, Paola Grandi, Petra Jakob, Anne-Marie Michon, **Hanice Sun**, Karen Tessmer, Tilmann Burckstummer, Marcus Bantscheff, Lars M. Steinmetz, Gerard Drewes, and Wolfgang Huber. "Biological plasticity rescues target activity in CRISPR knock outs.", <u>Nature Methods</u> 2019 Oct 28:1-7.
+
+1. Suo, Lun, Yu Xiao Zhou, Li Ling Jia, Hai Bo Wu, Jin Zheng, Qi Feng Lyu, Li Hua Sun, **Han Sun**, and Yan Ping Kuang. "Transcriptome profiling of human oocytes experiencing recurrent total fertilization failure." <u>Scientific Reports</u> 8, no. 1 (2018): 17890.
 
 1. **Han Sun**, Chen Chen, Baofeng Lian, Menghuan Zhang, Xiaojing Wang, Bing Zhang, Yixue Li, Pengyuan Yang, and Lu Xie. 2015. "Identification of HPV Integration and Gene Mutation in HeLa Cell Line by Integrated Analysis of RNA-Seq and MS/MS Data." <u>Journal of Proteome Research</u> 14 (4): 1678–86, **co-first author**.
 
