@@ -60,7 +60,7 @@ East China Normal University
 
 - Machine Learning and Deep Learning
 
-- Genomics, Transcriptomics, Proteomics, and Epigenomics (bulk and single cell)
+- Genomics, Transcriptomics, Proteomics, and Epigenomics
 
 - Linkage analysis, QTL mapping, and GWAS
 
