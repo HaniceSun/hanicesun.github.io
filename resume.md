@@ -44,11 +44,11 @@ East China Normal University
 
 ## Research Interests
 
-- Disease Genetics (Cancer, Cardiomyopathy, Diabetes, etc.)
+- Disease Genetics (Cancer, Cardiomyopathy, Diabetes, ...)
 
-- Multiomics
+- Multiomics (bulk and single cell)
 
-- AI 4 Life Sciences
+- AI 4 Life Sciences (CNN, Transformer, GNN)
 
 ## Scientific Skills
 
