@@ -2,7 +2,8 @@
 # Han Sun, PhD
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
-- hansun@stanford.com
+- <hansun@stanford.com>
+- [GitHub](https://github.com/HaniceSun)
 - [LinkedIn](https://www.linkedin.com/in/sunhanice/)
 - 3165 Porter Drive, Palo Alto, CA 94304
 
