@@ -38,9 +38,22 @@ East China Normal University
 
 - Splicing-mediated oncogene activation in cancers
 
+By reanalyzing both whole exome sequencing and RNA-Seq data of over 10,000 patients across 33 cancer types from the TCGA project using a generalized liner model, I observed a very interesting correlation between somatic mutations, splicing between the adjacent genes, and the overexpresion of the downstream gene in subsets of cohorts, including the top hit, mutation within CDKN1A, splicing between CDKN1A and RAB44, and the activation of RAB44 in bladder, stomach, and skin cancer. I established the causality through collabration with other labs by introducing the mutation in cell lines using CRISPR/Cas9. We also performed functional/phenotyping assays to illustrate the connection from RAB44 activation to MDM2 upregulation and TP53 downregulation. I proposed a splicing-mediated readthrough stabilization model to explain this type of atypical transcript fusion events rather than the common gene fusions on the genomic level.
+
+
 - RNA-binding protein RBM20-deficient dilated cardiomyopathy
 
+Starting from a family with dilated cardiomyopathy, I analized whole exome sequencing and whole genome sequencing data from the family members and identified a suspicious missense mutation in RBM20 through lineage analysis. Considering RBM20 is a RNA-biding protein, I further identified its splicing targets from RNA-Seq data. We validated this finding by doing CRISPR/Cas9 editing and differentiating cells from iPS to cardiomyocytes. By integrating datasets of multiple tissues from GTEx, I proposed a model about tissue-specific splicing of a mitochondrial inner membrane protein (IMMT), suggesting a molecular connection between deficiency in energy-supplying and dilated cardiomyopathy.
+
+
 - Mutation and mechanisms underlying neonatal diabetes
+
+By analyzing whole genome sequencing data from mice, I identified a suspicious intronic mutation that correlates with neonatal diabetes. We validated that the mutation is indeed diabetes causing using CRISPR eidting. I proposed a mechanism that the mutation leads to a novel splice site resulting in longer isoform but truncated protein that has also been verified. We are working on bulk and single cell data from time points in development to investigate additional regulatory elements to explain why it is pancreas specific.
+
+- Deep learning prediction of tissue specific splicing
+
+Starting from reproducing the famous model of SpliceAI using both Tensorflow and Pytorch, I am attempting and evaluating models such as attention with GPT backbone, and fourier transform based global convolution (Hyena), to replace the CNN component in SpliceAI, with an application in long-reads sequencing data (PacBio) from multiple tissues including islets.
+
 
 ## Research Interests
 
@@ -63,12 +76,6 @@ East China Normal University
 - Genomics, Transcriptomics, Proteomics, and Epigenomics
 
 - Linkage analysis, QTL mapping, and GWAS
-
-## Visiting Experience
-
-- European Molecular Biology Laboratory (EMBL), Heidelberg, Germany (2014.07 - 2014.10)
-
-- Institute of Immunology, University of Rostock, Rostock, Germany (2013.10 - 2013.12)
 
 ## Patents
 
