@@ -3,8 +3,8 @@
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 - <hansun@stanford.com>
-- [GitHub](https://github.com/HaniceSun)
 - [LinkedIn](https://www.linkedin.com/in/sunhanice/)
+- [GitHub](https://github.com/HaniceSun)
 - 3165 Porter Drive, Palo Alto, CA 94304
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
