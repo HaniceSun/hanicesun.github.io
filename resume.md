@@ -47,7 +47,7 @@ Starting from a family with dilated cardiomyopathy, I analyzed whole exome seque
 
 - **Mutation and mechanisms underlying neonatal diabetes**
 
-By analyzing whole genome sequencing and array based genotyping data from mice, I identified a suspicious intronic mutation that correlates with neonatal diabetes. We validated that the mutation is indeed diabetes causing using CRISPR/Cas9 editing. I proposed a mechanism that the mutation leads to a novel splice site resulting in longer isoform but truncated protein that has also been verified. We are working on bulk and single cell data (scRNA-Seq and scATAC-Seq) from time points in development to investigate additional regulatory elements to explain why the phenotype is pancreas specific.
+By analyzing whole genome sequencing and array based genotyping data from mice, I identified a suspicious intronic mutation that correlates with neonatal diabetes. We validated that the mutation is indeed diabetes causing using CRISPR/Cas9 editing. I proposed a mechanism that the mutation leads to a novel splice site resulting in longer isoform but truncated protein which has also been verified. We are working on bulk and single cell data (scRNA-Seq and scATAC-Seq) from along development to investigate additional regulatory elements to explain why the phenotype is pancreas specific.
 
 - **Deep learning prediction of tissue specific splicing**
 
