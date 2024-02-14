@@ -37,7 +37,7 @@ East China Normal University
 
 ## Projects
 
-- **Splicing-mediated oncogene activation in multiple cancers**
+- **Splicing-mediated transcript fusion and oncogene activation in multiple cancers**
 
 By reanalyzing both whole exome sequencing and RNA-Seq data of over 10,000 patients across 33 cancer types from the TCGA project using a generalized linear model, I observed a very interesting correlation between somatic mutations, splicing between the adjacent genes, and the overexpression of the downstream gene in subsets of cohorts, including the top hit, mutation within CDKN1A, splicing between CDKN1A and RAB44, and the activation of RAB44 in bladder, stomach, and skin cancer. I established the causality through collaboration with other labs by introducing the mutation in cell lines using CRISPR/Cas9. We further performed functional/phenotyping assays to illustrate the connection from RAB44 activation to MDM2 upregulation and TP53 downregulation. I proposed a splicing-mediated readthrough stabilization (SRS) model as one more mechanism for oncogene activation to explain this type of atypical transcript fusion events instead of the common gene fusions on the genomic level.
 
@@ -45,7 +45,7 @@ By reanalyzing both whole exome sequencing and RNA-Seq data of over 10,000 patie
 
 Starting from a family with dilated cardiomyopathy, I analyzed whole exome sequencing (WES) and whole genome sequencing (WGS) data from the family members and identified a suspicious missense mutation in RBM20 through linkage analysis. Considering RBM20 is an RNA-biding protein, I further identified its splicing targets from human and pig RNA-Seq data. We validated this finding by doing CRISPR/Cas9 editing in human induced pluripotent stem (iPS) cells and differentiating them to cardiomyocytes. By integrating gene expression data from GTEx, I proposed a model about tissue-specific splicing of a mitochondrial inner membrane protein, IMMT, suggesting a molecular connection between deficiency in energy-supplying and dilated cardiomyopathy.
 
-- **Mutation and mechanisms underlying neonatal diabetes**
+- **Mutation and regulatory elements underlying neonatal diabetes**
 
 By analyzing whole genome sequencing and array based genotyping data from mice, I identified a suspicious intronic mutation that correlates with neonatal diabetes. We validated that the mutation is indeed diabetes causing using CRISPR/Cas9 editing. I proposed a mechanism that the mutation leads to a novel splice site resulting in longer isoform but truncated protein which has also been verified. We are working on bulk and single cell data (scRNA-Seq and scATAC-Seq) from along development to investigate additional regulatory elements to explain why the phenotype is pancreas specific.
 
