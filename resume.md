@@ -51,7 +51,7 @@ By analyzing whole genome sequencing and array based genotyping data from mice, 
 
 - **Deep learning prediction of tissue specific splicing**
 
-Starting from reproducing the famous model of SpliceAI using both Tensorflow and Pytorch, I am attempting and evaluating models such as attention with GPT backbone, and fourier transform based global convolution (Hyena), to replace the CNN component in SpliceAI, with an application in long-reads sequencing data (PacBio) from multiple tissues including islets.
+After reproducing the famous model of SpliceAI using both Tensorflow and Pytorch, I am attempting and evaluating models such as attention with GPT backbone, and fourier transform based global convolution (Hyena), to replace the CNN component in SpliceAI, with an application in long-reads sequencing data (PacBio) from multiple tissues including islets.
 
 
 ## Research Interests
