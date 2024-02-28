@@ -27,7 +27,7 @@ Department of Genetics, School of Medicine, Stanford University, **[Prof. Lars S
 
 ### <span>PhD, Bioinformatics</span> <span>2009 -- 2014</span>
 
-Shanghai Institutes for Biological Sciences, University of Chinese Academy of Sciences, **Prof. Yixue Li** and **Prof. Lu Xie**
+University of Chinese Academy of Sciences, **Prof. Yixue Li** and **Prof. Lu Xie**
 
 ### <span>Bachelor, Software Engineering</span> <span>2004 -- 2008</span>
 
