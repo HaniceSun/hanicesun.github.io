@@ -41,7 +41,7 @@ With an idea to explore gene fusion events on the transcription level instead of
 
 - **RNA-binding protein RBM20-deficient dilated cardiomyopathy**
 
-Starting from a family with dilated cardiomyopathy, I analyzed whole exome sequencing (WES) and whole genome sequencing (WGS) data from the family members and identified a suspicious missense mutation in RBM20 through linkage analysis. Considering RBM20 is an RNA-biding protein, I further identified its splicing targets from human and pig RNA-Seq data. We validated this finding by doing CRISPR/Cas9 editing in human induced pluripotent stem (iPS) cells and differentiating them to cardiomyocytes. By integrating gene expression data from GTEx, I proposed a model about tissue-specific splicing of a mitochondrial inner membrane protein, IMMT, suggesting a molecular connection between deficiency in energy-supplying and dilated cardiomyopathy.
+Starting from a family with dilated cardiomyopathy, I analyzed whole exome sequencing (WES) and whole genome sequencing (WGS) data from the family members and identified a suspicious missense mutation in RBM20 through linkage analysis. Considering RBM20 is an RNA-biding protein, I further identified its splicing targets from human and pig RNA-Seq data. We validated this finding by doing CRISPR/Cas9 editing in human induced pluripotent stem (iPS) cells and differentiating them to cardiomyocytes. By integrating gene expression data of thousands of tissues from GTEx, I proposed a model about tissue-specific splicing of a mitochondrial inner membrane protein, IMMT, suggesting a molecular connection between deficiency in energy-supplying and dilated cardiomyopathy.
 
 - **Mutation and regulatory elements underlying neonatal diabetes**
 
