@@ -58,7 +58,7 @@ After reproducing the famous model, SpliceAI, using both Tensorflow and Pytorch,
 
 - Multiomics (bulk and single cell)
 
-- AI 4 Life Sciences (CNN, Transformer, GNN)
+- AI 4 Life Science and Drug Discovery
 
 ## Scientific Skills
 
