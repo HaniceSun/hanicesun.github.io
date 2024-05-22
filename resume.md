@@ -73,6 +73,12 @@ After reproducing the state of art model, SpliceAI, using both Tensorflow and Py
 
 - Linkage analysis, QTL mapping, and GWAS
 
+## Certifications
+
+- Machine Learning Specialization, Andrew Ng, [Coursera](https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS)
+
+- Deep Learning Specialization, Andrew Ng, [Coursera](https://www.coursera.org/account/accomplishments/specialization/DUM8L98A972Q)
+
 ## Patents
 
 - Methods of Treatment, Genetic Screening, and Disease Models for Heart Conditions Associated with RBM20 Deficiency. Francesca Briganti, Lars M. Steinmetz, Han Sun, and Wu Wei. WO 2020/092171.
