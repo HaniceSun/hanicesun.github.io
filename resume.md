@@ -55,7 +55,7 @@ After reproducing the state-of-the-art model in splice site prediction, SpliceAI
 
 - Disease Genetics (Cancer, Cardiomyopathy, Diabetes, ...)
 
-- Multiomics (bulk and single cell)
+- Multiomics (WGS, WES, RNA-Seq, ATAC-Seq, ChIP-Seq, MS/MS, bulk and single cell)
 
 - AI 4 Life Science and Drug Discovery
 
