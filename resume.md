@@ -49,7 +49,7 @@ By analyzing whole genome sequencing (WGS) and array-based genotyping data from 
 
 - **Machine Learning/Deep Learning of tissue-specific splicing, genetic ancestry, selenocysteine element, etc.**
 
-After reproducing the state-of-the-art model in splice site prediction, SpliceAI, using both TensorFlow and PyTorch, I developed new models with attention and GPT backbone to predict tissue-specific splicing from long reads (Pac-Bio).
+After reproducing the state-of-the-art model in splice site prediction, SpliceAI, using both TensorFlow and PyTorch, I developed new models with attention and GPT backbone to predict tissue-specific splicing from long reads (PacBio).
 
 ## Research Interests
 
