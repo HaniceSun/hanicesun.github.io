@@ -89,6 +89,8 @@ After reproducing the state-of-the-art model in splice site prediction, SpliceAI
 
 1. Francesca Briganti, **Han Sun**, Wu Wei, Jingyan Wu, Chenchen Zhu, Martin Liss, Ioannis Karakikes et al. "iPSC Modeling of RBM20-Deficient DCM Identifies Upregulation of RBM20 as a Therapeutic Strategy." <u>Cell Reports</u> 32, no. 10 (2020): 108117, **co-first author**.
 
+1. **Han Sun**, Seth A Sharp,  Nicole A J Krentz, Anna Gloyn et al., "Deep learning prediction of selenocystine element and its application in diabetes and cancers", in preparation.
+
 1. Kolic, Jelena, WenQing Grace Sun, Haoning Howard Cen, Jessica D. Ewald, Jason C. Rogalski, Shugo Sasaki, **Han Sun**, et al. "Proteomic predictors of individualized nutrient-specific insulin secretion in health and disease." <u>Cell Metabolism</u> 36, no. 7 (2024): 1619-1633.
 
 1. Rottner, Antje K., Yingying Ye, Elena Navarro-Guerrero, Varsha Rajesh, Alina Pollner, **Han Sun**, Romina J. Bevacqua, Jing Yang et al. "A genome-wide CRISPR screen identifies CALCOCO2 as a regulator of beta cell function influencing type 2 diabetes risk." <u>Nature Genetics</u> 55, no. 1 (2023): 54-65.
