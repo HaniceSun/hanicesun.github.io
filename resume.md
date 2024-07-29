@@ -47,9 +47,9 @@ Starting with a family affected by dilated cardiomyopathy, I analyzed whole exom
 
 By analyzing whole genome sequencing (WGS) and array-based genotyping data from mice, I identified a suspicious intronic mutation that correlates with neonatal diabetes. We validated that the mutation causes diabetes by introducing it into both B6 and NOD mice using CRISPR/Cas9 editing. I proposed a mechanism where the mutation creates a novel splice site, resulting in a longer transcript but truncated protein, which has been verified. We are now working with bulk and single-cell data (scRNA-Seq and scATAC-Seq) throughout development to investigate additional regulatory elements and understand why the phenotype is specific to the pancreas. I am also working on large-scale QTL mapping (eQTL, caQTL, and pQTL) on multiomics datasets of human islets to study the genetic architecture of diabetes.
 
-- **Machine Learning/Deep Learning of tissue-specific splicing, genetic ancestry, selenocysteine element, etc.**
+- **Applying machine learning/deep learning in omics data**
 
-After reproducing the state-of-the-art model in splice site prediction, SpliceAI, using both TensorFlow and PyTorch, I developed new models with attention and GPT backbone to predict tissue-specific splicing from long reads (PacBio).
+I have developed machine learning models (Random Forrest, XGBoost, SVM, etc.) in predicting ancestry from genotyping data, and deep learning models (CNN, ResNet, GPT backbone with attention) in predicting selenocysteine elements and tissue-specific splicing from DNA sequences.
 
 ## Research Interests
 
