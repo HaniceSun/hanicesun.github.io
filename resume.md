@@ -53,11 +53,11 @@ I have developed machine learning models (Random Forrest, XGBoost, SVM, etc.) in
 
 ## Research Interests
 
-- Disease Genetics (Cancer, Cardiomyopathy, Diabetes, ...)
+- Disease Genetics (Cancer, Cardiomyopathy, Diabetes, Immunology) and RNA therapeutics
 
 - Multiomics (WGS, WES, RNA-Seq, ATAC-Seq, ChIP-Seq, MS/MS, bulk and single cell)
 
-- AI 4 Life Science and Drug Discovery
+- Machine Learning, Deep Learning, and AI 4 Drug Discovery
 
 ## Scientific Skills
 
