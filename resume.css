@@ -19,6 +19,7 @@ h1 {
     font-size: 200%;
     margin: 0;
     padding: 0;
+    color: #0077B5;
 }
 h2 {
     border-bottom: 1px solid #000000;
@@ -26,6 +27,7 @@ h2 {
     font-size: 130%;
     margin: 1em 0 0 0;
     padding: 0;
+    color: #0077B5;
 }
 h3 {
     font-size: 100%;
