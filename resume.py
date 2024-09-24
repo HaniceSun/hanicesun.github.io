@@ -149,7 +149,7 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
     #logging.info(f"Wrote {prefix}.pdf")
     '''
 
-    subprocess.call(f'{chrome} {*options,} --print-to-pdf={prefix}.pdf data:text/html;base64,{html64.decode("utf-8")}', shell=True)
+    subprocess.call(f'{chrome} {" ".join(options)} --print-to-pdf={prefix}.pdf data:text/html;base64,{html64.decode("utf-8")}', shell=True)
 
 
 
