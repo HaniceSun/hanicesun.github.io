@@ -137,15 +137,7 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
     options.append(f"--crash-dumps-dir={tmpdir.name}")
     options.append(f"--user-data-dir={tmpdir.name}")
     try:
-        subprocess.run(
-            [
-                chrome,
-                *options,
-                f"--print-to-pdf={prefix}.pdf",
-                "data:text/html;base64," + html64.decode("utf-8"),
-            ],
-            check=True,
-        )
+        subprocess.call(f'{chrom} {*options,} --print-to-pdf={prefix}.pdf data:text/html;base64,{html64.decode("utf-8")}', shell=True)
         logging.info(f"Wrote {prefix}.pdf")
     except:
         print('Error!')
