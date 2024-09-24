@@ -127,6 +127,7 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
         "--no-pdf-header-footer",
         "--enable-logging=stderr",
         "--log-level=2",
+        "--disable-gpu",
     ]
     # https://bugs.chromium.org/p/chromium/issues/detail?id=737678
     if sys.platform == "win32":
@@ -146,23 +147,8 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
             check=True,
         )
         logging.info(f"Wrote {prefix}.pdf")
-    except subprocess.CalledProcessError as exc:
-        if exc.returncode == -6:
-            logging.warning(
-                "Chrome died with <Signals.SIGABRT: 6> "
-                f"but you may find {prefix}.pdf was created successfully."
-            )
-        else:
-            raise exc
-    finally:
-        # We use this try-finally rather than TemporaryDirectory's context
-        # manager to be able to catch the exception caused by
-        # https://bugs.python.org/issue26660 on Windows
-        try:
-            shutil.rmtree(tmpdir.name)
-        except PermissionError as exc:
-            logging.warning(f"Could not delete {tmpdir.name}")
-            logging.info(exc)
+    except:
+        print('Error!')
 
 
 if __name__ == "__main__":

@@ -37,7 +37,7 @@ East China Normal University
 
 - **Splicing-mediated transcript fusion and oncogene activation in multiple cancers**
 
-With the aim of exploring gene fusion events at the transcriptional level, rather than the traditional genomic level in cancer patients, I reanalyzed both whole exome sequencing (WES) and RNA-Seq data from over 10,000 patients across 33 cancer types from the TCGA project using a negative binomial-based generalized linear model. I discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion) in several cohorts. Notably, a mutation within CDKN1A and the splicing between CDKN1A and RAB44 were prominent in bladder, stomach, and skin cancers. To establish causality, I collaborated with other labs and introduced the mutation into cell lines using CRISPR/Cas9, successfully reproducing the between-gene splicing and gene activation. This was confirmed through RT-PCR, Sanger sequencing, qPCR, and RNA-Seq. Further functional and phenotypic assays demonstrated a connection between RAB44 activation and MDM2 upregulation (and consequently, TP53 downregulation). I proposed a splicing-mediated readthrough stabilization (SRS) model as a novel mechanism for oncogene activation.
+With the goal of exploring gene fusion events at the transcriptional level, rather than the traditional genomic level in cancer patients, I reanalyzed both whole exome sequencing (WES) and RNA-Seq data from over 10,000 patients across 33 cancer types from the TCGA project using a negative binomial-based generalized linear model. I discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion) in several cohorts. Notably, a mutation within CDKN1A and the splicing between CDKN1A and RAB44 were prominent in bladder, stomach, and skin cancers. To establish causality, I collaborated with other labs and introduced the mutation into cell lines using CRISPR/Cas9, successfully reproducing the between-gene splicing and gene activation. This was confirmed through RT-PCR, Sanger sequencing, qPCR, and RNA-Seq. Further functional and phenotypic assays demonstrated a connection between RAB44 activation and MDM2 upregulation (and consequently, TP53 downregulation). I proposed a splicing-mediated readthrough stabilization (SRS) model as a novel mechanism for oncogene activation.
 
 - **RNA-binding protein RBM20-deficient dilated cardiomyopathy**
 
@@ -53,7 +53,7 @@ I have developed machine learning models (Random Forrest, XGBoost, SVM, etc.) in
 
 ## Research Interests
 
-- Disease Genetics (Cancer, Cardiomyopathy, Diabetes, ...) and RNA therapeutics
+- Disease Genetics (Cancer, Cardiomyopathy, Diabetes, ...)
 
 - Multiomics (WGS, WES, RNA-Seq, ATAC-Seq, ChIP-Seq, MS/MS, bulk and single cell)
 
