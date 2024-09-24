@@ -136,8 +136,21 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
     tmpdir = tempfile.TemporaryDirectory(prefix="resume.md_")
     options.append(f"--crash-dumps-dir={tmpdir.name}")
     options.append(f"--user-data-dir={tmpdir.name}")
+
+    '''
+    subprocess.call(
+		[
+			chrome,
+			*options,
+			f"--print-to-pdf={prefix}.pdf",
+			"data:text/html;base64," + html64.decode("utf-8"),
+        ]
+	)
+    #logging.info(f"Wrote {prefix}.pdf")
+    '''
+
     subprocess.call(f'{chrome} {*options,} --print-to-pdf={prefix}.pdf data:text/html;base64,{html64.decode("utf-8")}', shell=True)
-    logging.info(f"Wrote {prefix}.pdf")
+
 
 
 if __name__ == "__main__":
