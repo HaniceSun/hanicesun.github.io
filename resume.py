@@ -144,7 +144,7 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
                 *options,
                 f"--print-to-pdf={prefix}.pdf",
                 "data:text/html;base64," + html64.decode("utf-8"),
-            ], timeout=30,
+            ], timeout=5,
         )
     except:
         pass
