@@ -35,7 +35,7 @@ East China Normal University
 
 ## Skills
 
-- Python, R, C, Rust, git, and Linux (command line)
+- Python, R, C, Rust, git, markdown, and Linux (command line)
 
 - High performance computing (slurm) and containerization (docker and singularity) 
 
