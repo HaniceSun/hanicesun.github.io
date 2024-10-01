@@ -7,15 +7,15 @@ import markdown
 import subprocess
 
 class markdownResume:
-    def __init__(self):
+    def __init__(self, prefix='resume', html_output='index.html', pdf_output='Resume_HanSun.pdf'):
 
-        self.prefix = 'resume'
+        self.prefix = prefix
         self.md = open(f'{self.prefix}.md').read()
-        self.css = open(f'static/{self.prefix}.css').read()
+        self.css = open(f'static/resume.css').read()
         self.chrome = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 
-        self.html_output = 'index.html'
-        self.pdf_output = 'Resume_HanSun.pdf'
+        self.html_output = html_output
+        self.pdf_output = pdf_output
 
         self.preamble = """\
         <html lang="en">
@@ -48,8 +48,9 @@ class markdownResume:
             )
         )
 
-        with open(f'{self.html_output}', 'w') as ouFile:
-            ouFile.write(self.html + '\n')
+        if self.html_output:
+            with open(f'{self.html_output}', 'w') as ouFile:
+                ouFile.write(self.html + '\n')
 
     def html_to_pdf(self):
         html64 = base64.b64encode(self.html.encode("utf-8"))
@@ -95,4 +96,10 @@ if __name__ == "__main__":
     mdresume.make_html()
     mdresume.html_to_pdf()
     mdresume.push_to_github()
+
+    mdresume = markdownResume(prefix='resume_cn', html_output='', pdf_output='ResumeCN_HanSun.pdf')
+    mdresume.make_html()
+    mdresume.html_to_pdf()
+    mdresume.push_to_github()
+
 
