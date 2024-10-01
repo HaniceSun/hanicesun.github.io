@@ -65,13 +65,13 @@ East China Normal University
 
 ### RNA-binding protein RBM20-deficient dilated cardiomyopathy
 
-- Identified a suspicious missense mutation in RBM20 through linkage analysis in a family affected by dilated cardiomyopathy by analyzing whole exome sequencing (WES) and whole genome sequencing (WGS) data.
+- Identified a suspicious missense mutation in RBM20 through linkage analysis in a family affected by dilated cardiomyopathy through analyzing whole exome sequencing (WES) and whole genome sequencing (WGS) data.
 
 - Identified splicing targets of RBM20 using RNA-Seq data from humans and pigs given that RBM20 is an RNA-binding protein.
 
-- Collaborated with collegues to validate the mutation using CRISPR/Cas9 editing in human induced pluripotent stem (iPS) cells and differentiating them into cardiomyocytes.
+- Collaborated with colleagues to validate the mutation using CRISPR/Cas9 editing in human induced pluripotent stem (iPS) cells and differentiating them into cardiomyocytes.
 
-- By applying drug repositioning strategy in the data from the Integrated Network-based Cellular Signatures (LINCS) project, we nominated compounds, retinoic acid and cardiac glycoside, that can potentially rescue the phenotype.
+- By applying drug repositioning strategy in thousands of compounds from the Integrated Network-based Cellular Signatures (LINCS) project, we nominated retinoic acid and cardiac glycoside that may potentially rescue the phenotype.
 
 - By integrating gene expression data from thousands of tissues in the The Genotype-Tissue Expression (GTEx) project, I proposed a model for the tissue-specific splicing of a mitochondrial inner membrane protein, IMMT, suggesting a molecular link between energy supply deficiencies and dilated cardiomyopathy.
 
@@ -79,7 +79,7 @@ East China Normal University
 
 - Identified a suspicious intronic mutation in neonatal diabetes by analyzing whole genome sequencing (WGS) and array-based genotyping data from mice.
 
-- Collaborated with collegues to validate the mutation is causing diabetes by introducing it into both B6 and NOD mice using CRISPR/Cas9 editing.
+- Collaborated with colleagues to validate the mutation is causing diabetes by introducing it into both B6 and NOD mice using CRISPR/Cas9 editing.
 
 - Proposed a mechanism where the mutation creates a novel splice site, resulting in a longer transcript but truncated protein, which has been verified.
 
@@ -89,7 +89,7 @@ East China Normal University
 
 ### Applying machine learning/deep learning in omics data
 
-- Applied machine learning models (Random Forrest, XGBoost, SVM, etc.) in predicting ancestry from genotyping data.
+- Applied machine learning models (Random Forrest, XGBoost, SVM, etc.) to predict ancestry from genotyping data.
 
 - Developed deep learning models (CNN, ResNet, GPT backbone with attention) in predicting selenocysteine and tissue-specific splicing from DNA sequences.
 
