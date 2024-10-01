@@ -47,7 +47,7 @@ East China Normal University
 
 - Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
 
-- Multiomics: Genomics (WGS, WES, genotyping), Transcriptomics (bulk and single cell RNA-Seq, long reads), Proteomics (MS/MS), and Epigenomics (ATAC-Seq, ChIP-Seq). Linkage analysis, QTL and GWAS.
+- Multiomics: Genomics (WGS, WES, genotyping), Transcriptomics (bulk and single cell RNA-Seq, long reads), Proteomics (MS/MS), and Epigenomics (ATAC-Seq, ChIP-Seq). Linkage analysis, QTL, and GWAS.
 
 ## Projects
 
