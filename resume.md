@@ -3,9 +3,9 @@
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 - <hansun@stanford.edu>
-- 408-800-1190
 - [LinkedIn](https://www.linkedin.com/in/sunhanice/)
 - [GitHub](https://github.com/HaniceSun)
+- 408-800-1190
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
