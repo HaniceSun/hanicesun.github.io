@@ -37,9 +37,18 @@ East China Normal University
 
 - **Splicing-mediated transcript fusion and oncogene activation in multiple cancers**
 
-With the goal of exploring gene fusion events at the transcriptional level, rather than the traditional genomic level in cancer patients, I reanalyzed both whole exome sequencing (WES) and RNA-Seq data from over 10,000 patients across 33 cancer types from the TCGA project using a negative binomial-based generalized linear model. I discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion) in several cohorts. Notably, a mutation within CDKN1A and the splicing between CDKN1A and RAB44 were prominent in bladder, stomach, and skin cancers. To establish causality, I collaborated with other labs and introduced the mutation into cell lines using CRISPR/Cas9, successfully reproducing the between-gene splicing and gene activation. This was confirmed through RT-PCR, Sanger sequencing, qPCR, and RNA-Seq. Further functional and phenotypic assays demonstrated a connection between RAB44 activation and MDM2 upregulation (and consequently, TP53 downregulation). I proposed a splicing-mediated readthrough stabilization (SRS) model as a novel mechanism for oncogene activation.
+    - Designed the project with an idea to explore splice-mediated gene fusion events in cancer patients.
+
+    - Reanalyzed both whole exome sequencing (WES) and RNA-Seq data from over 10,000 patients across 33 cancer types from the TCGA project using a negative binomial-based generalized linear model.
+
+    - Discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion), including the CDKN1A-RAB44 event in bladder, stomach, and skin cancers.
+
+    - Collaborated with other labs to validate the finding using CRISPR/Cas9 editing, RT-PCR, Sanger sequencing, qPCR, RNA-Seq, and phoenotyping assays. Analyzed the data and interpreted the results.
+
+    - Prepared the manuscript. Proposed a splicing-mediated readthrough stabilization (SRS) model as a novel mechanism for oncogene activation.
 
 - **RNA-binding protein RBM20-deficient dilated cardiomyopathy**
+
 
 Starting with a family affected by dilated cardiomyopathy, I analyzed whole exome sequencing (WES) and whole genome sequencing (WGS) data from the family members and identified a suspicious missense mutation in RBM20 through linkage analysis. Given that RBM20 is an RNA-binding protein, I further identified its splicing targets using RNA-Seq data from humans and pigs. We validated this finding by performing CRISPR/Cas9 editing in human induced pluripotent stem (iPS) cells and differentiating them into cardiomyocytes. By integrating gene expression data from thousands of tissues in the GTEx project, I proposed a model for the tissue-specific splicing of a mitochondrial inner membrane protein, IMMT, suggesting a molecular link between energy supply deficiencies and dilated cardiomyopathy.
 
@@ -49,29 +58,33 @@ By analyzing whole genome sequencing (WGS) and array-based genotyping data from 
 
 - **Applying machine learning/deep learning in omics data**
 
-I have developed machine learning models (Random Forrest, XGBoost, SVM, etc.) in predicting ancestry from genotyping data, and deep learning models (CNN, ResNet, GPT backbone with attention) in predicting selenocysteine elements and tissue-specific splicing from DNA sequences.
-
-## Research Interests
-
-- Disease Genetics (Cancer, Cardiomyopathy, Diabetes, ...)
-
-- Multiomics (WGS, WES, RNA-Seq, ATAC-Seq, ChIP-Seq, MS/MS, bulk and single cell)
-
-- Machine Learning, Deep Learning, and AI 4 Drug Discovery
+    - Evaluated machine learning models (Random Forrest, XGBoost, SVM, etc.) in predicting ancestry from genotyping data.
+    
+    - Developed deep learning models (CNN, ResNet, GPT backbone with attention) in predicting selenocysteine and tissue-specific splicing from DNA sequences.
 
 ## Scientific Skills
 
 - Python, R, C, git, Linux, and High Performance Computing
 
-- statsmodels, scikit-learn, Tensorflow, and PyTorch
+- Workflow (Snakemake and Nextflow)
 
-- Bioinformatics and Biostatistics
+- Cloud computing (AWS and GCP)
 
-- Machine Learning and Deep Learning
+- Bioinformatics (blast, bwa, STAR, featureCounts, samtools, GATK, plink, seurat, scanpy) and Biostatistics (DESeq2, edgeR, limma, statsmodels)
 
-- Genomics, Transcriptomics, Proteomics, and Epigenomics
+- Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
+
+- Genomics (WGS, WES, genotyping), Transcriptomics (bulk and single cell RNA-Seq), Proteomics (MS/MS), and Epigenomics (ATAC-Seq, ChIP-Seq, Cut & Run)
 
 - Linkage analysis, QTL mapping, and GWAS
+
+## Research Interests
+
+- Disease Genetics (Cancer, Cardiomyopathy, Diabetes, ...)
+
+- Multiomics 
+
+- Machine Learning, Deep Learning, and AI 4 Drug Discovery
 
 ## Certifications
 
