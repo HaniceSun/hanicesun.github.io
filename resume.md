@@ -3,6 +3,7 @@
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 - <hansun@stanford.edu>
+- 408-800-1190
 - [LinkedIn](https://www.linkedin.com/in/sunhanice/)
 - [GitHub](https://github.com/HaniceSun)
 - 3165 Porter Drive, Palo Alto, CA 94304
@@ -33,58 +34,65 @@ University of Chinese Academy of Sciences, **Prof. Yixue Li** and **Prof. Lu Xie
 
 East China Normal University
 
-## Projects
+## Skills
 
-- **Splicing-mediated transcript fusion and oncogene activation in multiple cancers**
+- Python, R, C, Rust, git, and Linux (command line)
 
-    - Designed the project with an idea to explore splice-mediated gene fusion events in cancer patients.
+- High performance computing (slurm) and containerization (docker and singularity) 
 
-    - Reanalyzed both whole exome sequencing (WES) and RNA-Seq data from over 10,000 patients across 33 cancer types from the TCGA project using a negative binomial-based generalized linear model.
+- Cloud computing (AWS and GCP) and workflow management (Snakemake and Nextflow)
 
-    - Discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion), including the CDKN1A-RAB44 event in bladder, stomach, and skin cancers.
+- Bioinformatics (blast, bwa, samtools, STAR, featureCounts, GATK, plink, seurat, scanpy)
 
-    - Collaborated with other labs to validate the finding using CRISPR/Cas9 editing, RT-PCR, Sanger sequencing, qPCR, RNA-Seq, and phoenotyping assays. Analyzed the data and interpreted the results.
-
-    - Prepared the manuscript. Proposed a splicing-mediated readthrough stabilization (SRS) model as a novel mechanism for oncogene activation.
-
-- **RNA-binding protein RBM20-deficient dilated cardiomyopathy**
-
-
-Starting with a family affected by dilated cardiomyopathy, I analyzed whole exome sequencing (WES) and whole genome sequencing (WGS) data from the family members and identified a suspicious missense mutation in RBM20 through linkage analysis. Given that RBM20 is an RNA-binding protein, I further identified its splicing targets using RNA-Seq data from humans and pigs. We validated this finding by performing CRISPR/Cas9 editing in human induced pluripotent stem (iPS) cells and differentiating them into cardiomyocytes. By integrating gene expression data from thousands of tissues in the GTEx project, I proposed a model for the tissue-specific splicing of a mitochondrial inner membrane protein, IMMT, suggesting a molecular link between energy supply deficiencies and dilated cardiomyopathy.
-
-- **Mutation and regulatory elements underlying neonatal diabetes**
-
-By analyzing whole genome sequencing (WGS) and array-based genotyping data from mice, I identified a suspicious intronic mutation that correlates with neonatal diabetes. We validated that the mutation causes diabetes by introducing it into both B6 and NOD mice using CRISPR/Cas9 editing. I proposed a mechanism where the mutation creates a novel splice site, resulting in a longer transcript but truncated protein, which has been verified. We are now working with bulk and single-cell data (scRNA-Seq and scATAC-Seq) throughout development to investigate additional regulatory elements and understand why the phenotype is specific to the pancreas. I am also working on large-scale QTL mapping (eQTL, caQTL, and pQTL) on multiomics datasets of human islets to study the genetic architecture of diabetes.
-
-- **Applying machine learning/deep learning in omics data**
-
-    - Evaluated machine learning models (Random Forrest, XGBoost, SVM, etc.) in predicting ancestry from genotyping data.
-    
-    - Developed deep learning models (CNN, ResNet, GPT backbone with attention) in predicting selenocysteine and tissue-specific splicing from DNA sequences.
-
-## Scientific Skills
-
-- Python, R, C, git, Linux, and High Performance Computing
-
-- Workflow (Snakemake and Nextflow)
-
-- Cloud computing (AWS and GCP)
-
-- Bioinformatics (blast, bwa, STAR, featureCounts, samtools, GATK, plink, seurat, scanpy) and Biostatistics (DESeq2, edgeR, limma, statsmodels)
+- Biostatistics (significance tests, confidence interval, power calculation, bayesian inference, DESeq2, statsmodels)
 
 - Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
 
-- Genomics (WGS, WES, genotyping), Transcriptomics (bulk and single cell RNA-Seq), Proteomics (MS/MS), and Epigenomics (ATAC-Seq, ChIP-Seq, Cut & Run)
+- Multiomics: Genomics (WGS, WES, genotyping), Transcriptomics (bulk and single cell RNA-Seq, long reads), Proteomics (MS/MS), and Epigenomics (ATAC-Seq, ChIP-Seq). Linkage analysis, QTL and GWAS.
 
-- Linkage analysis, QTL mapping, and GWAS
+## Projects
 
-## Research Interests
+### Splicing-mediated transcript fusion and oncogene activation in multiple cancers
 
-- Disease Genetics (Cancer, Cardiomyopathy, Diabetes, ...)
+- Designed the project to explore splicing-mediated gene fusion events in cancer patients.
 
-- Multiomics 
+- Reanalyzed both whole exome sequencing (WES) and RNA-Seq data from over 10,000 patients across 33 cancer types from the TCGA project using a negative binomial-based generalized linear model.
 
-- Machine Learning, Deep Learning, and AI 4 Drug Discovery
+- Discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion), including the CDKN1A-RAB44 hit in bladder, stomach, and skin cancers.
+
+- Lead the collabration with other labs to validate the finding using CRISPR/Cas9 editing, RT-PCR, Sanger sequencing, qPCR, RNA-Seq, and phoenotyping assays.
+
+- Analyzed the data, interpreted the results, and prepared the manuscript. Proposed a splicing-mediated readthrough stabilization (SRS) model as a novel mechanism for oncogene activation.
+
+### RNA-binding protein RBM20-deficient dilated cardiomyopathy
+
+- Identified a suspicious missense mutation in RBM20 through linkage analysis in a family affected by dilated cardiomyopathy by analyzing whole exome sequencing (WES) and whole genome sequencing (WGS) data.
+
+- Identified splicing targets of RBM20 using RNA-Seq data from humans and pigs given that RBM20 is an RNA-binding protein.
+
+- Collaborated with collegues to validate the mutation using CRISPR/Cas9 editing in human induced pluripotent stem (iPS) cells and differentiating them into cardiomyocytes.
+
+- By applying drug repositioning strategy in the data from the Integrated Network-based Cellular Signatures (LINCS) project, we nominated compounds, retinoic acid and cardiac glycoside, that can potentially rescue the phenotype.
+
+- By integrating gene expression data from thousands of tissues in the The Genotype-Tissue Expression (GTEx) project, I proposed a model for the tissue-specific splicing of a mitochondrial inner membrane protein, IMMT, suggesting a molecular link between energy supply deficiencies and dilated cardiomyopathy.
+
+### Mutation and regulatory elements underlying neonatal diabetes
+
+- Identified a suspicious intronic mutation in neonatal diabetes by analyzing whole genome sequencing (WGS) and array-based genotyping data from mice.
+
+- Collaborated with collegues to validate the mutation is causing diabetes by introducing it into both B6 and NOD mice using CRISPR/Cas9 editing.
+
+- Proposed a mechanism where the mutation creates a novel splice site, resulting in a longer transcript but truncated protein, which has been verified.
+
+- Working with bulk and single-cell data (scRNA-Seq and scATAC-Seq) throughout development to investigate additional regulatory elements and understand why the phenotype is specific to the pancreas.
+
+- Working on large-scale QTL mapping (eQTL, caQTL, and pQTL) on multiomics datasets of human islets to study the genetic architecture of diabetes.
+
+### Applying machine learning/deep learning in omics data
+
+- Applied machine learning models (Random Forrest, XGBoost, SVM, etc.) in predicting ancestry from genotyping data.
+
+- Developed deep learning models (CNN, ResNet, GPT backbone with attention) in predicting selenocysteine and tissue-specific splicing from DNA sequences.
 
 ## Certifications
 
