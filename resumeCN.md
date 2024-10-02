@@ -51,17 +51,19 @@ hand -->
 
 ## 科研技能
 
-- Python, R, C, Linux, Git, scikit-learn, and Tensorflow
+- Python, R, C, git, conda, slurm, Linux, and cloud computing (AWS and GCP)
 
-- Bioinformatics and Biostatistics
+- containerization (docker and singularity) and workflow management (Snakemake and Nextflow)
 
-- Machine Learning and Deep Learning
+- Bioinformatics (blast, bwa, samtools, STAR, featureCounts, GATK, plink, seurat, scanpy)
 
-- Genomics, Transcriptomics, Proteomics, and Epigenomics (bulk and single cell)
+- Biostatistics (hypothesis testing, confidence interval, power calculation, bayesian inference, DESeq2, statsmodels)
 
-- Linkage analysis and QTL mapping
+- Visualization (matplotlib, seaborn, plotly, ggplot2, shiny for python)
 
-- Genome-wide association study (GWAS) and genetic risk score (GRS)
+- Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
+
+- Multiomics: Genomics (WGS, WES, genotyping), Transcriptomics (bulk and single cell RNA-Seq, long reads), Proteomics (MS/MS), and Epigenomics (ATAC-Seq, ChIP-Seq). Linkage analysis, QTL, and GWAS.
 
 ## 访学经历
 
