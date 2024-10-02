@@ -35,15 +35,15 @@ East China Normal University
 
 ## Skills
 
-- Python, R, C, vi, markdown, and version control (git)
-
-- Linux (command line), high performance computing (slurm), and cloud computing (AWS and GCP)
+- Python, R, C, git, Linux (command line), high performance computing (slurm), and cloud computing (AWS and GCP)
 
 - containerization (docker and singularity) and workflow management (Snakemake and Nextflow)
 
 - Bioinformatics (blast, bwa, samtools, STAR, featureCounts, GATK, plink, seurat, scanpy)
 
 - Biostatistics (significance tests, confidence interval, power calculation, bayesian inference, DESeq2, statsmodels)
+
+- Visualization (matplotlib, seaborn, plotly, ggplot2, shiny for python)
 
 - Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
 
