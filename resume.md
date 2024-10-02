@@ -41,7 +41,7 @@ East China Normal University
 
 - Bioinformatics (blast, bwa, samtools, STAR, featureCounts, GATK, plink, seurat, scanpy)
 
-- Biostatistics (significance tests, confidence interval, power calculation, bayesian inference, DESeq2, statsmodels)
+- Biostatistics (hypothesis testing, confidence interval, power calculation, bayesian inference, DESeq2, statsmodels)
 
 - Visualization (matplotlib, seaborn, plotly, ggplot2, shiny for python)
 
