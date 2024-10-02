@@ -35,7 +35,7 @@ East China Normal University
 
 ## Skills
 
-- Python, R, C, git, slurm, Linux, and cloud computing (AWS and GCP)
+- Python, R, C, git, conda, slurm, Linux, and cloud computing (AWS and GCP)
 
 - containerization (docker and singularity) and workflow management (Snakemake and Nextflow)
 
