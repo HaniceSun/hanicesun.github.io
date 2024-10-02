@@ -2,7 +2,7 @@
 # 孙 涵, 博士
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
-- <hansun@stanford.com>
+- <hansun@stanford.edu>
 - 出生: 1985年10月 
 - 性别: 男
 - 籍贯: 江苏 盐城
@@ -81,6 +81,22 @@ hand -->
 
 1. Francesca Briganti, **Han Sun**, Wu Wei, Jingyan Wu, Chenchen Zhu, Martin Liss, Ioannis Karakikes et al. "iPSC Modeling of RBM20-Deficient DCM Identifies Upregulation of RBM20 as a Therapeutic Strategy." <u>Cell Reports</u> 32, no. 10 (2020): 108117, **co-first author**.
 
+1. **Han Sun**, Seth A Sharp,  Nicole A J Krentz, Anna Gloyn et al., "Deep learning prediction of selenocystine element and its application in diabetes and cancers", in preparation.
+
+1. Kolic, Jelena, WenQing Grace Sun, Haoning Howard Cen, Jessica D. Ewald, Jason C. Rogalski, Shugo Sasaki, **Han Sun**, et al. "Proteomic predictors of individualized nutrient-specific insulin secretion in health and disease." <u>Cell Metabolism</u> 36, no. 7 (2024): 1619-1633.
+
+1. Rottner, Antje K., Yingying Ye, Elena Navarro-Guerrero, Varsha Rajesh, Alina Pollner, **Han Sun**, Romina J. Bevacqua, Jing Yang et al. "A genome-wide CRISPR screen identifies CALCOCO2 as a regulator of beta cell function influencing type 2 diabetes risk." <u>Nature Genetics</u> 55, no. 1 (2023): 54-65.
+
+1. Lau, Hwee Hui, Nicole AJ Krentz, Fernando Abaitua, Marta Perez-Alcantara, **Han Sun**, Jun-Wei Chan, Jila Ajeian, Soumita Ghosh et al. "PAX4 loss of function increases diabetes risk by altering human pancreatic endocrine cell development." <u>Nature Communications</u> 14, no. 1 (2023): 6119.
+
+1. Mattis, Katia K., Nicole AJ Krentz, Christoph Metzendorf, Fernando Abaitua, Aliya F. Spigelman, **Han Sun**, Jennifer M. Ikle et al. "Loss of RREB1 in pancreatic beta cells reduces cellular insulin content and affects endocrine cell gene expression." <u>Diabetologia</u> 66, no. 4 (2023): 674-694.
+
+1. Cortez, Briana N., Hui Pan, Samuel Hinthorn, **Han Sun**, Nicola Neretti, Anna L. Gloyn, and Cristina Aguayo-Mazzucato. "Heterogeneity of increased biological age in type 2 diabetes correlates with differential tissue DNA methylation, biological variables, and pharmacological treatments." <u>GeroScience</u> (2023): 1-21.
+
+1. Torres, Jason M., **Han Sun**, Vibe Nylander, Damien J. Downes, Martijn van de Bunt, Mark I. McCarthy, Jim R. Hughes, and Anna L. Gloyn. "Inferring causal genes at type 2 diabetes GWAS loci through chromosome interactions in islet cells." <u>Wellcome Open Research</u> 8 (2023).
+
+1. Alghamdi, Tamadher A., Nicole AJ Krentz, Nancy Smith, Aliya F. Spigelman, Varsha Rajesh, Alokkumar Jha, **Han Sun**, Mourad Ferdaoussi et al. "Zmiz1 is required for mature β-cell function and mass expansion upon high fat feeding." <u>Molecular Metabolism</u> 66 (2022): 101621.
+
 1. Chenchen Zhu, Jingyan Wu, **Han Sun**, Francesca Briganti, Benjamin Meder, Wu Wei, and Lars M. Steinmetz. "Single-molecule, full-length transcript isoform sequencing reveals disease-associated RNA isoforms in cardiomyocytes." <u>Nature Communications</u> 12, no. 1 (2021): 1-9.
 
 1. Benedikt Rauscher, William F Mueller, Sandra Clauder-Münster, Petra Jakob, M Saiful Islam, **Han Sun**, Sonja Ghidelli-Disse, Markus Boesche, Marcus Bantscheff, Hannah Pflaumer, Paul Collier, Bettina Haase, Songjie Chen, Rene Hoffman, Guangwen Wang, Vladimir Benes, Gerard Drewes, Michael Snyder, Lars M Steinmetz. "Patient-derived gene and protein expression signatures of NGLY1 deficiency", <u>Journal of Biochemistry</u>, 2021
@@ -89,17 +105,17 @@ hand -->
 
 1. Jay W Schneider, Saji Oommen, Muhammad Y Qureshi, Sean C Goetsch, Rhianna S Sundsbak, Wei Guo, Mingming Sun, **Han Sun**, Dennis A Webster, Alex W Coutts, Francesca Briganti, Wu Wei, Lars Steinmetz, Daniel F Carlson, and Timothy J. Nelson et al. "Dysregulated ribonucleoprotein granules promote cardiomyopathy in RBM20 gene-edited pigs", <u>Nature Medicine</u> (2020): 1-13.
 
-1. Arne H. Smits, Frederik Ziebell, Gerard Joberty Nico Zinn, William F. Mueller, Sandra Clauder-Munster, Paola Grandi, Petra Jakob, Anne-Marie Michon, **Hanice Sun**, Karen Tessmer, Tilmann Burckstummer, Marcus Bantscheff, Lars M. Steinmetz, Gerard Drewes, and Wolfgang Huber. "Biological plasticity rescues target activity in CRISPR knock outs.", <u>Nature Methods</u> 2019 Oct 28:1-7.
-
 1. William F. Mueller, Petra Jakob, **Han Sun**, Sandra Clauder-Münster, Sonja Ghidelli-Disse, Diana Ordonez, Markus Boesche, Marcus Bantscheff, Paul Collier, Bettina Haase, Vladimir Benes, Malte Paulsen, Peter Sehr, Joe Lewis, Gerard Drewes, Lars M. Steinmetz. "Loss of N-glycanase 1 Alters Transcriptional and Translational Regulation in K562 Cell Lines." <u>G3: Genes, Genomes, Genetics</u> (2020).
 
-1. Lun Suo, Yu Xiao Zhou, Li Ling Jia, Hai Bo Wu, Jin Zheng, Qi Feng Lyu, Li Hua Sun, **Han Sun**, and Yan Ping Kuang. 2018. "Transcriptome Profiling of Human Oocytes Experiencing Recurrent Total Fertilization Failure." <u>Scientific Reports</u> 8 (1): 17890.
+1. Arne H. Smits, Frederik Ziebell, Gerard Joberty Nico Zinn, William F. Mueller, Sandra Clauder-Munster, Paola Grandi, Petra Jakob, Anne-Marie Michon, **Hanice Sun**, Karen Tessmer, Tilmann Burckstummer, Marcus Bantscheff, Lars M. Steinmetz, Gerard Drewes, and Wolfgang Huber. "Biological plasticity rescues target activity in CRISPR knock outs.", <u>Nature Methods</u> 2019 Oct 28:1-7.
 
-1. **Han Sun**, Chen Chen, Baofeng Lian, Menghuan Zhang, Xiaojing Wang, Bing Zhang, Yixue Li, Pengyuan Yang, and Lu Xie. 2015. "Identification of HPV Integration and Gene Mutation in HeLa Cell Line by Integrated Analysis of RNA-Seq and MS/MS Data." <u>Journal of Proteome Research</u> 14 (4): 1678–86.
+1. Suo, Lun, Yu Xiao Zhou, Li Ling Jia, Hai Bo Wu, Jin Zheng, Qi Feng Lyu, Li Hua Sun, **Han Sun**, and Yan Ping Kuang. "Transcriptome profiling of human oocytes experiencing recurrent total fertilization failure." <u>Scientific Reports</u> 8, no. 1 (2018): 17890.
 
-1. **Han Sun**, Chen Chen, Meng Shi, Dandan Wang, Mingwei Liu, Daixi Li, Pengyuan Yang, Yixue Li, and Lu Xie. 2014. "Integration of Mass Spectrometry and RNA-Seq Data to Confirm Human Ab Initio Predicted Genes and lncRNAs." <u>Proteomics</u> 14 (23-24): 2760–68.
+1. **Han Sun**, Chen Chen, Baofeng Lian, Menghuan Zhang, Xiaojing Wang, Bing Zhang, Yixue Li, Pengyuan Yang, and Lu Xie. 2015. "Identification of HPV Integration and Gene Mutation in HeLa Cell Line by Integrated Analysis of RNA-Seq and MS/MS Data." <u>Journal of Proteome Research</u> 14 (4): 1678–86, **co-first author**.
 
-1. **Han Sun**, Xiaobin Xing, Jing Li, Fengli Zhou, Yunqin Chen, Ying He, Wei Li, et al. 2013. "Identification of Gene Fusions from Human Lung Cancer Mass Spectrometry Data." <u>BMC Genomics</u> 14 Suppl 8 (December): S5.
+1. **Han Sun**, Chen Chen, Meng Shi, Dandan Wang, Mingwei Liu, Daixi Li, Pengyuan Yang, Yixue Li, and Lu Xie. 2014. "Integration of Mass Spectrometry and RNA-Seq Data to Confirm Human Ab Initio Predicted Genes and lncRNAs." <u>Proteomics</u> 14 (23-24): 2760–68, **co-first author**.
+
+1. **Han Sun**, Xiaobin Xing, Jing Li, Fengli Zhou, Yunqin Chen, Ying He, Wei Li, et al. 2013. "Identification of Gene Fusions from Human Lung Cancer Mass Spectrometry Data." <u>BMC Genomics</u> 14 Suppl 8 (December): S5, **co-first author**.
 
 1. Zhen-Hao Liu, Bao-Feng Lian, Qiong-Zhu Dong, **Han Sun**, Jin-Wang Wei, Yuan-Yuan Sheng, Wei Li, et al. 2018. "Whole-Exome Mutational and Transcriptional Landscapes of Combined Hepatocellular Cholangiocarcinoma and Intrahepatic Cholangiocarcinoma Reveal Molecular Diversity." <u>Biochimica et Biophysica Acta</u> 1864 (6 Pt B): 2360–68.
 

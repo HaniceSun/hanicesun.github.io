@@ -100,6 +100,6 @@ if __name__ == "__main__":
     mdresume = markdownResume(prefix='resumeCN', html_output='', pdf_output='ResumeCN_HanSun.pdf')
     mdresume.make_html()
     mdresume.html_to_pdf()
-    #mdresume.push_to_github()
+    mdresume.push_to_github()
 
 
