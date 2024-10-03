@@ -51,11 +51,11 @@ hand -->
 
 ## 科研技能
 
-- Python, R, C, git, conda, slurm, Linux, and cloud computing (AWS and GCP)
+- Python, R, C, git, conda, slurm, Linux, HPC, and cloud computing (AWS and GCP)
 
 - containerization (docker and singularity) and workflow management (Snakemake and Nextflow)
 
-- Bioinformatics (blast, bwa, samtools, STAR, featureCounts, GATK, plink, seurat, scanpy)
+- Bioinformatics (blast, plink, bwa, samtools, STAR, featureCounts, GATK, seurat, scanpy)
 
 - Biostatistics (hypothesis testing, confidence interval, power calculation, bayesian inference, DESeq2, statsmodels)
 
