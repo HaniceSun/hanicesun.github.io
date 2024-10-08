@@ -1,1 +1,3 @@
-## Han's markdown resume repo
+## Han's resume
+
+markdown -> html -> pdf
