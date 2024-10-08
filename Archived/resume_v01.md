@@ -5,7 +5,7 @@ line. It is intended to be used for contact details -->
 - <hansun@stanford.edu>
 - [LinkedIn](https://www.linkedin.com/in/sunhanice/)
 - [GitHub](https://github.com/HaniceSun)
-- 3165 Porter Drive, Palo Alto, CA 94304
+- 408-800-1190
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
