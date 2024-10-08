@@ -57,15 +57,15 @@ East China Normal University
 
 - Reanalyzed both whole exome sequencing (WES) and RNA-Seq data from over 10,000 patients across 33 cancer types from the TCGA project using a negative binomial-based generalized linear model.
 
-- Discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion), including the CDKN1A-RAB44 hit in bladder, stomach, and skin cancers.
+- Discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion), including the recurrent CDKN1A-RAB44 hit in bladder, stomach, and skin cancers.
 
-- Lead the collabration with other labs to validate the finding using CRISPR/Cas9 editing, RT-PCR, Sanger sequencing, qPCR, RNA-Seq, and phoenotyping assays.
+- Lead the collaboration with other labs to validate the finding using CRISPR/Cas9 editing, RT-PCR, Sanger sequencing, qPCR, RNA-Seq, and phenotyping assays.
 
 - Analyzed the data, interpreted the results, and prepared the manuscript. Proposed a splicing-mediated readthrough stabilization (SRS) model as a novel mechanism for oncogene activation.
 
 ### RNA-binding protein RBM20-deficient dilated cardiomyopathy
 
-- Identified a suspicious missense mutation in RBM20 through linkage analysis in a family affected by dilated cardiomyopathy through analyzing whole exome sequencing (WES) and whole genome sequencing (WGS) data.
+- Identified a suspicious missense mutation in RBM20 via linkage analysis in a family affected by dilated cardiomyopathy through analyzing whole exome sequencing (WES) and whole genome sequencing (WGS) data.
 
 - Identified splicing targets of RBM20 using RNA-Seq data from humans and pigs given that RBM20 is an RNA-binding protein.
 
@@ -79,11 +79,11 @@ East China Normal University
 
 - Identified a suspicious intronic mutation in neonatal diabetes by analyzing whole genome sequencing (WGS) and array-based genotyping data from mice.
 
-- Collaborated with colleagues to validate the mutation is causing diabetes by introducing it into both B6 and NOD mice using CRISPR/Cas9 editing.
+- Collaborated with colleagues to successfully validate that the mutation is causing diabetes by introducing it into both B6 and NOD mice using CRISPR/Cas9 editing.
 
-- Proposed a mechanism where the mutation creates a novel splice site, resulting in a longer transcript but truncated protein, which has been verified.
+- Proposed a mechanism where the mutation creates a novel splice site, resulting in a longer transcript but truncated protein, which has been verified as well by RT-PCR.
 
-- Working with bulk and single-cell data (scRNA-Seq and scATAC-Seq) throughout development to investigate additional regulatory elements and understand why the phenotype is specific to the pancreas.
+- Working with bulk and single-cell data (scRNA-Seq and scATAC-Seq) throughout development to investigate potential extra regulatory elements and understand why the phenotype is specific to the pancreas.
 
 - Working on large-scale QTL mapping (eQTL, caQTL, and pQTL) on multiomics datasets of human islets to study the genetic architecture of diabetes.
 
@@ -91,7 +91,7 @@ East China Normal University
 
 - Applied machine learning models (Random Forrest, XGBoost, SVM, etc.) to predict ancestry from genotyping data.
 
-- Developed deep learning models (CNN, ResNet, GPT backbone with attention) in predicting selenocysteine and tissue-specific splicing from DNA sequences.
+- Developed deep learning models (CNN, ResNet, GPT, Llama2) in predicting selenocysteine and tissue-specific splicing from DNA sequences.
 
 ## Certifications
 
