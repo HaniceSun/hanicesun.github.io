@@ -1,10 +1,7 @@
 #!/usr/bin/env python
-import os
-import sys
-import base64
-import tempfile
-import markdown
 import subprocess
+import markdown
+import base64
 
 class markdownResume:
     def __init__(self, prefix='resume', html_output='index.html', pdf_output='Resume_HanSun.pdf'):
@@ -18,7 +15,7 @@ class markdownResume:
         self.pdf_output = pdf_output
 
         self.preamble = """\
-        <html lang="en">
+                <html lang="en">
         <head>
         <meta charset="UTF-8">
         <title>{title}</title>
@@ -31,7 +28,7 @@ class markdownResume:
         """
 
         self.postamble = """\
-        </div>
+                </div>
         </body>
         </html>
         """
@@ -41,12 +38,12 @@ class markdownResume:
         self._get_title()
 
         self.html = ''.join(
-            (
-                self.preamble.format(title=self.title, css=self.css),
-                markdown.markdown(self.md, extensions=["smarty"]),
-                self.postamble,
-            )
-        )
+                (
+                    self.preamble.format(title=self.title, css=self.css),
+                    markdown.markdown(self.md, extensions=["smarty"]),
+                    self.postamble,
+                    )
+                )
 
         if self.html_output:
             with open(f'{self.html_output}', 'w') as ouFile:
@@ -55,24 +52,20 @@ class markdownResume:
     def html_to_pdf(self):
         html64 = base64.b64encode(self.html.encode("utf-8"))
         options = [
-            "--headless",
-            "--no-pdf-header-footer",
-            "--disable-gpu",
-        ]
-
-        tmpdir = tempfile.TemporaryDirectory(prefix=self.prefix + '_')
-        options.append(f"--crash-dumps-dir={tmpdir.name}")
-        options.append(f"--user-data-dir={tmpdir.name}")
+                "--headless",
+                "--no-pdf-header-footer",
+                "--disable-gpu",
+                ]
 
         try:
             sp = subprocess.run(
-                [
-                    self.chrome,
-                    *options,
-                    f"--print-to-pdf={self.pdf_output}",
-                    "data:text/html;base64," + html64.decode("utf-8"),
-                ], timeout=3, capture_output=True
-            )
+                    [
+                        self.chrome,
+                        *options,
+                        f"--print-to-pdf={self.pdf_output}",
+                        "data:text/html;base64," + html64.decode("utf-8"),
+                        ], timeout=3, capture_output=True
+                    )
         except:
             pass
 
@@ -88,7 +81,7 @@ class markdownResume:
         raise ValueError("Cannot find any lines that look like markdown headings")
 
     def push_to_github(self):
-        os.system(f'git add .; git commit -m hanice; git push origin master')
+        subprocess.call(f'git add .; git commit -m hanice; git push origin master', shell=True)
 
 
 if __name__ == "__main__":
