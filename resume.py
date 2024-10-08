@@ -14,8 +14,8 @@ class markdownResume:
         self.html_output = html_output
         self.pdf_output = pdf_output
 
-        self.preamble = """\
-                <html lang="en">
+        self.preamble = """ \
+        <html lang="en">
         <head>
         <meta charset="UTF-8">
         <title>{title}</title>
@@ -27,8 +27,8 @@ class markdownResume:
         <div id="resume">
         """
 
-        self.postamble = """\
-                </div>
+        self.postamble = """ \
+        </div>
         </body>
         </html>
         """
