@@ -67,9 +67,9 @@ East China Normal University
 
 - Identified a suspicious missense mutation in RBM20 via linkage analysis in a family affected by dilated cardiomyopathy through analyzing whole exome sequencing (WES) and whole genome sequencing (WGS) data.
 
-- Identified splicing targets of RBM20 using RNA-Seq data from humans and pigs given that RBM20 is an RNA-binding protein.
-
 - Collaborated with colleagues to validate the mutation using CRISPR/Cas9 editing in human induced pluripotent stem (iPS) cells and differentiating them into cardiomyocytes.
+
+- Identified splicing targets of RBM20 using RNA-Seq data from humans and pigs given that RBM20 is an RNA-binding protein.
 
 - By applying drug repositioning strategy in thousands of compounds from the Integrated Network-based Cellular Signatures (LINCS) project, we nominated retinoic acid and cardiac glycoside that may potentially rescue the phenotype.
 
