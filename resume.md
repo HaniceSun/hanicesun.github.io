@@ -1,19 +1,11 @@
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
 # Han Sun, PhD
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
+
 - <hansun@stanford.edu>
 - [LinkedIn](https://www.linkedin.com/in/sunhanice/)
 - [GitHub](https://github.com/HaniceSun)
 - 408-800-1190
 
-<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
-is intended to be used for a short summary. -->
-
 ## Experience
-
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
 
 ### <span>Research Scientist/Senior Computational Biologist</span> <span>2020 -- </span>
 
