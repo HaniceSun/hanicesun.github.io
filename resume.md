@@ -49,7 +49,7 @@ East China Normal University
 
 - Reanalyzed both whole exome sequencing (WES) and RNA-Seq data from over 10,000 patients across 33 cancer types from the TCGA project using a negative binomial-based generalized linear model.
 
-- Discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion), including the recurrent CDKN1A-RAB44 hit in bladder, stomach, and skin cancers.
+- Discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion), including the recurrent tumor-specific CDKN1A-RAB44 hit in bladder, stomach, and skin cancers.
 
 - Lead the collaboration with other labs to validate the finding using CRISPR/Cas9 editing, RT-PCR, Sanger sequencing, qPCR, RNA-Seq, and phenotyping assays.
 
