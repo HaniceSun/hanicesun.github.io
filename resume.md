@@ -35,7 +35,7 @@ East China Normal University
 
 - Biostatistics (hypothesis testing, confidence interval, power calculation, bayesian inference, DESeq2, statsmodels)
 
-- Visualization (matplotlib, seaborn, plotly, ggplot2, shiny)
+- Datasets (TCGA, CCLE, TARGET, CPTAC, GTEx, ENCODE, 1000 Genomes, All of Us, UK Biobank, GEO, SRA, EGA, dbGaP)
 
 - Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
 
