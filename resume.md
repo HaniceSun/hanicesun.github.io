@@ -105,7 +105,7 @@ East China Normal University
 
 1. Kolic, Jelena, WenQing Grace Sun, Haoning Howard Cen, Jessica D. Ewald, Jason C. Rogalski, Shugo Sasaki, **Han Sun**, et al. "Proteomic predictors of individualized nutrient-specific insulin secretion in health and disease." <u>Cell Metabolism</u> 36, no. 7 (2024): 1619-1633.
 
-1. Ewald, Jessica D., Yao Lu, Cara E. Ellis, Jessica Worton, Jelena Kolic, Han Sun, Shugo Sasaki, Dahai Zhang et al. "HumanIslets. com: Improving accessibility, integration, and usability of human research islet data." <u>Cell Metabolism</u> (2024).
+1. Ewald, Jessica D., Yao Lu, Cara E. Ellis, Jessica Worton, Jelena Kolic, **Han Sun**, Shugo Sasaki, Dahai Zhang et al. "HumanIslets. com: Improving accessibility, integration, and usability of human research islet data." <u>Cell Metabolism</u> (2024).
 
 1. Rottner, Antje K., Yingying Ye, Elena Navarro-Guerrero, Varsha Rajesh, Alina Pollner, **Han Sun**, Romina J. Bevacqua, Jing Yang et al. "A genome-wide CRISPR screen identifies CALCOCO2 as a regulator of beta cell function influencing type 2 diabetes risk." <u>Nature Genetics</u> 55, no. 1 (2023): 54-65.
 
