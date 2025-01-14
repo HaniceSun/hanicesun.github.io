@@ -35,7 +35,7 @@ East China Normal University
 
 - Biostatistics (hypothesis testing, confidence interval, power calculation, bayesian inference, DESeq2, statsmodels)
 
-- Datasets (TCGA, CCLE, TARGET, CPTAC, GTEx, ENCODE, All of Us, UK Biobank, GEO, SRA, EGA, dbGaP)
+- Datasets (Ensembl, dbSNP, gnomAD, GTEx, COSMIC, TCGA, CPTAC, ENCODE, GEO, SRA, EGA, dbGaP, All of Us, UK Biobank)
 
 - Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
 
