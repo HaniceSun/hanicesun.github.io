@@ -29,7 +29,7 @@ East China Normal University
 
 - Python, R, C, Java, git, conda, slurm, Linux, HPC, and cloud computing (AWS and GCP)
 
-- Containerization (Docker and Apptainer) and workflow management (Snakemake and Nextflow)
+- Containerization (Docker and Singularity) and workflow management (Snakemake and Nextflow)
 
 - Bioinformatics (blast, plink, bwa, samtools, STAR, featureCounts, GATK, seurat, scanpy)
 
