@@ -27,7 +27,7 @@ East China Normal University
 
 ## Skills
 
-- Python, R, C, Java, git, conda, slurm, Linux, HPC, and cloud computing (AWS and GCP)
+- Python, R, C, git, conda, slurm, Linux, HPC, and cloud computing (AWS and GCP)
 
 - Containerization (Docker and Singularity) and workflow management (Snakemake and Nextflow)
 
@@ -37,9 +37,13 @@ East China Normal University
 
 - Datasets (Ensembl, dbSNP, gnomAD, GTEx, COSMIC, TCGA, ENCODE, GEO, SRA, EGA, dbGaP, All of Us)
 
-- Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
+- Multiomics: Genomics - whole genome sequencing (WGS), whole exome sequencing (WES), genotyping (genotyping array); Transcriptomics - bulk and single cell RNA-Seq, long reads sequencing (PacBio/Nanopore);
 
-- Multiomics: Genomics (WGS, WES, genotyping), Transcriptomics (bulk and single cell RNA-Seq, long reads), Proteomics (MS/MS), and Epigenomics (ATAC-Seq, WGBS, ChIP-Seq). Linkage analysis, QTL, and GWAS.
+Proteomics - Label-free and Labelled tandem mass spectrometry (MS/MS); Epigenomics - bulk and single nucleus ATAC-Seq (chromatin accessibility), whole genome bisulfite sequencing and methylation array (methylation status), ChIP-Seq/CUT&RUN (transcription factor binding)
+
+- Linkage analysis, quantitative trait locus mapping (QTL), genome-wide association studies (GWAS), imputation, fine-mapping and colocalization
+
+- Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
 
 ## Projects
 
