@@ -105,6 +105,10 @@ East China Normal University
 
 1. **Han Sun**, Seth A Sharp,  Nicole A J Krentz, Anna Gloyn et al., "Deep learning prediction of selenocystine element and its application in diabetes", in preparation, **co-first author**.
 
+1. de Winter, Twan JJ, Miha Sovrovic, Esmee Dekker, Natascha de Graaf, **Han Sun**, James D. Johnson, Anna L. Gloyn, Francoise Carlotti, Eelco JP de Koning, and Anna Alemany. "Cell type-specific eQTL detection from single-cell RNA-seq reveals post-transcriptional regulatory mechanisms in human islets." bioRxiv (2025): 2025-01.
+
+1. Evans-Molina, Carmella, Yasminye D. Pettway, Diane C. Saunders, Seth A. Sharp, Thomas SR Bate, **Han Sun**, Heather Durai et al. "Heterogeneous endocrine cell composition defines human islet functional phenotypes." bioRxiv (2024): 2024-11.
+
 1. Kolic, Jelena, WenQing Grace Sun, Haoning Howard Cen, Jessica D. Ewald, Jason C. Rogalski, Shugo Sasaki, **Han Sun**, et al. "Proteomic predictors of individualized nutrient-specific insulin secretion in health and disease." <u>Cell Metabolism</u> 36, no. 7 (2024): 1619-1633.
 
 1. Ewald, Jessica D., Yao Lu, Cara E. Ellis, Jessica Worton, Jelena Kolic, **Han Sun**, Shugo Sasaki, Dahai Zhang et al. "HumanIslets. com: Improving accessibility, integration, and usability of human research islet data." <u>Cell Metabolism</u> (2024).
