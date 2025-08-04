@@ -105,6 +105,8 @@ East China Normal University
 
 1. **Han Sun**, Seth A Sharp,  Nicole A J Krentz, Anna Gloyn et al., "Deep learning prediction of selenocystine element and its application in diabetes", in preparation, **co-first author**.
 
+1. Russ-Silsby, James, Yunkyeong Lee, Varsha Rajesh, **Han Sun**, Mahsa Amoli, Nasser Ali Mirhosseini, Tushar Godbole, Matthew B. Johnson et al. "Complete Loss of PAX4 causes Transient Neonatal Diabetes in Humans." Molecular Metabolism (2025): 102201.
+
 1. de Winter, Twan JJ, Miha Sovrovic, Esmee Dekker, Natascha de Graaf, **Han Sun**, James D. Johnson, Anna L. Gloyn, Francoise Carlotti, Eelco JP de Koning, and Anna Alemany. "Cell type-specific eQTL detection from single-cell RNA-seq reveals post-transcriptional regulatory mechanisms in human islets." bioRxiv (2025): 2025-01.
 
 1. Evans-Molina, Carmella, Yasminye D. Pettway, Diane C. Saunders, Seth A. Sharp, Thomas SR Bate, **Han Sun**, Heather Durai et al. "Heterogeneous endocrine cell composition defines human islet functional phenotypes." bioRxiv (2024): 2024-11.
