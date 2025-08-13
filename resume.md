@@ -39,7 +39,7 @@ East China Normal University
 
 - Multiomics: Genomics - whole genome sequencing (WGS), whole exome sequencing (WES), genotyping (genotyping array); Transcriptomics - bulk and single cell RNA-Seq (10x Genomics/Smart-Seq2), long reads sequencing (PacBio/Nanopore); Proteomics - Label-free and Labelled tandem mass spectrometry (MS/MS); Epigenomics - bulk and single nucleus ATAC-Seq (chromatin accessibility), whole genome bisulfite sequencing and methylation array (methylation status), ChIP-Seq/CUT&RUN (transcription factor binding)
 
-- Linkage analysis, quantitative trait locus mapping (QTL), genome-wide association studies (GWAS), imputation, fine-mapping and colocalization
+- Linkage analysis, quantitative trait locus mapping (QTL), genome-wide association studies (GWAS), imputation, permutation, fine-mapping, and colocalization
 
 - Machine Learning (scikit-learn; linear regression, Random Forrest, SVM, etc.) and Deep Learning (PyTorch and Tensorflow; CNN, ResNet, Transformer, GPT, etc.)
 
