@@ -41,7 +41,7 @@ East China Normal University
 
 - Linkage analysis, quantitative trait locus mapping (QTL), genome-wide association studies (GWAS), imputation, fine-mapping and colocalization
 
-- Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
+- Machine Learning (scikit-learn; linear regression, Random Forrest, SVM, etc.) and Deep Learning (PyTorch and Tensorflow; CNN, ResNet, Transformer, GPT, etc.)
 
 ## Projects
 
