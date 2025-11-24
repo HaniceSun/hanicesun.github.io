@@ -53,7 +53,9 @@ East China Normal University
 
 - Identified disease-causing somatic/germline mutations, gene fusions, and splicing events (potential drug targets) from whole genome/exome/RNA sequencing data.
 
-- Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, RNA-Seq, and phenotyping assays.
+- Analyzed bulk and single cell RNA-Seq/ATAC-Seq, ChIP-Seq, and MS/MS data to characterize disease-associated genes and pathways.
+
+- Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.
 
 ### Developed deep learning models to predict functional elements from DNA sequences
 
