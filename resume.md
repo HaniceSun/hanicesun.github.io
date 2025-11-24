@@ -43,17 +43,13 @@ East China Normal University
 
 - Fundamentals of Deep Learning, 2022, [NVDIA](https://learn.nvidia.com/certificates?id=bda6a530f1ad42aaa4ba9f137f0241b7)
 
-## Patents
-
-- Methods of Treatment, Genetic Screening, and Disease Models for Heart Conditions Associated with RBM20 Deficiency. Francesca Briganti, Lars M. Steinmetz, **Han Sun**, and Wu Wei. WO 2020/092171.
-
 ## Projects
 
 ### Mutliomics integration to study disease mechanisms of cancers, cardiomyopathy, and diabetes
 
 - Identified disease-causing somatic/germline mutations, gene fusions, and splicing events (potential drug targets) from whole genome/exome/RNA sequencing data.
 
-- Analyzed bulk and single cell RNA-Seq/ATAC-Seq, ChIP-Seq, and MS/MS data to characterize disease-associated genes and pathways.
+- Analyzed bulk and single cell RNA-Seq/ATAC-Seq, ChIP-Seq/Cut-And-Run, and MS/MS data in dozens of projects to characterize disease-associated genes and pathways.
 
 - Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.
 
@@ -71,6 +67,9 @@ East China Normal University
 
 - Benchmarked the performance of various algorithms, including SNP2HLA, xHLA, HLA-HD, DeepHLA, HLARIMNT, to predict HLA types from genotyping/WGS data against HLA typing results.
 
+## Patents
+
+- Methods of Treatment, Genetic Screening, and Disease Models for Heart Conditions Associated with RBM20 Deficiency. Francesca Briganti, Lars M. Steinmetz, **Han Sun**, and Wu Wei. WO 2020/092171.
 
 ## Publications
 
