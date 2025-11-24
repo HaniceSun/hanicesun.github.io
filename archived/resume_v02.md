@@ -27,48 +27,75 @@ East China Normal University
 
 ## Skills
 
-- Python, R, C/C++, Java, high performance computing, and cloud computing
+- Python, R, C, git, conda, slurm, Linux, HPC, and cloud computing (AWS and GCP)
 
-- **Multiomics for disease mechanisms and target identification**: Genomics (WGS, WES, Array), Transcriptomics (RNA-Seq, scRNA-Seq), Proteomics (MS/MS), Epigenomics (ATAC-Seq, ChIP-Seq, WGBS), Linkage analysis, QTL mapping, and GWAS
+- Containerization (Docker and Singularity) and workflow management (Snakemake and Nextflow)
 
-- **Artificial intelligence for drug discovery (AIDD)**: Machine Learning (scikit-learn, cross validation, overfitting, linear model, generalized linear model, Support Vector Machine, Random Forrest...) and Deep Learning (PyTorch/Tensorflow, pre-train and fine-tuning, transfer learning, CNN, RNN, ResNet, Transformer, GPT, Agentic AI...)
+- Bioinformatics (blast, plink, bwa, samtools, STAR, featureCounts, GATK, seurat, scanpy)
 
-- Bioinformatics (blast, bwa, STAR, GATK, seurat, scanpy, docker/singularity, nextflow/snakemake workflow) and Biostatistics (hypothesis testing, confidence interval, power calculation, and Bayesian inference)
+- Biostatistics (hypothesis testing, confidence interval, power calculation, bayesian inference, DESeq2, statsmodels)
 
-## Certifications
+- Datasets (Ensembl, dbSNP, gnomAD, GTEx, COSMIC, TCGA, ENCODE, GEO, SRA, EGA, dbGaP, All of Us)
 
-- Machine Learning Specialization, Andrew Ng, 2022, [Stanford University](https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS)
+- Multiomics: Genomics - whole genome sequencing (WGS), whole exome sequencing (WES), genotyping (genotyping array); Transcriptomics - bulk and single cell RNA-Seq (10x Genomics/Smart-Seq2), long reads sequencing (PacBio/Nanopore); Proteomics - Label-free and Labelled tandem mass spectrometry (MS/MS); Epigenomics - bulk and single nucleus ATAC-Seq (chromatin accessibility), whole genome bisulfite sequencing and methylation array (methylation status), ChIP-Seq/CUT&RUN (transcription factor binding)
 
-- Deep Learning Specialization, Andrew Ng, 2022, [DeepLearning.AI](https://www.coursera.org/account/accomplishments/specialization/DUM8L98A972Q)
+- Linkage analysis, quantitative trait locus mapping (QTL), genome-wide association studies (GWAS), imputation, permutation, fine-mapping, and colocalization
 
-- Fundamentals of Deep Learning, 2022, [NVDIA](https://learn.nvidia.com/certificates?id=bda6a530f1ad42aaa4ba9f137f0241b7)
-
-## Patents
-
-- Methods of Treatment, Genetic Screening, and Disease Models for Heart Conditions Associated with RBM20 Deficiency. Francesca Briganti, Lars M. Steinmetz, **Han Sun**, and Wu Wei. WO 2020/092171.
+- Machine Learning (scikit-learn: linear model, generalized linear model, Random Forrest; dataset splitting, cross validation, overfitting) and Deep Learning (PyTorch/Tensorflow: CNN, ResNet, Transformer, GPT, etc.)
 
 ## Projects
 
-### Mutliomics integration to study disease mechanisms of cancers, cardiomyopathy, and diabetes
+### Splicing-mediated transcript fusion and oncogene activation in multiple cancers
 
-- Identified disease-causing somatic/germline mutations, gene fusions, and splicing events (potential drug targets) from whole genome/exome/RNA sequencing data.
+- Designed the project to explore splicing-mediated gene fusion events in cancer patients.
 
-- Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, RNA-Seq, and phenotyping assays.
+- Reanalyzed both whole exome sequencing (WES) and RNA-Seq data from over 10,000 patients across 33 cancer types from the TCGA project using a negative binomial-based generalized linear model.
 
-### Developed deep learning models to predict functional elements from DNA sequences
+- Discovered significant correlations between somatic mutations and the splicing of adjacent genes (transcript fusion), including the recurrent tumor-specific CDKN1A-RAB44 hit in bladder, stomach, and skin cancers.
 
-- Reproduced the SpliceAI model in PyTorch, replicating the original TensorFlow implementation.
+- Lead the collaboration with other labs to validate the finding using CRISPR/Cas9 editing, RT-PCR, Sanger sequencing, qPCR, RNA-Seq, and phenotyping assays.
 
-- Evaluated the performance of CNN with ResNet blocks, state-space Hyena model, and attention-based GPT2/Llama2 architectures.
+- Analyzed the data, interpreted the results, and prepared the manuscript. Proposed a splicing-mediated readthrough stabilization (SRS) model as a novel mechanism for oncogene activation.
 
-- Applied the improved model to predict tissue-specific splicing using long-read data from PacBio.
+### RNA-binding protein RBM20-deficient dilated cardiomyopathy
 
-### Implemented machine learning models to predict genetic ancestry and HLA typing from genotyping/WGS data
+- Identified a suspicious missense mutation in RBM20 via linkage analysis in a family affected by dilated cardiomyopathy through analyzing whole exome sequencing (WES) and whole genome sequencing (WGS) data.
 
-- Enhanced the maximum-likelihood model in ADMIXTURE and the SVM classifier in the KING package by incorporating conditional modeling and multi-task learning.
+- Collaborated with colleagues to validate the mutation using CRISPR/Cas9 editing in human induced pluripotent stem (iPS) cells and differentiating them into cardiomyocytes.
 
-- Benchmarked the performance of various algorithms, including SNP2HLA, xHLA, HLA-HD, DeepHLA, HLARIMNT, to predict HLA types from genotyping/WGS data against HLA typing results.
+- Identified splicing targets of RBM20 using RNA-Seq data from humans and pigs given that RBM20 is an RNA-binding protein.
 
+- By applying drug repositioning strategy in thousands of compounds from the Integrated Network-based Cellular Signatures (LINCS) project, we nominated retinoic acid and cardiac glycoside that may potentially rescue the phenotype.
+
+- By integrating gene expression data from thousands of tissues in the The Genotype-Tissue Expression (GTEx) project, I proposed a model for the tissue-specific splicing of a mitochondrial inner membrane protein, IMMT, suggesting a molecular link between energy supply deficiencies and dilated cardiomyopathy.
+
+### Mutation and regulatory elements underlying neonatal diabetes
+
+- Identified a suspicious intronic mutation in neonatal diabetes by analyzing whole genome sequencing (WGS) and array-based genotyping data from mice.
+
+- Collaborated with colleagues to successfully validate that the mutation is causing diabetes by introducing it into both B6 and NOD mice using CRISPR/Cas9 editing.
+
+- Proposed a mechanism where the mutation creates a novel splice site, resulting in a longer transcript but truncated protein, which has been verified as well by RT-PCR.
+
+- Working with bulk and single-cell data (scRNA-Seq and scATAC-Seq) throughout development to investigate potential extra regulatory elements and understand why the phenotype is specific to pancreas.
+
+- Working on large-scale QTL mapping (eQTL, caQTL, and pQTL) on multiomics datasets of human islets to study the genetic architecture of diabetes.
+
+### Applying machine learning/deep learning in omics data
+
+- Applied machine learning models (Random Forrest, XGBoost, SVM, etc.) to predict ancestry from genotyping data.
+
+- Developed deep learning models (CNN, ResNet, GPT, Llama2) in predicting selenocysteine and tissue-specific splicing from DNA sequences.
+
+## Certifications
+
+- Machine Learning Specialization, Andrew Ng, [Coursera](https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS)
+
+- Deep Learning Specialization, Andrew Ng, [Coursera](https://www.coursera.org/account/accomplishments/specialization/DUM8L98A972Q)
+
+## Patents
+
+- Methods of Treatment, Genetic Screening, and Disease Models for Heart Conditions Associated with RBM20 Deficiency. Francesca Briganti, Lars M. Steinmetz, Han Sun, and Wu Wei. WO 2020/092171.
 
 ## Publications
 
