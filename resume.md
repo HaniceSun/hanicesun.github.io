@@ -29,13 +29,15 @@ East China Normal University
 
 - Python, R, C/C++, Java, high performance computing, and cloud computing
 
-- **Multiomics for disease mechanisms and target identification**: Genomics (WGS, WES, Array), Transcriptomics (RNA-Seq, scRNA-Seq), Proteomics (MS/MS), Epigenomics (ATAC-Seq, ChIP-Seq, WGBS), Linkage analysis, QTL mapping, and GWAS
+- **Multiomics for identifying causal genes/variants and understanding disease mechanisms**: Genomics (WGS, WES, Array), Transcriptomics (RNA-Seq, scRNA-Seq), Proteomics (MS/MS), Epigenomics (ATAC-Seq, ChIP-Seq, WGBS), Linkage analysis, QTL mapping, and GWAS
 
-- **Artificial intelligence for drug discovery (AIDD)**: Machine Learning (scikit-learn, cross validation, overfitting, linear model, generalized linear model, Support Vector Machine, Random Forrest...) and Deep Learning (PyTorch/Tensorflow, pre-train and fine-tuning, transfer learning, CNN, RNN, ResNet, Transformer, GPT, Agentic AI...)
+- **Artificial intelligence for target identification and drug discovery**: Machine Learning (scikit-learn, cross validation, overfitting, linear model, generalized linear model, Support Vector Machine, Random Forrest...) and Deep Learning (PyTorch/Tensorflow, pre-train and fine-tuning, transfer learning, CNN, RNN, ResNet, Transformer, GPT, Agentic AI...)
 
 - Bioinformatics (blast, bwa, STAR, GATK, seurat, scanpy, docker/singularity, nextflow/snakemake workflow) and Biostatistics (hypothesis testing, confidence interval, power calculation, and Bayesian inference)
 
-## Certifications
+## Packages and Certifications
+
+- Python packages I developed: [gap](https://github.com/HaniceSun/gap), [deepSec](https://github.com/HaniceSun/deepSec), [hla6](https://github.com/HaniceSun/hla6)
 
 - Machine Learning Specialization, Andrew Ng, 2022, [Stanford University](https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS)
 
