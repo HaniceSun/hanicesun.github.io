@@ -27,7 +27,7 @@ East China Normal University
 
 ## Skills
 
-- Python, R, C/C++, Java, high performance computing, and cloud computing
+- Python, R, C/C++, FastHTML, high performance computing, and cloud computing
 
 - **Multiomics for identifying causal genes/variants and understanding disease mechanisms**: Genomics (WGS, WES, Array), Transcriptomics (RNA-Seq, scRNA-Seq), Proteomics (MS/MS), Epigenomics (ATAC-Seq, ChIP-Seq, WGBS), Linkage analysis, QTL mapping, and GWAS
 
