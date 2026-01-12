@@ -13,7 +13,7 @@ Department of Pediatrics, School of Medicine, Stanford University, **[Prof. Anna
 
 ### <span>Postdoc</span> <span>2015 -- 2019</span>
 
-Department of Genetics, School of Medicine, Stanford University, **[Prof. Lars Steinmetz](https://web.stanford.edu/group/steinmetzlab/cgi-bin/wordpress/?page_id=59)**
+Department of Genetics, School of Medicine, Stanford University, **[Prof. Lars Steinmetz](https://steinmetzlab.stanford.edu)**
 
 ## Education
 
