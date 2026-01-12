@@ -81,7 +81,7 @@ class markdownResume:
         raise ValueError("Cannot find any lines that look like markdown headings")
 
     def push_to_github(self):
-        subprocess.call(f'git add .; git commit -m hanice; git push origin master', shell=True)
+        subprocess.call(f'git add .; git commit -m hanice; git push -u origin main', shell=True)
 
 
 if __name__ == "__main__":
