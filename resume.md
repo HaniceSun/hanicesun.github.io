@@ -64,11 +64,11 @@ East China Normal University
 - Applied deep learning models to predict Selenocysteine (the 21st amino acid) incorporation sites ([deepSec](https://github.com/HaniceSun/deepSec)).
 
 
-### Implemented machine learning models to predict genetic ancestry and HLA types from genotyping/WGS data
+### Implemented machine learning models to predict genetic ancestry and HLA types
 
-- Developed a random forest model — chosen based on cross-validation metrics across multiple models — to accurately infer genetic ancestry from genotyping data ([gap](https://github.com/HaniceSun/gap)).
+- Developed a random forest model — selected based on cross-validation performance across multiple models — to accurately infer genetic ancestry from genotyping data ([gap](https://github.com/HaniceSun/gap)).
 
-- Benchmarked the performance of various algorithms, including Hidden Markov Model-based SNP2HLA, machine learning-based HIBAG, CNN-based DEEP*HLA, and Transformer-based HLARIMNT, against HLA typing results ([hla6](https://github.com/HaniceSun/hla6)).
+- Assessed the performance of multiple HLA imputation algorithms — including HMM-based SNP2HLA, machine learning–based HIBAG, CNN-based DEEP*HLA, and Transformer-based HLARIMNT — against gold-standard HLA typing results ([hla6](https://github.com/HaniceSun/hla6)).
 
 ## Patents
 
