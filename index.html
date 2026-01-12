@@ -191,22 +191,22 @@ h1 + ul + p {
 <h3>Developed deep learning models to predict functional elements from DNA sequences</h3>
 <ul>
 <li>
-<p>Reproduced the SpliceAI model in PyTorch, replicating the original TensorFlow implementation.</p>
+<p>Reproduced the SpliceAI model (CNN with RestNet) in PyTorch, replicating the original TensorFlow implementation.</p>
 </li>
 <li>
-<p>Evaluated the performance of CNN with ResNet blocks, state-space Hyena model, and attention-based GPT2/Llama2 architectures.</p>
+<p>Evaluated the performance of Transformer (GPT) and Hyena architectures by substituting the SpliceAI component to predict splice sites and usage (<a href="https://github.com/HaniceSun/spredle">spredle</a>).</p>
 </li>
 <li>
-<p>Applied the improved model to predict tissue-specific splicing using long-read data from PacBio.</p>
+<p>Applied deep learning models to predict Selenocysteine (the 21st amino acid) incorporation sites (<a href="https://github.com/HaniceSun/deepSec">deepSec</a>).</p>
 </li>
 </ul>
-<h3>Implemented machine learning models to predict genetic ancestry and HLA typing from genotyping/WGS data</h3>
+<h3>Implemented machine learning models to predict genetic ancestry and HLA types from genotyping/WGS data</h3>
 <ul>
 <li>
-<p>Enhanced the maximum-likelihood model in ADMIXTURE and the SVM classifier in the KING package by incorporating conditional modeling and multi-task learning.</p>
+<p>Developed a random forest model — chosen based on cross-validation metrics across multiple models — to accurately infer genetic ancestry from genotyping data (<a href="https://github.com/HaniceSun/gap">gap</a>).</p>
 </li>
 <li>
-<p>Benchmarked the performance of various algorithms, including SNP2HLA, xHLA, HLA-HD, DeepHLA, HLARIMNT, to predict HLA types from genotyping/WGS data against HLA typing results.</p>
+<p>Benchmarked the performance of various algorithms, including Hidden Markov Model-based SNP2HLA, machine learning-based HIBAG, CNN-based DEEP*HLA, and Transformer-based HLARIMNT, against HLA typing results (<a href="https://github.com/HaniceSun/hla6">hla6</a>).</p>
 </li>
 </ul>
 <h2>Patents</h2>

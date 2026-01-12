@@ -57,17 +57,18 @@ East China Normal University
 
 ### Developed deep learning models to predict functional elements from DNA sequences
 
-- Reproduced the SpliceAI model in PyTorch, replicating the original TensorFlow implementation.
+- Reproduced the SpliceAI model (CNN with RestNet) in PyTorch, replicating the original TensorFlow implementation.
 
-- Evaluated the performance of CNN with ResNet blocks, state-space Hyena model, and attention-based GPT2/Llama2 architectures.
+- Evaluated the performance of Transformer (GPT) and Hyena architectures by substituting the SpliceAI component to predict splice sites and usage ([spredle](https://github.com/HaniceSun/spredle)).
 
-- Applied the improved model to predict tissue-specific splicing using long-read data from PacBio.
+- Applied deep learning models to predict Selenocysteine (the 21st amino acid) incorporation sites ([deepSec](https://github.com/HaniceSun/deepSec)).
 
-### Implemented machine learning models to predict genetic ancestry and HLA typing from genotyping/WGS data
 
-- Enhanced the maximum-likelihood model in ADMIXTURE and the SVM classifier in the KING package by incorporating conditional modeling and multi-task learning.
+### Implemented machine learning models to predict genetic ancestry and HLA types from genotyping/WGS data
 
-- Benchmarked the performance of various algorithms, including SNP2HLA, xHLA, HLA-HD, DeepHLA, HLARIMNT, to predict HLA types from genotyping/WGS data against HLA typing results.
+- Developed a random forest model — chosen based on cross-validation metrics across multiple models — to accurately infer genetic ancestry from genotyping data ([gap](https://github.com/HaniceSun/gap)).
+
+- Benchmarked the performance of various algorithms, including Hidden Markov Model-based SNP2HLA, machine learning-based HIBAG, CNN-based DEEP*HLA, and Transformer-based HLARIMNT, against HLA typing results ([hla6](https://github.com/HaniceSun/hla6)).
 
 ## Patents
 
