@@ -51,7 +51,7 @@ East China Normal University
 
 - Identified disease-causing somatic/germline mutations, gene fusions, and splicing events (potential drug targets) from whole genome/exome/RNA sequencing data.
 
-- Analyzed bulk and single cell RNA-Seq/ATAC-Seq, ChIP-Seq/Cut-And-Run, and MS/MS data in dozens of projects to characterize disease-associated genes and pathways.
+- Analyzed bulk and single cell RNA-Seq/ATAC-Seq, ChIP-Seq/Cut-And-Run, WGBS, and MS/MS data in dozens of projects to characterize disease-associated genes and pathways.
 
 - Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.
 
