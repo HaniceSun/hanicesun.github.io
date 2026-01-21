@@ -37,7 +37,7 @@ East China Normal University
 
 ## Packages and Certifications
 
-- **Python packages I have developed: [gap](https://github.com/HaniceSun/gap), [spredle](https://github.com/HaniceSun/spredle), [deepSec](https://github.com/HaniceSun/deepSec), [hla6](https://github.com/HaniceSun/hla6), and dustle.**
+- **Python packages I have developed: [gap](https://github.com/HaniceSun/gap), [spredle](https://github.com/HaniceSun/spredle), [hlarchical](https://github.com/HaniceSun/hlarchical), [deepSec](https://github.com/HaniceSun/deepSec), and dustle.**
 
 - Machine Learning Specialization, Andrew Ng, 2022, [Stanford University](https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS)
 
@@ -55,20 +55,15 @@ East China Normal University
 
 - Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.
 
-### Developed deep learning models to predict functional elements from DNA sequences
+### Machine Learning and Deep Learning models to predict genetic ancestry, HLA types, and functional elements from DNA sequences
 
-- Reproduced the SpliceAI model (CNN with RestNet) in PyTorch, replicating the original TensorFlow implementation.
+- Developed machine learning models to accurately predict genetic ancestry from genotyping data ([gap](https://github.com/HaniceSun/gap)).
 
-- Evaluated the performance of Transformer (GPT) and Hyena architectures by substituting the SpliceAI component to predict splice sites and usage ([spredle](https://github.com/HaniceSun/spredle)).
+- Reproduced the SpliceAI model and extended it with Transformer (GPT) and Hyena architectures for both splice site and usage prediction ([spredle](https://github.com/HaniceSun/spredle)).
 
-- Applied deep learning models to predict Selenocysteine (the 21st amino acid) incorporation sites ([deepSec](https://github.com/HaniceSun/deepSec)).
+- Applied deep learning models to predict Selenocysteine (the 21st amino acid) sites ([deepSec](https://github.com/HaniceSun/deepSec)).
 
-
-### Implemented machine learning models to predict genetic ancestry and HLA types
-
-- Developed a random forest model — selected based on cross-validation performance across multiple models — to accurately infer genetic ancestry from genotyping data ([gap](https://github.com/HaniceSun/gap)).
-
-- Assessed the performance of multiple HLA imputation algorithms — including HMM-based SNP2HLA, machine learning–based HIBAG, CNN-based DEEP*HLA, and Transformer-based HLARIMNT — against gold-standard HLA typing results ([hla6](https://github.com/HaniceSun/hla6)).
+- Implemented hierarchical, mixture-of-experts (MoE), and multi-task deep learning models for HLA imputation ([hlarchical](https://github.com/HaniceSun/hlarchical)).
 
 ## Patents
 
