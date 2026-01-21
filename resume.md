@@ -55,11 +55,11 @@ East China Normal University
 
 - Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.
 
-### Machine Learning and Deep Learning models to predict genetic ancestry, HLA types, and functional elements from DNA sequences
+### Artificial intelligence to predict genetic ancestry, HLA types, and functional elements from DNA sequences
 
 - Developed machine learning models to accurately predict genetic ancestry from genotyping data ([gap](https://github.com/HaniceSun/gap)).
 
-- Reproduced the SpliceAI model and extended it with Transformer (GPT) and Hyena architectures for both splice site and usage prediction ([spredle](https://github.com/HaniceSun/spredle)).
+- Reproduced the SpliceAI model and extended it with Transformer and Hyena architectures for both splice site and usage prediction ([spredle](https://github.com/HaniceSun/spredle)).
 
 - Applied deep learning models to predict Selenocysteine (the 21st amino acid) sites ([deepSec](https://github.com/HaniceSun/deepSec)).
 
