@@ -5,7 +5,7 @@
 ```
 git clone git@github.com:HaniceSun/hanicesun.github.io.git
 cd hanicesun.github.io
-pip install -e .
+pip install .
 ```
 
 ### Usage
