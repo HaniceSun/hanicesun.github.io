@@ -86,7 +86,7 @@ class markdownResume:
             print("Error generating PDF:", e)
 
     def push_to_github(self):
-        subprocess.run(f'git add .; git commit -m hanice; git push -u origin main', shell=True)
+        subprocess.run(f'git add .; git commit -m hs; git push -u origin main', shell=True)
 
     def _get_title(self):
         """
