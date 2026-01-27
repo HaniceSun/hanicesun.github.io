@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resume"
+version = "0.0.1"
+description = "Markdown Resume"
+readme = "README.md"
+requires-python = ">=3.12"
+
+authors = [
+  {name = "Han Sun", email = "hansun@stanford.edu"}
+]
+
+[project.urls]
+"Homepage" = "https://github.com/HaniceSun/hanicesun.github.io"
+
+[project.scripts]
+resume = "resume.cli:main"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages]
+find = { where = ["src"] }
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.package-data]
+resume = ["static/*.css"]
