@@ -18,4 +18,6 @@ resume make
 
 markdown -> html -> pdf
 
+**https://hanicesun.github.io**
+
 **https://cv.sunhanice.com**
