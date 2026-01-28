@@ -7,12 +7,12 @@ def get_parser():
     subparsers = parser.add_subparsers(dest='command', required=True)
 
     p1 = subparsers.add_parser("make", help="make pdf and html from markdown")
-    p1.add_argument('--input', type=str, default='resume.md', help='Input markdown file')
-    p1.add_argument('--html', type=str, default='index.html', help='Input markdown file')
-    p1.add_argument('--pdf', type=str, default='Resume_HanSun.pdf', help='Input markdown file')
+    p1.add_argument('--input', type=str, default='resume.md', help='input markdown file')
+    p1.add_argument('--html', type=str, default='index.html', help='output html file')
+    p1.add_argument('--pdf', type=str, default='Resume_HanSun.pdf', help='output pdf file')
     p1.add_argument('--chrome', type=str, default='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', help='Path to Chrome executable')
-    p1.add_argument('--css', type=str, default='resume.css', help='Path to CSS file, using the one in static folder by default')
-    p2 = subparsers.add_parser("push", help="push the directory to github, interal use only")
+    p1.add_argument('--css', type=str, default='resume.css', help='Path to CSS file, using the one in the static folder by default')
+    p2 = subparsers.add_parser("push", help="push the directory to github, internal use only")
     return parser
 
 def main():
