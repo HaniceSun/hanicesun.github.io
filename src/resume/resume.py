@@ -64,6 +64,7 @@ class markdownResume:
         if self.output_html:
             with open(self.output_html, 'w') as outfile:
                 outfile.write(self.html + '\n')
+        print(f"Wrote {self.output_html}")
 
     def html_to_pdf(self):
         html64 = base64.b64encode(self.html.encode("utf-8"))
@@ -82,6 +83,8 @@ class markdownResume:
                         "data:text/html;base64," + html64.decode("utf-8"),
                         ], timeout=3, capture_output=True
                     )
+            if sp.returncode == 0:
+                print(f"Wrote {self.output_pdf}")
         except Exception as e:
             print("Error generating PDF:", e)
 
