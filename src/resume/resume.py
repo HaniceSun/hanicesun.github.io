@@ -18,7 +18,7 @@ class markdownResume:
             self.md = ""
 
         if not os.path.exists(css):
-            css = f'{resources.files("resume").parent}/static/{css}'
+            css = f'{resources.files("resume")}/static/{css}'
         try:
             with open(css) as f:
                 self.css = f.read()
