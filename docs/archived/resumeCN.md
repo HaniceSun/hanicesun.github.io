@@ -17,11 +17,11 @@ hand -->
 
 ### <span>高级 计算生物学者</span> <span>2020 -- </span>
 
-儿科系, 医学院, 斯坦福大学, **[Prof. Anna Gloyn](https://med.stanford.edu/genomics-of-diabetes.html)**
+儿科系, 医学院, 斯坦福大学, **[Anna Gloyn 教授](https://med.stanford.edu/genomics-of-diabetes.html)**
 
 ### <span>博士后</span> <span>2015 -- 2019</span>
 
-遗传系, 医学院, 斯坦福大学, **[Prof. Lars Steinmetz](https://web.stanford.edu/group/steinmetzlab/cgi-bin/wordpress/?page_id=59)**
+遗传系, 医学院, 斯坦福大学, **[Lars Steinmetz 教授](https://steinmetzlab.stanford.edu)**
 
 ## 学习经历
 
@@ -33,57 +33,67 @@ hand -->
 
 华东师范大学
 
-## 研究课题
+## 科研专长
 
-- 剪切介导的癌基因激活
+- Python, R, C/C++, FastAPI/FastHTML, high performance computing (HPC), and cloud computing
 
-- RBM20突变引起的扩张型心肌病
+- **Multiomics for identifying causal genes/variants and understanding disease mechanisms**: Genomics (WGS, WES, Array), Transcriptomics (RNA-Seq, scRNA-Seq), Proteomics (MS/MS), Epigenomics (ATAC-Seq, ChIP-Seq, WGBS), Linkage analysis, QTL mapping, and GWAS
 
-- 糖尿病小鼠模型的遗传和发病机制
+- **Artificial intelligence for target identification and drug discovery**: Machine Learning (scikit-learn, cross validation, overfitting, linear model, generalized linear model, Support Vector Machine, Random Forrest...) and Deep Learning (PyTorch/Tensorflow, pre-train and fine-tuning, transfer learning, CNN, RNN, ResNet, Transformer, GPT, Agentic AI...)
 
-## 学术兴趣
+- Bioinformatics (blast, bwa, STAR, GATK, scanpy, seurat, docker/singularity, snakemake/nextflow) and Biostatistics (hypothesis testing, confidence interval, power calculation, and Bayesian inference)
 
-- 疾病遗传学 (癌症, 心脏病, 糖尿病等)
+## 开发过的软件和认证
 
-- 生物信息学和生物统计学
+- **Python packages I have developed: [gap](https://github.com/HaniceSun/gap), [spredle](https://github.com/HaniceSun/spredle), [hlarchical](https://github.com/HaniceSun/hlarchical), [deepSec](https://github.com/HaniceSun/deepSec), and dustle.**
 
-- 深度学习在生命科学中的应用
+- Machine Learning Specialization, Andrew Ng, 2022, [Stanford University](https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS)
 
-## 科研技能
+- Deep Learning Specialization, Andrew Ng, 2022, [DeepLearning.AI](https://www.coursera.org/account/accomplishments/specialization/DUM8L98A972Q)
 
-- Python, R, C, git, conda, slurm, Linux, HPC, and cloud computing (AWS and GCP)
+- Fundamentals of Deep Learning, 2022, [NVDIA](https://learn.nvidia.com/certificates?id=bda6a530f1ad42aaa4ba9f137f0241b7)
 
-- containerization (docker and singularity) and workflow management (Snakemake and Nextflow)
+## 项目经验
 
-- Bioinformatics (blast, plink, bwa, samtools, STAR, featureCounts, GATK, seurat, scanpy)
+### Mutliomics integration to study disease mechanisms of cancers, cardiomyopathy, and diabetes
 
-- Biostatistics (hypothesis testing, confidence interval, power calculation, bayesian inference, DESeq2, statsmodels)
+- Identified disease-causing somatic/germline mutations, gene fusions, and splicing events (potential drug targets) from whole genome/exome/RNA sequencing data.
 
-- Visualization (matplotlib, seaborn, plotly, ggplot2, shiny for python)
+- Analyzed bulk and single cell RNA-Seq/ATAC-Seq, ChIP-Seq/Cut-And-Run, WGBS, and MS/MS data in dozens of projects to characterize disease-associated genes and pathways.
 
-- Machine Learning (scikit-learn) and Deep Learning (Tensorflow and PyTorch)
+- Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.
 
-- Multiomics: Genomics (WGS, WES, genotyping), Transcriptomics (bulk and single cell RNA-Seq, long reads), Proteomics (MS/MS), and Epigenomics (ATAC-Seq, ChIP-Seq). Linkage analysis, QTL, and GWAS.
+### Artificial intelligence to predict genetic ancestry, HLA types, and functional elements from DNA sequences
 
-## 访学经历
+- Developed machine learning models to accurately predict genetic ancestry from genotyping data ([gap](https://github.com/HaniceSun/gap)).
 
-- European Molecular Biology Laboratory (EMBL), Heidelberg, Germany (2014.07 - 2014.10)
+- Reproduced the SpliceAI model and extended it with Transformer and Hyena architectures for both splice site and usage prediction ([spredle](https://github.com/HaniceSun/spredle)).
 
-- Institute of Immunology, University of Rostock, Rostock, Germany (2013.10 - 2013.12)
+- Applied deep learning models to predict Selenocysteine (the 21st amino acid) sites ([deepSec](https://github.com/HaniceSun/deepSec)).
+
+- Implemented hierarchical, mixture-of-experts (MoE), and multi-task deep learning models for HLA imputation ([hlarchical](https://github.com/HaniceSun/hlarchical)).
 
 ## 专利
 
-- Methods of Treatment, Genetic Screening, and Disease Models for Heart Conditions Associated with RBM20 Deficiency. Francesca Briganti, Lars M. Steinmetz, Han Sun, and Wu Wei. WO 2020/092171.
+- Methods of Treatment, Genetic Screening, and Disease Models for Heart Conditions Associated with RBM20 Deficiency. Francesca Briganti, Lars M. Steinmetz, **Han Sun**, and Wu Wei. WO 2020/092171.
 
-## 发表论文
+## 主要论文
 
-1. **Han Sun**, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. "CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.", [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf).
+1. **Han Sun**, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. "CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.", [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf), **co-first author**.
 
 1. Francesca Briganti, **Han Sun**, Wu Wei, Jingyan Wu, Chenchen Zhu, Martin Liss, Ioannis Karakikes et al. "iPSC Modeling of RBM20-Deficient DCM Identifies Upregulation of RBM20 as a Therapeutic Strategy." <u>Cell Reports</u> 32, no. 10 (2020): 108117, **co-first author**.
 
-1. **Han Sun**, Seth A Sharp,  Nicole A J Krentz, Anna Gloyn et al., "Deep learning prediction of selenocystine element and its application in diabetes and cancers", in preparation.
+1. **Han Sun**, Seth A Sharp,  Nicole A J Krentz, Anna Gloyn et al., "Deep learning prediction of selenocystine element and its application in diabetes", in preparation, **co-first author**.
+
+1. Russ-Silsby, James, Yunkyeong Lee, Varsha Rajesh, **Han Sun**, Mahsa Amoli, Nasser Ali Mirhosseini, Tushar Godbole, Matthew B. Johnson et al. "Complete Loss of PAX4 causes Transient Neonatal Diabetes in Humans." Molecular Metabolism (2025): 102201.
+
+1. de Winter, Twan JJ, Miha Sovrovic, Esmee Dekker, Natascha de Graaf, **Han Sun**, James D. Johnson, Anna L. Gloyn, Francoise Carlotti, Eelco JP de Koning, and Anna Alemany. "Cell type-specific eQTL detection from single-cell RNA-seq reveals post-transcriptional regulatory mechanisms in human islets." bioRxiv (2025): 2025-01.
+
+1. Evans-Molina, Carmella, Yasminye D. Pettway, Diane C. Saunders, Seth A. Sharp, Thomas SR Bate, **Han Sun**, Heather Durai et al. "Heterogeneous endocrine cell composition defines human islet functional phenotypes." bioRxiv (2024): 2024-11.
 
 1. Kolic, Jelena, WenQing Grace Sun, Haoning Howard Cen, Jessica D. Ewald, Jason C. Rogalski, Shugo Sasaki, **Han Sun**, et al. "Proteomic predictors of individualized nutrient-specific insulin secretion in health and disease." <u>Cell Metabolism</u> 36, no. 7 (2024): 1619-1633.
+
+1. Ewald, Jessica D., Yao Lu, Cara E. Ellis, Jessica Worton, Jelena Kolic, **Han Sun**, Shugo Sasaki, Dahai Zhang et al. "HumanIslets. com: Improving accessibility, integration, and usability of human research islet data." <u>Cell Metabolism</u> (2024).
 
 1. Rottner, Antje K., Yingying Ye, Elena Navarro-Guerrero, Varsha Rajesh, Alina Pollner, **Han Sun**, Romina J. Bevacqua, Jing Yang et al. "A genome-wide CRISPR screen identifies CALCOCO2 as a regulator of beta cell function influencing type 2 diabetes risk." <u>Nature Genetics</u> 55, no. 1 (2023): 54-65.
 
