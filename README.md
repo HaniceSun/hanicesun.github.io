@@ -19,3 +19,13 @@ resume make
 markdown -> html -> pdf
 
 **https://cv.sunhanice.com**
+
+------
+
+## Author and License
+
+**Author:** Han Sun
+
+**Email:** hansun@stanford.edu
+
+**License:** [MIT License](LICENSE)
