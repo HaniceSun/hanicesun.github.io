@@ -1,4 +1,4 @@
-## Han's resume
+## Han Sun's resume
 
 markdown -> html -> pdf
 
