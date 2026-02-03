@@ -1,5 +1,11 @@
 ## Han's resume
 
+markdown -> html -> pdf
+
+**https://cv.sunhanice.com**
+
+------
+
 ### Installation
 
 ```
@@ -14,15 +20,7 @@ pip install .
 resume make
 ```
 
-------
-
-markdown -> html -> pdf
-
-**https://cv.sunhanice.com**
-
-------
-
-## Author and License
+### Author and License
 
 **Author:** Han Sun
 
