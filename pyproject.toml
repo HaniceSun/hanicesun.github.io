@@ -9,6 +9,10 @@ description = "Markdown Resume"
 readme = "README.md"
 requires-python = ">=3.12"
 
+dependencies = [
+    "Markdown>=3.10.1",
+]
+
 authors = [
   {name = "Han Sun", email = "hansun@stanford.edu"}
 ]
@@ -18,9 +22,6 @@ authors = [
 
 [project.scripts]
 resume = "resume.cli:main"
-
-[tool.setuptools.dynamic]
-dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools.packages]
 find = { where = ["src"] }

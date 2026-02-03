@@ -27,13 +27,13 @@ East China Normal University
 
 ## Skills
 
-- Python, R, C/C++, FastHTML, high performance computing, and cloud computing
+- Python, R, C/C++, FastAPI/FastHTML, high performance computing (HPC), and cloud computing
 
 - **Multiomics for identifying causal genes/variants and understanding disease mechanisms**: Genomics (WGS, WES, Array), Transcriptomics (RNA-Seq, scRNA-Seq), Proteomics (MS/MS), Epigenomics (ATAC-Seq, ChIP-Seq, WGBS), Linkage analysis, QTL mapping, and GWAS
 
 - **Artificial intelligence for target identification and drug discovery**: Machine Learning (scikit-learn, cross validation, overfitting, linear model, generalized linear model, Support Vector Machine, Random Forrest...) and Deep Learning (PyTorch/Tensorflow, pre-train and fine-tuning, transfer learning, CNN, RNN, ResNet, Transformer, GPT, Agentic AI...)
 
-- Bioinformatics (blast, bwa, STAR, GATK, seurat, scanpy, docker/singularity, nextflow/snakemake workflow) and Biostatistics (hypothesis testing, confidence interval, power calculation, and Bayesian inference)
+- Bioinformatics (blast, bwa, STAR, GATK, scanpy, seurat, docker/singularity, snakemake/nextflow) and Biostatistics (hypothesis testing, confidence interval, power calculation, and Bayesian inference)
 
 ## Packages and Certifications
 
