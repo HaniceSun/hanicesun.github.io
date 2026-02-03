@@ -17,6 +17,7 @@ pip install .
 ### Usage
 
 ```
+cd docs
 resume make
 ```
 
