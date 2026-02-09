@@ -18,8 +18,8 @@ pip install .
 
 ```
 cd docs
-mdcv resume
-mdcv letter
+mdcv resume --md resume.md
+mdcv letter --md cover_letter.md
 ```
 
 ### Author and License
