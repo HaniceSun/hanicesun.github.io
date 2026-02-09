@@ -21,7 +21,7 @@ authors = [
 "Homepage" = "https://github.com/HaniceSun/hanicesun.github.io"
 
 [project.scripts]
-resume = "resume.cli:main"
+mdcv = "resume.cli:main"
 
 [tool.setuptools.packages]
 find = { where = ["src"] }

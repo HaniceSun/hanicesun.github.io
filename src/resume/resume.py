@@ -5,7 +5,7 @@ import markdown
 import base64
 from importlib import resources
 
-class markdownResume:
+class MarkdownResume:
     def __init__(self, input_markdown='resume.md', output_html='index.html', output_pdf='Resume_HanSun.pdf', chrome='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', css='resume.css'):
 
         self.prefix = input_markdown.split('.md')[0]
@@ -104,7 +104,7 @@ class markdownResume:
 
 
 if __name__ == "__main__":
-    mdresume = markdownResume()
-    mdresume.make_html()
-    mdresume.html_to_pdf()
-    mdresume.push_to_github()
+    mr = MarkdownResume()
+    mr.make_html()
+    mr.html_to_pdf()
+    mr.push_to_github()

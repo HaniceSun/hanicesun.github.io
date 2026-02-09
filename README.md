@@ -18,7 +18,8 @@ pip install .
 
 ```
 cd docs
-resume make
+mdcv resume
+mdcv letter
 ```
 
 ### Author and License
