@@ -81,7 +81,7 @@ class MarkdownResume:
                         *options,
                         f"--print-to-pdf={self.output_pdf}",
                         "data:text/html;base64," + html64.decode("utf-8"),
-                        ], timeout=3, capture_output=True
+                        ], timeout=10, capture_output=True
                     )
             if sp.returncode == 0:
                 print(f"Wrote {self.output_pdf}")
