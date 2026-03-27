@@ -37,7 +37,7 @@ East China Normal University
 
 ## Packages and Certifications
 
-- **Python packages I have developed: [gap](https://github.com/HaniceSun/gap), [spredle](https://github.com/HaniceSun/spredle), [hlarchical](https://github.com/HaniceSun/hlarchical), [deepSec](https://github.com/HaniceSun/deepSec), and dustle.**
+- **Python packages I have developed: [gap](https://github.com/HaniceSun/gap), [omniQTL](https://github.com/HaniceSun/omniQTL), [spredle](https://github.com/HaniceSun/spredle), [hlarchical](https://github.com/HaniceSun/hlarchical), [deepSec](https://github.com/HaniceSun/deepSec), and dustle.**
 
 - Machine Learning Specialization, Andrew Ng, 2022, [Stanford University](https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS)
 
