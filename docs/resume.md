@@ -33,11 +33,11 @@ East China Normal University
 
 - **Artificial intelligence for target identification and drug discovery**: Machine Learning (scikit-learn, cross validation, overfitting, linear model, generalized linear model, Support Vector Machine, Random Forrest...) and Deep Learning (PyTorch/Tensorflow, pre-train and fine-tuning, transfer learning, CNN, RNN, ResNet, Transformer, GPT, Agentic AI...)
 
-- Bioinformatics (blast, bwa, STAR, GATK, scanpy, seurat, docker/singularity, snakemake/nextflow) and Biostatistics (hypothesis testing, confidence interval, power calculation, and Bayesian inference)
+- Bioinformatics (blast, bwa, STAR, GATK, scanpy, seurat, conda, docker/singularity, snakemake/nextflow) and Biostatistics (hypothesis testing, confidence interval, power calculation, and Bayesian inference)
 
 ## Packages and Certifications
 
-- **Python packages I have developed: [gap](https://github.com/HaniceSun/gap), [omniQTL](https://github.com/HaniceSun/omniQTL), [spredle](https://github.com/HaniceSun/spredle), [hlarchical](https://github.com/HaniceSun/hlarchical), [deepSec](https://github.com/HaniceSun/deepSec), and dustle.**
+- **Python packages I have developed: [gap](https://github.com/HaniceSun/gap), [hlarchical](https://github.com/HaniceSun/hlarchical), [omniQTL](https://github.com/HaniceSun/omniQTL), [spredle](https://github.com/HaniceSun/spredle), [deepSec](https://github.com/HaniceSun/deepSec), and dustle.**
 
 - Machine Learning Specialization, Andrew Ng, 2022, [Stanford University](https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS)
 
@@ -59,11 +59,11 @@ East China Normal University
 
 - Developed machine learning models to accurately predict genetic ancestry from genotyping data ([gap](https://github.com/HaniceSun/gap)).
 
+- Implemented hierarchical, mixture-of-experts (MoE), and multi-task deep learning models for HLA imputation ([hlarchical](https://github.com/HaniceSun/hlarchical)).
+
 - Reproduced the SpliceAI model and extended it with Transformer and Hyena architectures for both splice site and usage prediction ([spredle](https://github.com/HaniceSun/spredle)).
 
 - Applied deep learning models to predict Selenocysteine (the 21st amino acid) sites ([deepSec](https://github.com/HaniceSun/deepSec)).
-
-- Implemented hierarchical, mixture-of-experts (MoE), and multi-task deep learning models for HLA imputation ([hlarchical](https://github.com/HaniceSun/hlarchical)).
 
 ## Patents
 
@@ -71,19 +71,19 @@ East China Normal University
 
 ## Publications
 
-1. **Han Sun**, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. "CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.", [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf), **co-first author**.
+1. **Han Sun**, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. "CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.", [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf)
 
 1. Francesca Briganti, **Han Sun**, Wu Wei, Jingyan Wu, Chenchen Zhu, Martin Liss, Ioannis Karakikes et al. "iPSC Modeling of RBM20-Deficient DCM Identifies Upregulation of RBM20 as a Therapeutic Strategy." <u>Cell Reports</u> 32, no. 10 (2020): 108117, **co-first author**.
 
-1. Umapathysivam, Mahesh M., Elisa Araldi, Benoit Hastoy, Adem Y. Dawed, Hasan Vatandaslar, Shahana Sengupta, Adrian Kaufmann, **Han Sun**, Anna Gloyn, et al. "Type 2 diabetes risk alleles in peptidyl-glycine alpha-amidating monooxygenase influence GLP-1 levels and response to GLP-1 receptor agonists." Genome Medicine (accepted, 2026).
+1. Evans-Molina, Carmella, Yasminye D. Pettway, Diane C. Saunders, Seth A. Sharp, Thomas SR Bate, **Han Sun**, Heather Durai et al. "Heterogeneous endocrine cell composition defines human islet functional phenotypes." <u>Nature Communications</u> (2026)
 
-1. Rajesh, Varsha, Dora Evelyn Ibarra, Jing Yang, Haichen Zhang, Amy Barrett, Eleanor G. Kaplan, Amit Kumthekar, **Han Sun**, et al. "Functional Characterization of Glucokinase Variants to Aid Clinical Interpretation of Monogenic Diabetes." International Journal of Molecular Sciences 27, no. 1 (2025): 156.
+1. Umapathysivam, Mahesh M., Elisa Araldi, Benoit Hastoy, Adem Y. Dawed, Hasan Vatandaslar, **Han Sun**, Johanna E. Mayrhofer, Peter Lindquist et al. "Type 2 diabetes risk alleles in peptidyl-glycine alpha-amidating monooxygenase influence GLP-1 levels and response to GLP-1 receptor agonists." <u>Genome Medicine</u> (2026).
 
-1. Russ-Silsby, James, Yunkyeong Lee, Varsha Rajesh, **Han Sun**, Mahsa Amoli, Nasser Ali Mirhosseini, Tushar Godbole, Matthew B. Johnson et al. "Complete Loss of PAX4 causes Transient Neonatal Diabetes in Humans." Molecular Metabolism (2025): 102201.
+1. Rajesh, Varsha, Dora Evelyn Ibarra, Jing Yang, Haichen Zhang, Amy Barrett, Eleanor G. Kaplan, Amit Kumthekar, **Han Sun**, et al. "Functional Characterization of Glucokinase Variants to Aid Clinical Interpretation of Monogenic Diabetes." <u>International Journal of Molecular Sciences</u> 27, no. 1 (2025): 156.
+
+1. Russ-Silsby, James, Yunkyeong Lee, Varsha Rajesh, **Han Sun**, Mahsa Amoli, Nasser Ali Mirhosseini, Tushar Godbole, Matthew B. Johnson et al. "Complete Loss of PAX4 causes Transient Neonatal Diabetes in Humans." <u>Molecular Metabolism</u> (2025): 102201.
 
 1. de Winter, Twan JJ, Miha Sovrovic, Esmee Dekker, Natascha de Graaf, **Han Sun**, James D. Johnson, Anna L. Gloyn, Francoise Carlotti, Eelco JP de Koning, and Anna Alemany. "Cell type-specific eQTL detection from single-cell RNA-seq reveals post-transcriptional regulatory mechanisms in human islets." bioRxiv (2025): 2025-01.
-
-1. Evans-Molina, Carmella, Yasminye D. Pettway, Diane C. Saunders, Seth A. Sharp, Thomas SR Bate, **Han Sun**, Heather Durai et al. "Heterogeneous endocrine cell composition defines human islet functional phenotypes." bioRxiv (2025): 2024-11.
 
 1. Kolic, Jelena, WenQing Grace Sun, Haoning Howard Cen, Jessica D. Ewald, Jason C. Rogalski, Shugo Sasaki, **Han Sun**, et al. "Proteomic predictors of individualized nutrient-specific insulin secretion in health and disease." <u>Cell Metabolism</u> 36, no. 7 (2024): 1619-1633.
 
