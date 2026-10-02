@@ -1,7 +1,7 @@
 # Han Sun, PhD
 
 - <hanicesun@gmail.com>
-- [LinkedIn](https://www.linkedin.com/in/hanicesun/)
+- [LinkedIn](https://www.linkedin.com/in/hanicesun)
 - [GitHub](https://github.com/HaniceSun)
 - 408-800-1190
 
