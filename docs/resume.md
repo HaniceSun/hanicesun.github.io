@@ -1,7 +1,7 @@
 # Han Sun, PhD
 
-- <hansun@stanford.edu>
-- [LinkedIn](https://www.linkedin.com/in/sunhanice/)
+- <hanicesun@gmail.com>
+- [LinkedIn](https://www.linkedin.com/in/hanicesun/)
 - [GitHub](https://github.com/HaniceSun)
 - 408-800-1190
 
@@ -52,6 +52,8 @@ East China Normal University
 - Identified disease-causing somatic/germline mutations, gene fusions, and splicing events (potential drug targets) from whole genome/exome/RNA sequencing data.
 
 - Analyzed bulk and single cell RNA-Seq/ATAC-Seq, ChIP-Seq/Cut-And-Run, WGBS, and MS/MS data in dozens of projects to characterize disease-associated genes and pathways.
+
+- Established unified QTL mapping pipelines across multiple omics data types (eQTL, sQTL, pQTL, and caQTL) and integrated QTL signals with GWAS data through colocalization and Mendelian randomization analyses ([omniQTL](https://github.com/HaniceSun/omniQTL)).
 
 - Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.
 
