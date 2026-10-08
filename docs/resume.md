@@ -7,6 +7,10 @@
 
 ## Experience
 
+### <span>Part-time Consultant</span> <span>2026 -- </span>
+
+Help set up pipelines and evaluate the latest models for a liquid biopsy startup focused on cancer early detection
+
 ### <span>Research Scientist/Senior Computational Biologist</span> <span>2020 -- </span>
 
 Department of Pediatrics, School of Medicine, Stanford University, **[Prof. Anna Gloyn](https://med.stanford.edu/genomics-of-diabetes.html)**
@@ -73,9 +77,9 @@ East China Normal University
 
 ## Publications
 
-1. **Han Sun**, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. "CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.", [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf)
-
 1. Francesca Briganti, **Han Sun**, Wu Wei, Jingyan Wu, Chenchen Zhu, Martin Liss, Ioannis Karakikes et al. "iPSC Modeling of RBM20-Deficient DCM Identifies Upregulation of RBM20 as a Therapeutic Strategy." <u>Cell Reports</u> 32, no. 10 (2020): 108117, **co-first author**.
+
+1. **Han Sun**, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. "CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.", [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf)
 
 1. Evans-Molina, Carmella, Yasminye D. Pettway, Diane C. Saunders, Seth A. Sharp, Thomas SR Bate, **Han Sun**, Heather Durai et al. "Heterogeneous endocrine cell composition defines human islet functional phenotypes." <u>Nature Communications</u> (2026)
 
