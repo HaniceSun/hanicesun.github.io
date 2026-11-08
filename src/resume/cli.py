@@ -13,6 +13,7 @@ def get_parser():
     p1.add_argument('--pdf', type=str, default='Resume_HanSun.pdf', help='output pdf file')
     p1.add_argument('--chrome', type=str, default='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', help='Path to Chrome executable')
     p1.add_argument('--css', type=str, default='resume.css', help='Path to CSS file, using the one in the static folder by default')
+    p1.add_argument('--no-pdf-link', action='store_true', help='do not add a "download PDF" button to the html page')
 
     p2 = subparsers.add_parser("letter", help="make pdf and html cover letter from markdown")
     p2.add_argument('--md', type=str, default='cover_letter.md', help='input markdown file')
@@ -28,7 +29,8 @@ def main():
     parser = get_parser()
     args = parser.parse_args()
     if args.command == 'resume':
-        mr = MarkdownResume(input_markdown=args.md, output_html=args.html, output_pdf=args.pdf, chrome=args.chrome)
+        mr = MarkdownResume(input_markdown=args.md, output_html=args.html, output_pdf=args.pdf, chrome=args.chrome,
+                            css=args.css, pdf_link=not args.no_pdf_link)
         mr.make_html()
         mr.html_to_pdf()
 
@@ -36,7 +38,8 @@ def main():
         input_markdown = args.md
         output_html = input_markdown.replace('.md', '.html')
         output_pdf = input_markdown.replace('.md', '.pdf')
-        mr = MarkdownResume(input_markdown=input_markdown, output_html=output_html, output_pdf=output_pdf, chrome=args.chrome)
+        mr = MarkdownResume(input_markdown=input_markdown, output_html=output_html, output_pdf=output_pdf, chrome=args.chrome,
+                            css=args.css, pdf_link=False)
         mr.make_html()
         mr.html_to_pdf()
         try:

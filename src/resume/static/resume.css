@@ -1,120 +1,398 @@
-/* borrowed from mike, https://github.com/mikepqr/resume.md */
+/*
+ * Markdown resume stylesheet.
+ * Originally inspired by https://github.com/mikepqr/resume.md
+ *
+ * Structure produced by resume.py:
+ *   #resume > header (h1 + contact list)
+ *           > section.section (h2 + content)
+ *               > div.entry (h3 + content)
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap");
+
+:root {
+    --accent: #1f5f8b;
+    --accent-soft: #e8f0f6;
+    --text: #1d232a;
+    --muted: #5b6672;
+    --rule: #d5dde4;
+    --page-bg: #eef1f4;
+    --paper: #ffffff;
+
+    --font-body: "Source Serif 4", "Charter", "Iowan Old Style", "Sitka Text", Cambria, Georgia, serif;
+    --font-head: "Source Sans 3", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
 
 body {
-    color: #000000;
-    background: #EEEEEE;
-    font: 1.1em "Times New Roman";
-    line-height: 1.2;
-    margin: 40px 0;
-}
-#resume {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 40px 60px;
-    background: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    box-shadow: 2px 2px 4px #AAAAAA;
-    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
-}
-h1 {
-    text-align: center;
-    font-size: 200%;
     margin: 0;
-    padding: 0;
-    color: #0077B5;
+    padding: 48px 16px;
+    background: var(--page-bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.5;
+    font-kerning: normal;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
-h2 {
-    border-bottom: 1px solid #000000;
-    text-transform: uppercase;
-    font-size: 130%;
-    margin: 1em 0 0 0;
-    padding: 0;
-    color: #0077B5;
+
+#resume {
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.6in 0.75in 0.7in;
+    background: var(--paper);
+    border-top: 5px solid var(--accent);
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(16, 24, 32, 0.06), 0 12px 32px rgba(16, 24, 32, 0.10);
 }
-h3 {
-    font-size: 100%;
-    margin: 0.8em 0 0.3em 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+
+/* ---------- Links ---------- */
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(31, 95, 139, 0.35);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color 0.15s, text-decoration-color 0.15s;
 }
-p {
-    margin: 0 0 1.5em 0;
-    padding: 0;
-    }
-ul {
-    padding: 0;
-    margin: 0.8em 1.5em;
-    }
-ol {
-    padding: 0;
-    margin: 0.8em 1.5em;
-    }
-/* ul immediately after h1 = contact list */
-h1 + ul {
+a:hover {
+    color: var(--accent);
+    text-decoration-color: currentColor;
+}
+
+/* ---------- Header: name + contact line ---------- */
+
+header {
     text-align: center;
-    margin: 1.5em 1.5em;
+    margin-bottom: 1.4em;
+}
+
+h1 {
+    margin: 0;
+    font-family: var(--font-head);
+    font-size: 2.3em;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    color: var(--accent);
+}
+
+/* contact list (first ul after h1) */
+header ul,
+h1 + ul {
+    list-style: none;
+    margin: 0.55em 0 0;
     padding: 0;
-    }
+    font-family: var(--font-head);
+    font-size: 0.95em;
+    color: var(--muted);
+    text-align: center;
+}
+header ul > li,
 h1 + ul > li {
     display: inline;
-    *white-space: pre;*/
-    *list-style-type: circle;*/
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
 }
-
-h1 + ul > li:after {
-    content: "    \2022    ";
-}
-
-h1 + ul > li:last-child:after {
+header ul > li + li::before,
+h1 + ul > li + li::before {
     content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 0 0.75em;
+    border-radius: 50%;
+    background: var(--accent);
+    opacity: 0.55;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+header a,
+h1 + ul a {
+    text-decoration: none;
+    color: var(--muted);
+}
+header a:hover,
+h1 + ul a:hover {
+    color: var(--accent);
 }
 
-/* p immediately after contact list = summary */
-h1 + ul + p {
-    margin: 1em 0;
+/* a summary paragraph right after the header */
+header + p {
+    margin: 0 0 1.2em;
+    text-align: center;
+    font-style: italic;
+    color: var(--muted);
 }
+
+/* ---------- Section headings ---------- */
+
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    margin: 1.5em 0 0.6em;
+    padding: 0;
+    font-family: var(--font-head);
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    break-after: avoid;
+    page-break-after: avoid;
+}
+h2::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+}
+section.section:first-of-type h2,
+header + h2,
+header + section h2 {
+    margin-top: 0;
+}
+
+/* ---------- Entries (job, degree, project) ---------- */
+
+h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    column-gap: 1em;
+    margin: 1em 0 0.15em;
+    padding: 0;
+    font-family: var(--font-head);
+    font-size: 1.04em;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--text);
+    break-after: avoid;
+    page-break-after: avoid;
+}
+h2 + h3,
+h2 + .entry h3,
+.section > .entry:first-of-type > h3 {
+    margin-top: 0.2em;
+}
+/* the second <span> in a heading is the date range */
+h3 > span:last-child:not(:first-child) {
+    flex-shrink: 0;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--muted);
+    font-variant-numeric: lining-nums tabular-nums;
+    letter-spacing: 0.02em;
+}
+
+/* keep short entries (heading + a line or two) on one page; long entries
+   with bullet lists may split between bullets instead of leaving a gap */
+.entry:not(:has(ul, ol)) {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+.entry li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+/* ---------- Body text ---------- */
+
+p {
+    margin: 0 0 0.6em;
+    padding: 0;
+}
+h3 + p {
+    color: var(--muted);
+}
+strong, b {
+    font-weight: 600;
+    color: var(--text);
+}
+/* journal names are written with <u>; render them as italics */
+u {
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* ---------- Lists ---------- */
+
+ul, ol {
+    margin: 0.3em 0 0.6em;
+    padding-left: 1.25em;
+}
+li {
+    margin: 0 0 0.35em;
+    padding-left: 0.15em;
+}
+li:last-child {
+    margin-bottom: 0;
+}
+/* "loose" markdown lists wrap items in <p>; don't add extra space */
+li > p {
+    margin: 0;
+}
+ul > li::marker {
+    color: var(--accent);
+    font-size: 0.85em;
+}
+
+/* numbered lists (publications): smaller, hanging numbers */
+ol {
+    padding-left: 2em;
+    font-size: 0.93em;
+    line-height: 1.45;
+}
+ol > li {
+    margin-bottom: 0.45em;
+    padding-left: 0.3em;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+ol > li::marker {
+    font-family: var(--font-head);
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--muted);
+    font-variant-numeric: lining-nums tabular-nums;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 1.2em 0;
+}
+
+code {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.88em;
+    padding: 0.05em 0.3em;
+    border-radius: 3px;
+    background: var(--accent-soft);
+}
+
+/* ---------- Floating PDF download button (screen only) ---------- */
+
+.pdf-link {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 10;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.5em 0.95em;
+    font-family: var(--font-head);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #fff;
+    background: var(--accent);
+    border-radius: 999px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(31, 95, 139, 0.3);
+}
+.pdf-link:hover {
+    color: #fff;
+    background: #174a6d;
+}
+.pdf-link svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* ---------- Print / PDF ---------- */
+
+@page {
+    size: letter;
+    margin: 0.55in 0.7in;
+}
+
 @media print {
     body {
+        padding: 0;
+        background: none;
         font-size: 10pt;
-        margin: 0;
-        padding: 0;
-        background: none;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
     #resume {
+        max-width: none;
         margin: 0;
         padding: 0;
-        border: 0px;
-        background: none;
+        border: 0;
+        border-radius: 0;
         box-shadow: none;
-        -webkit-box-shadow: none;
+        background: none;
     }
-    /* Make links black in PDF */
-    /* Move this outside the print block to apply this in HTML too */
-    a, a:link, a:visited, a:hover {
-        color: #000000;
-        text-decoration: underline;
+    .pdf-link {
+        display: none;
+    }
+    a {
+        text-decoration-color: rgba(31, 95, 139, 0.45);
+    }
+    h1 + ul a,
+    header a {
+        text-decoration: none;
+    }
+    p, li {
+        orphans: 3;
+        widows: 3;
     }
 }
-@page {
-    /* Change margins and paper size of PDF */
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
-    size: letter;
-    margin: 0.5in 0.8in;
-}
-@media screen and (max-width: 800px) {
+
+/* ---------- Small screens ---------- */
+
+@media screen and (max-width: 860px) {
     body {
-        font-size: 16pt;
-        margin: 0;
         padding: 0;
-        background: #FFFFFF !important;
+        background: var(--paper);
     }
     #resume {
-        margin: 0;
-        padding: 1em;
-        border: 0px;
-        background: none;
+        padding: 28px 16px 40px;
         box-shadow: none;
-        -webkit-box-shadow: none;
+        border-radius: 0;
+    }
+    .pdf-link {
+        top: auto;
+        bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    body {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 1.9em;
+    }
+    h3 {
+        flex-direction: column;
+        row-gap: 0.1em;
+    }
+    header ul > li,
+    h1 + ul > li {
+        display: block;
+        margin: 0.15em 0;
+    }
+    header ul > li + li::before,
+    h1 + ul > li + li::before {
+        display: none;
     }
 }

@@ -5,13 +5,15 @@
 - [GitHub](https://github.com/HaniceSun)
 - 408-800-1190
 
+Senior computational biologist with 10+ years at Stanford University applying AI and multiomics to uncover disease mechanisms. Builds deep learning models on genomic data and integrates human genetics with functional genomics to prioritize causal genes and therapeutic targets in diabetes, cardiomyopathy, and cancer. Author of 30+ publications and co-inventor on a treatment-methods patent, with a track record of carrying computational hypotheses through wet-lab validation.
+
 ## Experience
 
 ### <span>Part-time Consultant at a Liquid Biopsy Startup</span> <span>2026 -- Present</span>
 
-Support computational pipeline development and evaluate emerging AI models for cancer early detection.
+Support computational pipeline development and evaluate emerging AI models for early cancer detection.
 
-### <span>Research Scientist/Senior Computational Biologist</span> <span>2020 -- Present</span>
+### <span>Research Scientist / Senior Computational Biologist</span> <span>2020 -- Present</span>
 
 Department of Pediatrics, School of Medicine, Stanford University, **[Prof. Anna Gloyn](https://med.stanford.edu/genomics-of-diabetes.html)**
 
@@ -31,35 +33,35 @@ East China Normal University
 
 ## Skills
 
-- Python, R, C/C++, FastAPI/FastHTML, high performance computing (HPC), and cloud computing
+- **Multiomics for identifying causal genes/variants and understanding disease mechanisms**: genomics (WGS, WES, arrays), transcriptomics (RNA-seq, scRNA-seq), proteomics (MS/MS), epigenomics (ATAC-seq, ChIP-seq, WGBS), immune repertoire profiling (TCR-seq/BCR-seq), HLA typing and imputation, linkage analysis, QTL mapping, and GWAS
 
-- **Multiomics for identifying causal genes/variants and understanding disease mechanisms**: Genomics (WGS, WES, Array), Transcriptomics (RNA-Seq, scRNA-Seq), Proteomics (MS/MS), Epigenomics (ATAC-Seq, ChIP-Seq, WGBS), Immune Repertoire Profiling (TCR-Seq/BCR-Seq) and HLA typing/imputation, Linkage analysis, QTL mapping, and GWAS
+- **Artificial intelligence for target identification and drug discovery**: machine learning (scikit-learn; linear and generalized linear models, support vector machines, random forests; cross-validation) and deep learning (PyTorch, TensorFlow; CNN, RNN, ResNet, Transformer, GPT; pre-training, fine-tuning, and transfer learning; agentic AI)
 
-- **Artificial intelligence for target identification and drug discovery**: Machine Learning (scikit-learn, cross validation, overfitting, linear model, generalized linear model, Support Vector Machine, Random Forrest...) and Deep Learning (PyTorch/Tensorflow, pre-train and fine-tuning, transfer learning, CNN, RNN, ResNet, Transformer, GPT, Agentic AI...)
+- **Programming and computing**: Python, R, C/C++, FastAPI/FastHTML, high-performance computing (HPC), and cloud computing
 
-- Bioinformatics (blast, bwa, STAR, GATK, scanpy, seurat, conda, docker/singularity, snakemake/nextflow) and Biostatistics (hypothesis testing, confidence interval, power calculation, and Bayesian inference)
+- **Bioinformatics and biostatistics**: BLAST, BWA, STAR, GATK, Scanpy, Seurat, Conda, Docker/Singularity, Snakemake/Nextflow; hypothesis testing, confidence intervals, power calculation, and Bayesian inference
 
 ## Packages and Certifications
 
-- **Python packages I have developed: [gap](https://github.com/HaniceSun/gap), [hlarchical](https://github.com/HaniceSun/hlarchical), [omniQTL](https://github.com/HaniceSun/omniQTL), [spredle](https://github.com/HaniceSun/spredle), [deepSec](https://github.com/HaniceSun/deepSec), and dustle.**
+- **Python packages developed**: [gap](https://github.com/HaniceSun/gap), [hlarchical](https://github.com/HaniceSun/hlarchical), [omniQTL](https://github.com/HaniceSun/omniQTL), [spredle](https://github.com/HaniceSun/spredle), [deepSec](https://github.com/HaniceSun/deepSec), and dustle
 
-- Machine Learning Specialization, Andrew Ng, 2022, [Stanford University](https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS)
+- **Machine Learning Specialization** (Andrew Ng), [Stanford University & DeepLearning.AI](https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS), 2022
 
-- Deep Learning Specialization, Andrew Ng, 2022, [DeepLearning.AI](https://www.coursera.org/account/accomplishments/specialization/DUM8L98A972Q)
+- **Deep Learning Specialization** (Andrew Ng), [DeepLearning.AI](https://www.coursera.org/account/accomplishments/specialization/DUM8L98A972Q), 2022
 
-- Fundamentals of Deep Learning, 2022, [NVDIA](https://learn.nvidia.com/certificates?id=bda6a530f1ad42aaa4ba9f137f0241b7)
+- **Fundamentals of Deep Learning**, [NVIDIA Deep Learning Institute](https://learn.nvidia.com/certificates?id=bda6a530f1ad42aaa4ba9f137f0241b7), 2022
 
 ## Projects
 
-### Mutliomics integration to study disease mechanisms of cancers, cardiomyopathy, and diabetes
+### Multiomics integration to study disease mechanisms in cancer, cardiomyopathy, and diabetes
 
-- Identified disease-causing somatic/germline mutations, gene fusions, and splicing events (potential drug targets) from whole genome/exome/RNA sequencing data.
+- Identified disease-causing somatic/germline mutations, gene fusions, and splicing events (potential drug targets) from whole-genome, whole-exome, and RNA sequencing data.
 
-- Analyzed bulk and single cell RNA-Seq/ATAC-Seq, ChIP-Seq/Cut-And-Run, WGBS, and MS/MS data in dozens of projects to characterize disease-associated genes and pathways.
+- Analyzed bulk and single-cell RNA-seq/ATAC-seq, ChIP-seq/CUT&RUN, WGBS, and MS/MS data across dozens of projects to characterize disease-associated genes and pathways.
 
-- Established unified QTL mapping pipelines across multiple omics data types (eQTL, sQTL, pQTL, and caQTL) and integrated QTL signals with GWAS data through colocalization and Mendelian randomization analyses ([omniQTL](https://github.com/HaniceSun/omniQTL)).
+- Built unified QTL mapping pipelines across multiple omics data types (eQTL, sQTL, pQTL, and caQTL) and integrated QTL signals with GWAS data through colocalization and Mendelian randomization analyses ([omniQTL](https://github.com/HaniceSun/omniQTL)).
 
-- Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.
+- Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPSC and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.
 
 ### Artificial intelligence to predict genetic ancestry, HLA types, and functional elements from DNA sequences
 
@@ -69,7 +71,7 @@ East China Normal University
 
 - Reproduced the SpliceAI model and extended it with Transformer and Hyena architectures for both splice site and usage prediction ([spredle](https://github.com/HaniceSun/spredle)).
 
-- Applied deep learning models to predict Selenocysteine (the 21st amino acid) sites ([deepSec](https://github.com/HaniceSun/deepSec)).
+- Applied deep learning models to predict selenocysteine (the 21st amino acid) sites ([deepSec](https://github.com/HaniceSun/deepSec)).
 
 ## Patents
 
@@ -79,11 +81,11 @@ East China Normal University
 
 1. Francesca Briganti, **Han Sun**, Wu Wei, Jingyan Wu, Chenchen Zhu, Martin Liss, Ioannis Karakikes et al. "iPSC Modeling of RBM20-Deficient DCM Identifies Upregulation of RBM20 as a Therapeutic Strategy." <u>Cell Reports</u> 32, no. 10 (2020): 108117, **co-first author**.
 
-1. **Han Sun**, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. "CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.", [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf), **co-first author**
+1. **Han Sun**, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. "CDKN1A-RAB44 transcript fusion and oncogene activation in cancers." <u>[bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf)</u> (2019), **co-first author**.
 
-1. Seth A Sharp, **Han Sun**, K. Alaine Broadaway, Patrick E MacDonald, Anna L Gloyn, et al. "GIFT: An integrated genetic, molecular, and physiological resource for human pancreatic islets", in preparation, **co-first author**. 
+1. Seth A Sharp, **Han Sun**, K. Alaine Broadaway, Patrick E MacDonald, Anna L Gloyn, et al. "GIFT: An integrated genetic, molecular, and physiological resource for human pancreatic islets." In preparation, **co-first author**.
 
-1. Evans-Molina, Carmella, Yasminye D. Pettway, Diane C. Saunders, Seth A. Sharp, Thomas SR Bate, **Han Sun**, Heather Durai et al. "Heterogeneous endocrine cell composition defines human islet functional phenotypes." <u>Nature Communications</u> (2026)
+1. Evans-Molina, Carmella, Yasminye D. Pettway, Diane C. Saunders, Seth A. Sharp, Thomas SR Bate, **Han Sun**, Heather Durai et al. "Heterogeneous endocrine cell composition defines human islet functional phenotypes." <u>Nature Communications</u> (2026).
 
 1. Umapathysivam, Mahesh M., Elisa Araldi, Benoit Hastoy, Adem Y. Dawed, Hasan Vatandaslar, **Han Sun**, Johanna E. Mayrhofer, Peter Lindquist et al. "Type 2 diabetes risk alleles in peptidyl-glycine alpha-amidating monooxygenase influence GLP-1 levels and response to GLP-1 receptor agonists." <u>Genome Medicine</u> (2026).
 
@@ -91,11 +93,11 @@ East China Normal University
 
 1. Russ-Silsby, James, Yunkyeong Lee, Varsha Rajesh, **Han Sun**, Mahsa Amoli, Nasser Ali Mirhosseini, Tushar Godbole, Matthew B. Johnson et al. "Complete Loss of PAX4 causes Transient Neonatal Diabetes in Humans." <u>Molecular Metabolism</u> (2025): 102201.
 
-1. de Winter, Twan JJ, Miha Sovrovic, Esmee Dekker, Natascha de Graaf, **Han Sun**, James D. Johnson, Anna L. Gloyn, Francoise Carlotti, Eelco JP de Koning, and Anna Alemany. "Cell type-specific eQTL detection from single-cell RNA-seq reveals post-transcriptional regulatory mechanisms in human islets." bioRxiv (2025): 2025-01.
+1. de Winter, Twan JJ, Miha Sovrovic, Esmee Dekker, Natascha de Graaf, **Han Sun**, James D. Johnson, Anna L. Gloyn, Francoise Carlotti, Eelco JP de Koning, and Anna Alemany. "Cell type-specific eQTL detection from single-cell RNA-seq reveals post-transcriptional regulatory mechanisms in human islets." <u>bioRxiv</u> (2025): 2025-01.
 
 1. Kolic, Jelena, WenQing Grace Sun, Haoning Howard Cen, Jessica D. Ewald, Jason C. Rogalski, Shugo Sasaki, **Han Sun**, et al. "Proteomic predictors of individualized nutrient-specific insulin secretion in health and disease." <u>Cell Metabolism</u> 36, no. 7 (2024): 1619-1633.
 
-1. Ewald, Jessica D., Yao Lu, Cara E. Ellis, Jessica Worton, Jelena Kolic, **Han Sun**, Shugo Sasaki, Dahai Zhang et al. "HumanIslets. com: Improving accessibility, integration, and usability of human research islet data." <u>Cell Metabolism</u> (2024).
+1. Ewald, Jessica D., Yao Lu, Cara E. Ellis, Jessica Worton, Jelena Kolic, **Han Sun**, Shugo Sasaki, Dahai Zhang et al. "HumanIslets.com: Improving accessibility, integration, and usability of human research islet data." <u>Cell Metabolism</u> (2024).
 
 1. Rottner, Antje K., Yingying Ye, Elena Navarro-Guerrero, Varsha Rajesh, Alina Pollner, **Han Sun**, Romina J. Bevacqua, Jing Yang et al. "A genome-wide CRISPR screen identifies CALCOCO2 as a regulator of beta cell function influencing type 2 diabetes risk." <u>Nature Genetics</u> 55, no. 1 (2023): 54-65.
 
@@ -111,15 +113,15 @@ East China Normal University
 
 1. Chenchen Zhu, Jingyan Wu, **Han Sun**, Francesca Briganti, Benjamin Meder, Wu Wei, and Lars M. Steinmetz. "Single-molecule, full-length transcript isoform sequencing reveals disease-associated RNA isoforms in cardiomyocytes." <u>Nature Communications</u> 12, no. 1 (2021): 1-9.
 
-1. Benedikt Rauscher, William F Mueller, Sandra Clauder-Münster, Petra Jakob, M Saiful Islam, **Han Sun**, Sonja Ghidelli-Disse, Markus Boesche, Marcus Bantscheff, Hannah Pflaumer, Paul Collier, Bettina Haase, Songjie Chen, Rene Hoffman, Guangwen Wang, Vladimir Benes, Gerard Drewes, Michael Snyder, Lars M Steinmetz. "Patient-derived gene and protein expression signatures of NGLY1 deficiency", <u>Journal of Biochemistry</u>, 2021
+1. Benedikt Rauscher, William F Mueller, Sandra Clauder-Münster, Petra Jakob, M Saiful Islam, **Han Sun**, Sonja Ghidelli-Disse, Markus Boesche, Marcus Bantscheff, Hannah Pflaumer, Paul Collier, Bettina Haase, Songjie Chen, Rene Hoffman, Guangwen Wang, Vladimir Benes, Gerard Drewes, Michael Snyder, Lars M Steinmetz. "Patient-derived gene and protein expression signatures of NGLY1 deficiency." <u>Journal of Biochemistry</u> (2021).
 
 1. Semih Calamak, Menekse Ermis, **Han Sun**, Saiful Islam, Michael Sikora, Michelle Nguyen, Vasif Hasirci, Lars M. Steinmetz, and Utkan Demirci. "A Circulating Bioreactor Reprograms Cancer Cells Toward a More Mesenchymal Niche." <u>Advanced Biosystems</u> 4, no. 2 (2020): 1900139, **co-first author**.
 
-1. Jay W Schneider, Saji Oommen, Muhammad Y Qureshi, Sean C Goetsch, Rhianna S Sundsbak, Wei Guo, Mingming Sun, **Han Sun**, Dennis A Webster, Alex W Coutts, Francesca Briganti, Wu Wei, Lars Steinmetz, Daniel F Carlson, and Timothy J. Nelson et al. "Dysregulated ribonucleoprotein granules promote cardiomyopathy in RBM20 gene-edited pigs", <u>Nature Medicine</u> (2020): 1-13.
+1. Jay W Schneider, Saji Oommen, Muhammad Y Qureshi, Sean C Goetsch, Rhianna S Sundsbak, Wei Guo, Mingming Sun, **Han Sun**, Dennis A Webster, Alex W Coutts, Francesca Briganti, Wu Wei, Lars M. Steinmetz, Daniel F Carlson, and Timothy J. Nelson et al. "Dysregulated ribonucleoprotein granules promote cardiomyopathy in RBM20 gene-edited pigs." <u>Nature Medicine</u> (2020): 1-13.
 
 1. William F. Mueller, Petra Jakob, **Han Sun**, Sandra Clauder-Münster, Sonja Ghidelli-Disse, Diana Ordonez, Markus Boesche, Marcus Bantscheff, Paul Collier, Bettina Haase, Vladimir Benes, Malte Paulsen, Peter Sehr, Joe Lewis, Gerard Drewes, Lars M. Steinmetz. "Loss of N-glycanase 1 Alters Transcriptional and Translational Regulation in K562 Cell Lines." <u>G3: Genes, Genomes, Genetics</u> (2020).
 
-1. Arne H. Smits, Frederik Ziebell, Gerard Joberty Nico Zinn, William F. Mueller, Sandra Clauder-Munster, Paola Grandi, Petra Jakob, Anne-Marie Michon, **Hanice Sun**, Karen Tessmer, Tilmann Burckstummer, Marcus Bantscheff, Lars M. Steinmetz, Gerard Drewes, and Wolfgang Huber. "Biological plasticity rescues target activity in CRISPR knock outs.", <u>Nature Methods</u> 2019 Oct 28:1-7.
+1. Arne H. Smits, Frederik Ziebell, Gerard Joberty, Nico Zinn, William F. Mueller, Sandra Clauder-Munster, Paola Grandi, Petra Jakob, Anne-Marie Michon, **Hanice Sun**, Karen Tessmer, Tilmann Burckstummer, Marcus Bantscheff, Lars M. Steinmetz, Gerard Drewes, and Wolfgang Huber. "Biological plasticity rescues target activity in CRISPR knockouts." <u>Nature Methods</u> (2019): 1-7.
 
 1. Suo, Lun, Yu Xiao Zhou, Li Ling Jia, Hai Bo Wu, Jin Zheng, Qi Feng Lyu, Li Hua Sun, **Han Sun**, and Yan Ping Kuang. "Transcriptome profiling of human oocytes experiencing recurrent total fertilization failure." <u>Scientific Reports</u> 8, no. 1 (2018): 17890.
 

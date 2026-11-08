@@ -1,198 +1,515 @@
-         <html lang="en">
-        <head>
-        <meta charset="UTF-8">
-        <title>Han Sun, PhD</title>
-        <style>
-        /* borrowed from mike, https://github.com/mikepqr/resume.md */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Han Sun, PhD</title>
+<style>
+/*
+ * Markdown resume stylesheet.
+ * Originally inspired by https://github.com/mikepqr/resume.md
+ *
+ * Structure produced by resume.py:
+ *   #resume > header (h1 + contact list)
+ *           > section.section (h2 + content)
+ *               > div.entry (h3 + content)
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap");
+
+:root {
+    --accent: #1f5f8b;
+    --accent-soft: #e8f0f6;
+    --text: #1d232a;
+    --muted: #5b6672;
+    --rule: #d5dde4;
+    --page-bg: #eef1f4;
+    --paper: #ffffff;
+
+    --font-body: "Source Serif 4", "Charter", "Iowan Old Style", "Sitka Text", Cambria, Georgia, serif;
+    --font-head: "Source Sans 3", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
 
 body {
-    color: #000000;
-    background: #EEEEEE;
-    font: 1.1em "Times New Roman";
-    line-height: 1.2;
-    margin: 40px 0;
-}
-#resume {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 40px 60px;
-    background: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    box-shadow: 2px 2px 4px #AAAAAA;
-    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
-}
-h1 {
-    text-align: center;
-    font-size: 200%;
     margin: 0;
-    padding: 0;
-    color: #0077B5;
+    padding: 48px 16px;
+    background: var(--page-bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.5;
+    font-kerning: normal;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
-h2 {
-    border-bottom: 1px solid #000000;
-    text-transform: uppercase;
-    font-size: 130%;
-    margin: 1em 0 0 0;
-    padding: 0;
-    color: #0077B5;
+
+#resume {
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.6in 0.75in 0.7in;
+    background: var(--paper);
+    border-top: 5px solid var(--accent);
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(16, 24, 32, 0.06), 0 12px 32px rgba(16, 24, 32, 0.10);
 }
-h3 {
-    font-size: 100%;
-    margin: 0.8em 0 0.3em 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+
+/* ---------- Links ---------- */
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(31, 95, 139, 0.35);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color 0.15s, text-decoration-color 0.15s;
 }
-p {
-    margin: 0 0 1.5em 0;
-    padding: 0;
-    }
-ul {
-    padding: 0;
-    margin: 0.8em 1.5em;
-    }
-ol {
-    padding: 0;
-    margin: 0.8em 1.5em;
-    }
-/* ul immediately after h1 = contact list */
-h1 + ul {
+a:hover {
+    color: var(--accent);
+    text-decoration-color: currentColor;
+}
+
+/* ---------- Header: name + contact line ---------- */
+
+header {
     text-align: center;
-    margin: 1.5em 1.5em;
+    margin-bottom: 1.4em;
+}
+
+h1 {
+    margin: 0;
+    font-family: var(--font-head);
+    font-size: 2.3em;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    color: var(--accent);
+}
+
+/* contact list (first ul after h1) */
+header ul,
+h1 + ul {
+    list-style: none;
+    margin: 0.55em 0 0;
     padding: 0;
-    }
+    font-family: var(--font-head);
+    font-size: 0.95em;
+    color: var(--muted);
+    text-align: center;
+}
+header ul > li,
 h1 + ul > li {
     display: inline;
-    *white-space: pre;*/
-    *list-style-type: circle;*/
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
 }
-
-h1 + ul > li:after {
-    content: "    \2022    ";
-}
-
-h1 + ul > li:last-child:after {
+header ul > li + li::before,
+h1 + ul > li + li::before {
     content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 0 0.75em;
+    border-radius: 50%;
+    background: var(--accent);
+    opacity: 0.55;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+header a,
+h1 + ul a {
+    text-decoration: none;
+    color: var(--muted);
+}
+header a:hover,
+h1 + ul a:hover {
+    color: var(--accent);
 }
 
-/* p immediately after contact list = summary */
-h1 + ul + p {
-    margin: 1em 0;
+/* a summary paragraph right after the header */
+header + p {
+    margin: 0 0 1.3em;
+    padding: 0.75em 1em;
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 3px 3px 0;
+    line-height: 1.5;
 }
+header + p em {
+    font-style: italic;
+}
+
+/* ---------- Section headings ---------- */
+
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    margin: 1.5em 0 0.6em;
+    padding: 0;
+    font-family: var(--font-head);
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    break-after: avoid;
+    page-break-after: avoid;
+}
+h2::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+}
+section.section:first-of-type h2,
+header + h2,
+header + section h2 {
+    margin-top: 0;
+}
+
+/* ---------- Entries (job, degree, project) ---------- */
+
+h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    column-gap: 1em;
+    margin: 1em 0 0.15em;
+    padding: 0;
+    font-family: var(--font-head);
+    font-size: 1.04em;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--text);
+    break-after: avoid;
+    page-break-after: avoid;
+}
+h2 + h3,
+h2 + .entry h3,
+.section > .entry:first-of-type > h3 {
+    margin-top: 0.2em;
+}
+/* the second <span> in a heading is the date range */
+h3 > span:last-child:not(:first-child) {
+    flex-shrink: 0;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--muted);
+    font-variant-numeric: lining-nums tabular-nums;
+    letter-spacing: 0.02em;
+}
+
+/* keep short entries (heading + a line or two) on one page; long entries
+   with bullet lists may split between bullets instead of leaving a gap */
+.entry:not(:has(ul, ol)) {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+.entry li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+/* ---------- Body text ---------- */
+
+p {
+    margin: 0 0 0.6em;
+    padding: 0;
+}
+h3 + p {
+    color: var(--muted);
+}
+strong, b {
+    font-weight: 600;
+    color: var(--text);
+}
+/* journal names are written with <u>; render them as italics */
+u {
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* ---------- Lists ---------- */
+
+ul, ol {
+    margin: 0.3em 0 0.6em;
+    padding-left: 1.25em;
+}
+li {
+    margin: 0 0 0.35em;
+    padding-left: 0.15em;
+}
+li:last-child {
+    margin-bottom: 0;
+}
+/* "loose" markdown lists wrap items in <p>; don't add extra space */
+li > p {
+    margin: 0;
+}
+ul > li::marker {
+    color: var(--accent);
+    font-size: 0.85em;
+}
+
+/* numbered lists (publications): smaller, hanging numbers */
+ol {
+    padding-left: 2em;
+    font-size: 0.93em;
+    line-height: 1.45;
+}
+ol > li {
+    margin-bottom: 0.45em;
+    padding-left: 0.3em;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+ol > li::marker {
+    font-family: var(--font-head);
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--muted);
+    font-variant-numeric: lining-nums tabular-nums;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 1.2em 0;
+}
+
+code {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.88em;
+    padding: 0.05em 0.3em;
+    border-radius: 3px;
+    background: var(--accent-soft);
+}
+
+/* ---------- Floating PDF download button (screen only) ---------- */
+
+.pdf-link {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 10;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.5em 0.95em;
+    font-family: var(--font-head);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #fff;
+    background: var(--accent);
+    border-radius: 999px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(31, 95, 139, 0.3);
+}
+.pdf-link:hover {
+    color: #fff;
+    background: #174a6d;
+}
+.pdf-link svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* ---------- Print / PDF ---------- */
+
+@page {
+    size: letter;
+    margin: 0.5in 0.7in;
+}
+
 @media print {
     body {
+        padding: 0;
+        background: none;
         font-size: 10pt;
-        margin: 0;
-        padding: 0;
-        background: none;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
     #resume {
+        max-width: none;
         margin: 0;
         padding: 0;
-        border: 0px;
-        background: none;
+        border: 0;
+        border-radius: 0;
         box-shadow: none;
-        -webkit-box-shadow: none;
-    }
-    /* Make links black in PDF */
-    /* Move this outside the print block to apply this in HTML too */
-    a, a:link, a:visited, a:hover {
-        color: #000000;
-        text-decoration: underline;
-    }
-}
-@page {
-    /* Change margins and paper size of PDF */
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
-    size: letter;
-    margin: 0.5in 0.8in;
-}
-@media screen and (max-width: 800px) {
-    body {
-        font-size: 16pt;
-        margin: 0;
-        padding: 0;
-        background: #FFFFFF !important;
-    }
-    #resume {
-        margin: 0;
-        padding: 1em;
-        border: 0px;
         background: none;
-        box-shadow: none;
-        -webkit-box-shadow: none;
+    }
+    .pdf-link {
+        display: none;
+    }
+    a {
+        text-decoration-color: rgba(31, 95, 139, 0.45);
+    }
+    h1 + ul a,
+    header a {
+        text-decoration: none;
+    }
+    p, li {
+        orphans: 3;
+        widows: 3;
+    }
+    ol {
+        line-height: 1.38;
+    }
+    ol > li {
+        margin-bottom: 0.32em;
     }
 }
 
-        </style>
-        </head>
-        <body>
-        <div id="resume">
-        <h1>Han Sun, PhD</h1>
+/* ---------- Small screens ---------- */
+
+@media screen and (max-width: 860px) {
+    body {
+        padding: 0;
+        background: var(--paper);
+    }
+    #resume {
+        padding: 28px 16px 40px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .pdf-link {
+        top: auto;
+        bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    body {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 1.9em;
+    }
+    h3 {
+        flex-direction: column;
+        row-gap: 0.1em;
+    }
+    header ul > li,
+    h1 + ul > li {
+        display: block;
+        margin: 0.15em 0;
+    }
+    header ul > li + li::before,
+    h1 + ul > li + li::before {
+        display: none;
+    }
+}
+
+</style>
+</head>
+<body>
+<a class="pdf-link" href="Resume_HanSun.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>PDF</a>
+<main id="resume">
+<header>
+<h1>Han Sun, PhD</h1>
 <ul>
 <li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#97;&#110;&#105;&#99;&#101;&#115;&#117;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#104;&#97;&#110;&#105;&#99;&#101;&#115;&#117;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
 <li><a href="https://www.linkedin.com/in/hanicesun">LinkedIn</a></li>
 <li><a href="https://github.com/HaniceSun">GitHub</a></li>
 <li>408-800-1190</li>
 </ul>
+</header>
+<p>Senior computational biologist with 10+ years at Stanford University applying AI and multiomics to uncover disease mechanisms. Builds deep learning models on genomic data and integrates human genetics with functional genomics to prioritize causal genes and therapeutic targets in diabetes, cardiomyopathy, and cancer. Author of 30+ publications and co-inventor on a treatment-methods patent, with a track record of carrying computational hypotheses through wet-lab validation.</p>
+<section class="section">
 <h2>Experience</h2>
+<div class="entry">
 <h3><span>Part-time Consultant at a Liquid Biopsy Startup</span> <span>2026 &ndash; Present</span></h3>
-<p>Support computational pipeline development and evaluate emerging AI models for cancer early detection.</p>
-<h3><span>Research Scientist/Senior Computational Biologist</span> <span>2020 &ndash; Present</span></h3>
+<p>Support computational pipeline development and evaluate emerging AI models for early cancer detection.</p>
+</div>
+<div class="entry">
+<h3><span>Research Scientist / Senior Computational Biologist</span> <span>2020 &ndash; Present</span></h3>
 <p>Department of Pediatrics, School of Medicine, Stanford University, <strong><a href="https://med.stanford.edu/genomics-of-diabetes.html">Prof. Anna Gloyn</a></strong></p>
+</div>
+<div class="entry">
 <h3><span>Postdoc</span> <span>2015 &ndash; 2019</span></h3>
 <p>Department of Genetics, School of Medicine, Stanford University, <strong><a href="https://steinmetzlab.stanford.edu">Prof. Lars Steinmetz</a></strong></p>
+</div>
+</section>
+<section class="section">
 <h2>Education</h2>
+<div class="entry">
 <h3><span>PhD, Bioinformatics</span> <span>2009 &ndash; 2014</span></h3>
 <p>University of Chinese Academy of Sciences, <strong>Prof. Yixue Li</strong> and <strong>Prof. Lu Xie</strong></p>
+</div>
+<div class="entry">
 <h3><span>Bachelor, Software Engineering</span> <span>2004 &ndash; 2008</span></h3>
 <p>East China Normal University</p>
+</div>
+</section>
+<section class="section">
 <h2>Skills</h2>
 <ul>
 <li>
-<p>Python, R, C/C++, FastAPI/FastHTML, high performance computing (HPC), and cloud computing</p>
+<p><strong>Multiomics for identifying causal genes/variants and understanding disease mechanisms</strong>: genomics (WGS, WES, arrays), transcriptomics (RNA-seq, scRNA-seq), proteomics (MS/MS), epigenomics (ATAC-seq, ChIP-seq, WGBS), immune repertoire profiling (TCR-seq/BCR-seq), HLA typing and imputation, linkage analysis, QTL mapping, and GWAS</p>
 </li>
 <li>
-<p><strong>Multiomics for identifying causal genes/variants and understanding disease mechanisms</strong>: Genomics (WGS, WES, Array), Transcriptomics (RNA-Seq, scRNA-Seq), Proteomics (MS/MS), Epigenomics (ATAC-Seq, ChIP-Seq, WGBS), Immune Repertoire Profiling (TCR-Seq/BCR-Seq) and HLA typing/imputation, Linkage analysis, QTL mapping, and GWAS</p>
+<p><strong>Artificial intelligence for target identification and drug discovery</strong>: machine learning (scikit-learn; linear and generalized linear models, support vector machines, random forests; cross-validation) and deep learning (PyTorch, TensorFlow; CNN, RNN, ResNet, Transformer, GPT; pre-training, fine-tuning, and transfer learning; agentic AI)</p>
 </li>
 <li>
-<p><strong>Artificial intelligence for target identification and drug discovery</strong>: Machine Learning (scikit-learn, cross validation, overfitting, linear model, generalized linear model, Support Vector Machine, Random Forrest&hellip;) and Deep Learning (PyTorch/Tensorflow, pre-train and fine-tuning, transfer learning, CNN, RNN, ResNet, Transformer, GPT, Agentic AI&hellip;)</p>
+<p><strong>Programming and computing</strong>: Python, R, C/C++, FastAPI/FastHTML, high-performance computing (HPC), and cloud computing</p>
 </li>
 <li>
-<p>Bioinformatics (blast, bwa, STAR, GATK, scanpy, seurat, conda, docker/singularity, snakemake/nextflow) and Biostatistics (hypothesis testing, confidence interval, power calculation, and Bayesian inference)</p>
+<p><strong>Bioinformatics and biostatistics</strong>: BLAST, BWA, STAR, GATK, Scanpy, Seurat, Conda, Docker/Singularity, Snakemake/Nextflow; hypothesis testing, confidence intervals, power calculation, and Bayesian inference</p>
 </li>
 </ul>
+</section>
+<section class="section">
 <h2>Packages and Certifications</h2>
 <ul>
 <li>
-<p><strong>Python packages I have developed: <a href="https://github.com/HaniceSun/gap">gap</a>, <a href="https://github.com/HaniceSun/hlarchical">hlarchical</a>, <a href="https://github.com/HaniceSun/omniQTL">omniQTL</a>, <a href="https://github.com/HaniceSun/spredle">spredle</a>, <a href="https://github.com/HaniceSun/deepSec">deepSec</a>, and dustle.</strong></p>
+<p><strong>Python packages developed</strong>: <a href="https://github.com/HaniceSun/gap">gap</a>, <a href="https://github.com/HaniceSun/hlarchical">hlarchical</a>, <a href="https://github.com/HaniceSun/omniQTL">omniQTL</a>, <a href="https://github.com/HaniceSun/spredle">spredle</a>, <a href="https://github.com/HaniceSun/deepSec">deepSec</a>, and dustle</p>
 </li>
 <li>
-<p>Machine Learning Specialization, Andrew Ng, 2022, <a href="https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS">Stanford University</a></p>
+<p><strong>Machine Learning Specialization</strong> (Andrew Ng), <a href="https://www.coursera.org/account/accomplishments/specialization/H9HDDLCTUTHS">Stanford University &amp; DeepLearning.AI</a>, 2022</p>
 </li>
 <li>
-<p>Deep Learning Specialization, Andrew Ng, 2022, <a href="https://www.coursera.org/account/accomplishments/specialization/DUM8L98A972Q">DeepLearning.AI</a></p>
+<p><strong>Deep Learning Specialization</strong> (Andrew Ng), <a href="https://www.coursera.org/account/accomplishments/specialization/DUM8L98A972Q">DeepLearning.AI</a>, 2022</p>
 </li>
 <li>
-<p>Fundamentals of Deep Learning, 2022, <a href="https://learn.nvidia.com/certificates?id=bda6a530f1ad42aaa4ba9f137f0241b7">NVDIA</a></p>
+<p><strong>Fundamentals of Deep Learning</strong>, <a href="https://learn.nvidia.com/certificates?id=bda6a530f1ad42aaa4ba9f137f0241b7">NVIDIA Deep Learning Institute</a>, 2022</p>
 </li>
 </ul>
+</section>
+<section class="section">
 <h2>Projects</h2>
-<h3>Mutliomics integration to study disease mechanisms of cancers, cardiomyopathy, and diabetes</h3>
+<div class="entry">
+<h3>Multiomics integration to study disease mechanisms in cancer, cardiomyopathy, and diabetes</h3>
 <ul>
 <li>
-<p>Identified disease-causing somatic/germline mutations, gene fusions, and splicing events (potential drug targets) from whole genome/exome/RNA sequencing data.</p>
+<p>Identified disease-causing somatic/germline mutations, gene fusions, and splicing events (potential drug targets) from whole-genome, whole-exome, and RNA sequencing data.</p>
 </li>
 <li>
-<p>Analyzed bulk and single cell RNA-Seq/ATAC-Seq, ChIP-Seq/Cut-And-Run, WGBS, and MS/MS data in dozens of projects to characterize disease-associated genes and pathways.</p>
+<p>Analyzed bulk and single-cell RNA-seq/ATAC-seq, ChIP-seq/CUT&amp;RUN, WGBS, and MS/MS data across dozens of projects to characterize disease-associated genes and pathways.</p>
 </li>
 <li>
-<p>Established unified QTL mapping pipelines across multiple omics data types (eQTL, sQTL, pQTL, and caQTL) and integrated QTL signals with GWAS data through colocalization and Mendelian randomization analyses (<a href="https://github.com/HaniceSun/omniQTL">omniQTL</a>).</p>
+<p>Built unified QTL mapping pipelines across multiple omics data types (eQTL, sQTL, pQTL, and caQTL) and integrated QTL signals with GWAS data through colocalization and Mendelian randomization analyses (<a href="https://github.com/HaniceSun/omniQTL">omniQTL</a>).</p>
 </li>
 <li>
-<p>Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPS and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.</p>
+<p>Led collaborations with wet-lab colleagues to validate findings using CRISPR/Cas9 editing, iPSC and mouse models, RT-PCR, Sanger sequencing, qPCR, and phenotyping assays.</p>
 </li>
 </ul>
+</div>
+<div class="entry">
 <h3>Artificial intelligence to predict genetic ancestry, HLA types, and functional elements from DNA sequences</h3>
 <ul>
 <li>
@@ -205,26 +522,31 @@ h1 + ul + p {
 <p>Reproduced the SpliceAI model and extended it with Transformer and Hyena architectures for both splice site and usage prediction (<a href="https://github.com/HaniceSun/spredle">spredle</a>).</p>
 </li>
 <li>
-<p>Applied deep learning models to predict Selenocysteine (the 21st amino acid) sites (<a href="https://github.com/HaniceSun/deepSec">deepSec</a>).</p>
+<p>Applied deep learning models to predict selenocysteine (the 21st amino acid) sites (<a href="https://github.com/HaniceSun/deepSec">deepSec</a>).</p>
 </li>
 </ul>
+</div>
+</section>
+<section class="section">
 <h2>Patents</h2>
 <ul>
 <li>Methods of Treatment, Genetic Screening, and Disease Models for Heart Conditions Associated with RBM20 Deficiency. Francesca Briganti, Lars M. Steinmetz, <strong>Han Sun</strong>, and Wu Wei. WO 2020/092171.</li>
 </ul>
+</section>
+<section class="section">
 <h2>Publications</h2>
 <ol>
 <li>
 <p>Francesca Briganti, <strong>Han Sun</strong>, Wu Wei, Jingyan Wu, Chenchen Zhu, Martin Liss, Ioannis Karakikes et al. &ldquo;iPSC Modeling of RBM20-Deficient DCM Identifies Upregulation of RBM20 as a Therapeutic Strategy.&rdquo; <u>Cell Reports</u> 32, no. 10 (2020): 108117, <strong>co-first author</strong>.</p>
 </li>
 <li>
-<p><strong>Han Sun</strong>, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. &ldquo;CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.&rdquo;, <a href="https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf">bioRxiv</a>, <strong>co-first author</strong></p>
+<p><strong>Han Sun</strong>, Huiying Yan, Kathryn Bieging-Rolett, Michelle Nguyen, William F. Mueller, Zhuanfen Cheng, Hong Zeng, Laura Attardi, Wu Wei, and Lars M. Steinmetz et al. &ldquo;CDKN1A-RAB44 transcript fusion and oncogene activation in cancers.&rdquo; <u><a href="https://www.biorxiv.org/content/biorxiv/early/2019/02/22/111856.full.pdf">bioRxiv</a></u> (2019), <strong>co-first author</strong>.</p>
 </li>
 <li>
-<p>Seth A Sharp, <strong>Han Sun</strong>, K. Alaine Broadaway, Patrick E MacDonald, Anna L Gloyn, et al. &ldquo;GIFT: An integrated genetic, molecular, and physiological resource for human pancreatic islets&rdquo;, in preparation, <strong>co-first author</strong>. </p>
+<p>Seth A Sharp, <strong>Han Sun</strong>, K. Alaine Broadaway, Patrick E MacDonald, Anna L Gloyn, et al. &ldquo;GIFT: An integrated genetic, molecular, and physiological resource for human pancreatic islets.&rdquo; In preparation, <strong>co-first author</strong>.</p>
 </li>
 <li>
-<p>Evans-Molina, Carmella, Yasminye D. Pettway, Diane C. Saunders, Seth A. Sharp, Thomas SR Bate, <strong>Han Sun</strong>, Heather Durai et al. &ldquo;Heterogeneous endocrine cell composition defines human islet functional phenotypes.&rdquo; <u>Nature Communications</u> (2026)</p>
+<p>Evans-Molina, Carmella, Yasminye D. Pettway, Diane C. Saunders, Seth A. Sharp, Thomas SR Bate, <strong>Han Sun</strong>, Heather Durai et al. &ldquo;Heterogeneous endocrine cell composition defines human islet functional phenotypes.&rdquo; <u>Nature Communications</u> (2026).</p>
 </li>
 <li>
 <p>Umapathysivam, Mahesh M., Elisa Araldi, Benoit Hastoy, Adem Y. Dawed, Hasan Vatandaslar, <strong>Han Sun</strong>, Johanna E. Mayrhofer, Peter Lindquist et al. &ldquo;Type 2 diabetes risk alleles in peptidyl-glycine alpha-amidating monooxygenase influence GLP-1 levels and response to GLP-1 receptor agonists.&rdquo; <u>Genome Medicine</u> (2026).</p>
@@ -236,13 +558,13 @@ h1 + ul + p {
 <p>Russ-Silsby, James, Yunkyeong Lee, Varsha Rajesh, <strong>Han Sun</strong>, Mahsa Amoli, Nasser Ali Mirhosseini, Tushar Godbole, Matthew B. Johnson et al. &ldquo;Complete Loss of PAX4 causes Transient Neonatal Diabetes in Humans.&rdquo; <u>Molecular Metabolism</u> (2025): 102201.</p>
 </li>
 <li>
-<p>de Winter, Twan JJ, Miha Sovrovic, Esmee Dekker, Natascha de Graaf, <strong>Han Sun</strong>, James D. Johnson, Anna L. Gloyn, Francoise Carlotti, Eelco JP de Koning, and Anna Alemany. &ldquo;Cell type-specific eQTL detection from single-cell RNA-seq reveals post-transcriptional regulatory mechanisms in human islets.&rdquo; bioRxiv (2025): 2025-01.</p>
+<p>de Winter, Twan JJ, Miha Sovrovic, Esmee Dekker, Natascha de Graaf, <strong>Han Sun</strong>, James D. Johnson, Anna L. Gloyn, Francoise Carlotti, Eelco JP de Koning, and Anna Alemany. &ldquo;Cell type-specific eQTL detection from single-cell RNA-seq reveals post-transcriptional regulatory mechanisms in human islets.&rdquo; <u>bioRxiv</u> (2025): 2025-01.</p>
 </li>
 <li>
 <p>Kolic, Jelena, WenQing Grace Sun, Haoning Howard Cen, Jessica D. Ewald, Jason C. Rogalski, Shugo Sasaki, <strong>Han Sun</strong>, et al. &ldquo;Proteomic predictors of individualized nutrient-specific insulin secretion in health and disease.&rdquo; <u>Cell Metabolism</u> 36, no. 7 (2024): 1619-1633.</p>
 </li>
 <li>
-<p>Ewald, Jessica D., Yao Lu, Cara E. Ellis, Jessica Worton, Jelena Kolic, <strong>Han Sun</strong>, Shugo Sasaki, Dahai Zhang et al. &ldquo;HumanIslets. com: Improving accessibility, integration, and usability of human research islet data.&rdquo; <u>Cell Metabolism</u> (2024).</p>
+<p>Ewald, Jessica D., Yao Lu, Cara E. Ellis, Jessica Worton, Jelena Kolic, <strong>Han Sun</strong>, Shugo Sasaki, Dahai Zhang et al. &ldquo;HumanIslets.com: Improving accessibility, integration, and usability of human research islet data.&rdquo; <u>Cell Metabolism</u> (2024).</p>
 </li>
 <li>
 <p>Rottner, Antje K., Yingying Ye, Elena Navarro-Guerrero, Varsha Rajesh, Alina Pollner, <strong>Han Sun</strong>, Romina J. Bevacqua, Jing Yang et al. &ldquo;A genome-wide CRISPR screen identifies CALCOCO2 as a regulator of beta cell function influencing type 2 diabetes risk.&rdquo; <u>Nature Genetics</u> 55, no. 1 (2023): 54-65.</p>
@@ -266,19 +588,19 @@ h1 + ul + p {
 <p>Chenchen Zhu, Jingyan Wu, <strong>Han Sun</strong>, Francesca Briganti, Benjamin Meder, Wu Wei, and Lars M. Steinmetz. &ldquo;Single-molecule, full-length transcript isoform sequencing reveals disease-associated RNA isoforms in cardiomyocytes.&rdquo; <u>Nature Communications</u> 12, no. 1 (2021): 1-9.</p>
 </li>
 <li>
-<p>Benedikt Rauscher, William F Mueller, Sandra Clauder-Münster, Petra Jakob, M Saiful Islam, <strong>Han Sun</strong>, Sonja Ghidelli-Disse, Markus Boesche, Marcus Bantscheff, Hannah Pflaumer, Paul Collier, Bettina Haase, Songjie Chen, Rene Hoffman, Guangwen Wang, Vladimir Benes, Gerard Drewes, Michael Snyder, Lars M Steinmetz. &ldquo;Patient-derived gene and protein expression signatures of NGLY1 deficiency&rdquo;, <u>Journal of Biochemistry</u>, 2021</p>
+<p>Benedikt Rauscher, William F Mueller, Sandra Clauder-Münster, Petra Jakob, M Saiful Islam, <strong>Han Sun</strong>, Sonja Ghidelli-Disse, Markus Boesche, Marcus Bantscheff, Hannah Pflaumer, Paul Collier, Bettina Haase, Songjie Chen, Rene Hoffman, Guangwen Wang, Vladimir Benes, Gerard Drewes, Michael Snyder, Lars M Steinmetz. &ldquo;Patient-derived gene and protein expression signatures of NGLY1 deficiency.&rdquo; <u>Journal of Biochemistry</u> (2021).</p>
 </li>
 <li>
 <p>Semih Calamak, Menekse Ermis, <strong>Han Sun</strong>, Saiful Islam, Michael Sikora, Michelle Nguyen, Vasif Hasirci, Lars M. Steinmetz, and Utkan Demirci. &ldquo;A Circulating Bioreactor Reprograms Cancer Cells Toward a More Mesenchymal Niche.&rdquo; <u>Advanced Biosystems</u> 4, no. 2 (2020): 1900139, <strong>co-first author</strong>.</p>
 </li>
 <li>
-<p>Jay W Schneider, Saji Oommen, Muhammad Y Qureshi, Sean C Goetsch, Rhianna S Sundsbak, Wei Guo, Mingming Sun, <strong>Han Sun</strong>, Dennis A Webster, Alex W Coutts, Francesca Briganti, Wu Wei, Lars Steinmetz, Daniel F Carlson, and Timothy J. Nelson et al. &ldquo;Dysregulated ribonucleoprotein granules promote cardiomyopathy in RBM20 gene-edited pigs&rdquo;, <u>Nature Medicine</u> (2020): 1-13.</p>
+<p>Jay W Schneider, Saji Oommen, Muhammad Y Qureshi, Sean C Goetsch, Rhianna S Sundsbak, Wei Guo, Mingming Sun, <strong>Han Sun</strong>, Dennis A Webster, Alex W Coutts, Francesca Briganti, Wu Wei, Lars M. Steinmetz, Daniel F Carlson, and Timothy J. Nelson et al. &ldquo;Dysregulated ribonucleoprotein granules promote cardiomyopathy in RBM20 gene-edited pigs.&rdquo; <u>Nature Medicine</u> (2020): 1-13.</p>
 </li>
 <li>
 <p>William F. Mueller, Petra Jakob, <strong>Han Sun</strong>, Sandra Clauder-Münster, Sonja Ghidelli-Disse, Diana Ordonez, Markus Boesche, Marcus Bantscheff, Paul Collier, Bettina Haase, Vladimir Benes, Malte Paulsen, Peter Sehr, Joe Lewis, Gerard Drewes, Lars M. Steinmetz. &ldquo;Loss of N-glycanase 1 Alters Transcriptional and Translational Regulation in K562 Cell Lines.&rdquo; <u>G3: Genes, Genomes, Genetics</u> (2020).</p>
 </li>
 <li>
-<p>Arne H. Smits, Frederik Ziebell, Gerard Joberty Nico Zinn, William F. Mueller, Sandra Clauder-Munster, Paola Grandi, Petra Jakob, Anne-Marie Michon, <strong>Hanice Sun</strong>, Karen Tessmer, Tilmann Burckstummer, Marcus Bantscheff, Lars M. Steinmetz, Gerard Drewes, and Wolfgang Huber. &ldquo;Biological plasticity rescues target activity in CRISPR knock outs.&rdquo;, <u>Nature Methods</u> 2019 Oct 28:1-7.</p>
+<p>Arne H. Smits, Frederik Ziebell, Gerard Joberty, Nico Zinn, William F. Mueller, Sandra Clauder-Munster, Paola Grandi, Petra Jakob, Anne-Marie Michon, <strong>Hanice Sun</strong>, Karen Tessmer, Tilmann Burckstummer, Marcus Bantscheff, Lars M. Steinmetz, Gerard Drewes, and Wolfgang Huber. &ldquo;Biological plasticity rescues target activity in CRISPR knockouts.&rdquo; <u>Nature Methods</u> (2019): 1-7.</p>
 </li>
 <li>
 <p>Suo, Lun, Yu Xiao Zhou, Li Ling Jia, Hai Bo Wu, Jin Zheng, Qi Feng Lyu, Li Hua Sun, <strong>Han Sun</strong>, and Yan Ping Kuang. &ldquo;Transcriptome profiling of human oocytes experiencing recurrent total fertilization failure.&rdquo; <u>Scientific Reports</u> 8, no. 1 (2018): 17890.</p>
@@ -322,7 +644,8 @@ h1 + ul + p {
 <li>
 <p>Xiao-Bin Xing, Qing-Run Li, <strong>Han Sun</strong>, Xing Fu, Fei Zhan, Xiu Huang, Jing Li, et al. 2011. &ldquo;The Discovery of Novel Protein-Coding Features in Mouse Genome Based on Mass Spectrometry Data.&rdquo; <u>Genomics</u> 98 (5): 343–51.</p>
 </li>
-</ol>         </div>
-        </body>
-        </html>
-        
+</ol></section>
+
+</main>
+</body>
+</html>
