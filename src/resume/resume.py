@@ -126,9 +126,6 @@ class MarkdownResume:
         finally:
             os.remove(tmp_path)
 
-    def push_to_github(self):
-        subprocess.run('git add .; git commit -m hanice; git push -u origin main', shell=True)
-
     # ------------------------------------------------------------------ helpers
 
     def _get_title(self):

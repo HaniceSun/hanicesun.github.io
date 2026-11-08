@@ -22,7 +22,6 @@ def get_parser():
     p2.add_argument('--chrome', type=str, default='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', help='Path to Chrome executable')
     p2.add_argument('--css', type=str, default='resume.css', help='Path to CSS file, using the one in the static folder by default')
 
-    p3 = subparsers.add_parser("push", help="push the directory to github, internal use only")
     return parser
 
 def main():
@@ -46,10 +45,6 @@ def main():
             os.remove(output_html)
         except OSError:
             pass
-
-    elif args.command == 'push':
-        mr = MarkdownResume()
-        mr.push_to_github()
 
 if __name__ == '__main__':
     main()
