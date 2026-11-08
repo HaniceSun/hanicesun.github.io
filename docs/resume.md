@@ -9,7 +9,7 @@ Senior computational biologist with 10+ years at Stanford University applying AI
 
 ## Experience
 
-### <span>Part-time Consultant at a Liquid Biopsy Startup</span> <span>2026 -- Present</span>
+### <span>Consultant at a Liquid Biopsy Startup</span> <span>2026 -- Present</span>
 
 Support computational pipeline development and evaluate emerging AI models for early cancer detection.
 
