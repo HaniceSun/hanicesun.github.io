@@ -47,7 +47,7 @@ def main():
     if args.letter:
         output_pdf = args.letter_pdf or os.path.splitext(args.letter)[0] + '.pdf'
         mr = MarkdownResume(input_markdown=args.letter, output_html=None, output_pdf=output_pdf,
-                            chrome=args.chrome, css=args.css, pdf_link=False)
+                            chrome=args.chrome, css=args.css, pdf_link=False, kind='letter')
         mr.make_html()
         mr.html_to_pdf()
 

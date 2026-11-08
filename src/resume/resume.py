@@ -27,7 +27,7 @@ PDF_ICON = (
 
 class MarkdownResume:
     def __init__(self, input_markdown='resume.md', output_html='index.html', output_pdf='Resume_HanSun.pdf',
-                 chrome=DEFAULT_CHROME, css='resume.css', pdf_link=True):
+                 chrome=DEFAULT_CHROME, css='resume.css', pdf_link=True, kind='resume'):
 
         self.prefix = input_markdown.split('.md')[0]
 
@@ -51,6 +51,7 @@ class MarkdownResume:
         self.output_html = output_html
         self.output_pdf = output_pdf
         self.pdf_link = pdf_link
+        self.kind = kind  # 'resume' or 'letter'; sets the class on <main>
         self.title = ''
         self.html = ''
 
@@ -65,7 +66,7 @@ class MarkdownResume:
 </style>
 </head>
 <body>
-{pdf_link}<main id="resume">
+{pdf_link}<main id="resume" class="{kind}">
 """
 
         self.postamble = """
@@ -77,11 +78,16 @@ class MarkdownResume:
     def make_html(self):
         self._get_title()
 
+        # warn about template placeholders that were not filled in
+        unfilled = sorted(set(re.findall(r'\{\{\s*([^}:]+?)\s*(?::[^}]*)?\}\}', re.sub(r'<!--.*?-->', '', self.md, flags=re.S))))
+        if unfilled:
+            print(f"Warning: unfilled placeholders: {', '.join(unfilled)}")
+
         body = markdown.markdown(self.md, extensions=["smarty", "attr_list", "sane_lists"])
         body = self._structure(body)
 
         self.html = self.preamble.format(
-            title=escape(self.title), css=self.css, pdf_link=self._pdf_link_html()
+            title=escape(self.title), css=self.css, pdf_link=self._pdf_link_html(), kind=escape(self.kind)
         ) + body + self.postamble
 
         if self.output_html:

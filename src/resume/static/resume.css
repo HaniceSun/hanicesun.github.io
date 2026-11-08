@@ -132,7 +132,7 @@ h1 + ul a:hover {
 }
 
 /* a summary paragraph right after the header */
-header + p {
+#resume:not(.letter) header + p {
     margin: 0 0 1.3em;
     padding: 0.75em 1em;
     background: var(--accent-soft);
@@ -140,7 +140,7 @@ header + p {
     border-radius: 0 3px 3px 0;
     line-height: 1.5;
 }
-header + p em {
+#resume:not(.letter) header + p em {
     font-style: italic;
 }
 
@@ -290,6 +290,22 @@ code {
     padding: 0.05em 0.3em;
     border-radius: 3px;
     background: var(--accent-soft);
+}
+
+/* ---------- Cover letter ---------- */
+
+.letter header {
+    margin-bottom: 2em;
+}
+.letter p {
+    margin: 0 0 0.9em;
+    line-height: 1.55;
+    text-align: justify;
+    hyphens: auto;
+}
+.letter header + p {
+    color: var(--muted);
+    text-align: left;
 }
 
 /* ---------- Floating PDF download button (screen only) ---------- */

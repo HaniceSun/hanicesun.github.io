@@ -139,7 +139,7 @@ h1 + ul a:hover {
 }
 
 /* a summary paragraph right after the header */
-header + p {
+#resume:not(.letter) header + p {
     margin: 0 0 1.3em;
     padding: 0.75em 1em;
     background: var(--accent-soft);
@@ -147,7 +147,7 @@ header + p {
     border-radius: 0 3px 3px 0;
     line-height: 1.5;
 }
-header + p em {
+#resume:not(.letter) header + p em {
     font-style: italic;
 }
 
@@ -299,6 +299,22 @@ code {
     background: var(--accent-soft);
 }
 
+/* ---------- Cover letter ---------- */
+
+.letter header {
+    margin-bottom: 2em;
+}
+.letter p {
+    margin: 0 0 0.9em;
+    line-height: 1.55;
+    text-align: justify;
+    hyphens: auto;
+}
+.letter header + p {
+    color: var(--muted);
+    text-align: left;
+}
+
 /* ---------- Floating PDF download button (screen only) ---------- */
 
 .pdf-link {
@@ -419,7 +435,7 @@ code {
 </head>
 <body>
 <a class="pdf-link" href="Resume_HanSun.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>PDF</a>
-<main id="resume">
+<main id="resume" class="resume">
 <header>
 <h1>Han Sun, PhD</h1>
 <ul>
