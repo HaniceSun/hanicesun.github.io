@@ -18,8 +18,10 @@ pip install .
 
 ```
 cd docs
-mdcv resume --md resume.md
-mdcv letter --md cover_letter.md
+mdcv                                  # build index.html + Resume_HanSun.pdf from resume.md
+mdcv --resume resume.md               # same, explicit input
+mdcv --letter cover_letter.md         # build cover_letter.pdf
+mdcv --resume --letter                # build both
 ```
 
 ### Author and License

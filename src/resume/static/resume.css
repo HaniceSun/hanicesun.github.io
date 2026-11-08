@@ -133,10 +133,15 @@ h1 + ul a:hover {
 
 /* a summary paragraph right after the header */
 header + p {
-    margin: 0 0 1.2em;
-    text-align: center;
+    margin: 0 0 1.3em;
+    padding: 0.75em 1em;
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 3px 3px 0;
+    line-height: 1.5;
+}
+header + p em {
     font-style: italic;
-    color: var(--muted);
 }
 
 /* ---------- Section headings ---------- */
@@ -321,7 +326,7 @@ code {
 
 @page {
     size: letter;
-    margin: 0.55in 0.7in;
+    margin: 0.5in 0.7in;
 }
 
 @media print {
@@ -354,6 +359,12 @@ code {
     p, li {
         orphans: 3;
         widows: 3;
+    }
+    ol {
+        line-height: 1.38;
+    }
+    ol > li {
+        margin-bottom: 0.32em;
     }
 }
 
